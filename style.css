@@ -26,6 +26,10 @@ label {
     font-weight: bold;
 }
 
+li{
+    margin-bottom: 3px; 
+}
+
 .question{
     margin-bottom: 10px;
     background-color: #a1d5f8;
