@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(response => response.json())
         .then(data => {
             populateTopics(data);
-            loadQuestions(data);
+            loadQuestions(data[0].topic);
         });
 
     // Escuchar evento de cambio en el selector de temas
@@ -20,8 +20,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+let questionsData = [];
+
 function populateTopics(questions) {
-    // Función para cargar los temas en el selector
+    questionsData = questions;
     const topicSelector = document.getElementById("topic-selector");
     questions.forEach(questionSet => {
         const option = document.createElement("option");
@@ -32,7 +34,6 @@ function populateTopics(questions) {
 }
 
 function loadQuestions(topic) {
-    // Función para cargar las preguntas en el contenedor
     const questionContainer = document.getElementById("question-container");
     questionContainer.innerHTML = ""; // Vaciar el contenedor
 
