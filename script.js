@@ -80,12 +80,15 @@ function displayResults() {
 
             if (selectedIndex === question.answer) {
                 optionItem.style.backgroundColor = "green";
+                optionItem.style.color = "white";
             } else {
                 optionItem.style.backgroundColor = "red";
             }
         }
 
         const explanation = document.createElement("p");
+        explanation.style.backgroundColor = "yellow";
+      
         explanation.style.color = "yellow";
         explanation.textContent = question.explanation;
         questionDiv.appendChild(explanation);
