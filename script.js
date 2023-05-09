@@ -49,7 +49,10 @@ function calculateScore() {
 const submitButton = document.getElementById("submit-button");
 submitButton.addEventListener("click", () => {
     calculateScore();
+    displayResults();
 });
+
+
 
 let questionsData = [];
 
@@ -64,6 +67,31 @@ function populateTopics(questions) {
     });
 }
 
+function displayResults() {
+    const selectedTopic = questionsData.find(q => q.topic === document.getElementById("topic-selector").value);
+
+    selectedTopic.questions.forEach((question, index) => {
+        const selectedOption = document.querySelector(`input[name="question-${index}"]:checked`);
+        const questionDiv = document.querySelector(`.question[data-index="${index}"]`);
+
+        if (selectedOption) {
+            const selectedIndex = parseInt(selectedOption.value);
+            const optionItem = selectedOption.parentElement;
+
+            if (selectedIndex === question.answer) {
+                optionItem.style.backgroundColor = "green";
+            } else {
+                optionItem.style.backgroundColor = "red";
+            }
+        }
+
+        const explanation = document.createElement("p");
+        explanation.style.color = "yellow";
+        explanation.textContent = question.explanation;
+        questionDiv.appendChild(explanation);
+    });
+}
+
 function loadQuestions(topic) {
     const questionContainer = document.getElementById("question-container");
     questionContainer.innerHTML = ""; // Vaciar el contenedor
@@ -72,6 +100,7 @@ function loadQuestions(topic) {
     selectedTopic.questions.forEach((question, index) => {
         const questionDiv = document.createElement("div");
         questionDiv.classList.add("question");
+        questionDiv.dataset.index = index;
 
         const questionLabel = document.createElement("label");
         questionLabel.textContent = `${index + 1}. ${question.question}`;
