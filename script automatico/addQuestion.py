@@ -68,7 +68,7 @@ def mergeData(data:dict, topic:str, questions: dict):
 def main():
 	# conseguir archivos
 	htms = glob.glob('*.htm')
-	with open('questions.json', 'r', encoding='utf-8') as f:
+	with open('../questions.json', 'r', encoding='utf-8') as f:
 		data = json.loads(f.read())
 
 	for htm in htms:
@@ -81,7 +81,7 @@ def main():
 		
 	# guardar datos
 	with open('questions.copy.json', 'w', encoding='utf-8') as f:
-		f.write(json.dumps(data, ensure_ascii=False))
+		f.write(json.dumps(data, ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':
