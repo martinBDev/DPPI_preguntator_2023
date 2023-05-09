@@ -3,14 +3,25 @@
         "topic": "Tema 1",
         "questions": [
             {
-                "question": "Pregunta 1 del tema 1",
-                "options": ["a", "b", "c"],
+                "question": "Para ayudar en la gestión de los proyectos es necesario el uso de técnicas que permitan diseñar el proyecto con un cierto grado de garantía de éxito. ¿Qué técnicas se encuentran entre las más destacadas? Seleccione una:",
+                "options": ["Formación, Competencias, Habilidades y Sociales", 
+                "Tecnológicas, Transversales y Sistémicas", 
+                "Mediciones, Planificación, Riesgos, Normalización, Presupuestos y Simulaciones"],
+                "answer": 2
+            },
+            {
+                "question": "Las 34 competencias del libro de Furtel se dividen en tres tipos de habilidades: Seleccione una:",
+                "options": ["Competencias para la construcción de una estructura de desglose del trabajo, competencias para la selección de las herramientas de gestión de proyectos y competencias para la selección de personal",
+                 "Técnicas de desarrollo del producto software, Habilidades de la Gestión de proyectos y Habilidades personales de los gestores de proyectos",
+                  "Competencias económicas, competencias técnicas y competencias transversales"],
                 "answer": 1
             },
             {
-                "question": "Pregunta 2 del tema 1",
-                "options": ["a", "b", "c"],
-                "answer": 0
+                "question": "Las iteraciones del RUP:",
+                "options": ["Disminuyen el ritmo de esfuerzo del equipo de desarrollo",
+                 "Reducen el riesgo con respecto al modelo de proceso clásico en cascada",
+                  "Todas las iteraciones producen un efecto aditivo, no se pueden usar para refinar"],
+                "answer": 1
             }
         ]
     },
