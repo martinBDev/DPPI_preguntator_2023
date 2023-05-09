@@ -89,7 +89,7 @@ function displayResults() {
         const explanation = document.createElement("p");
         explanation.style.backgroundColor = "yellow";
       
-        explanation.style.color = "yellow";
+        explanation.style.color = "black";
         explanation.textContent = question.explanation;
         questionDiv.appendChild(explanation);
     });
