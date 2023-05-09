@@ -1,6 +1,6 @@
 [
     {
-        "topic": "Tema 1",
+        "topic": "Tema 1: introducción a los proyectos informáticos",
         "questions": [
             {
                 "question": "Para ayudar en la gestión de los proyectos es necesario el uso de técnicas que permitan diseñar el proyecto con un cierto grado de garantía de éxito. ¿Qué técnicas se encuentran entre las más destacadas? Seleccione una:",
@@ -26,7 +26,112 @@
         ]
     },
     {
-        "topic": "Tema 2",
+        "topic": "Tema 2: Medición y estimación",
+        "questions": [
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            },
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "topic": "Tema 3: Organización de los recursos del proyecto",
+        "questions": [
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            },
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "topic": "Tema 4: Gestión de recursos humanos",
+        "questions": [
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            },
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "topic": "Tema 5: Gestión de costes",
+        "questions": [
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            },
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "topic": "Tema 6: Gestión de riesgos",
+        "questions": [
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            },
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "topic": "Tema 7: Gestión de calidad",
+        "questions": [
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            },
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "topic": "Tema 8: Documentación y comunicación",
+        "questions": [
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            },
+            {
+                "question": "Pregunta 1 del tema 2",
+                "options": ["a", "b", "c"],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "topic": "Tema 9: Seguimiento y control",
         "questions": [
             {
                 "question": "Pregunta 1 del tema 2",
