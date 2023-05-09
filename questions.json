@@ -2,6 +2,12 @@
     {
         "topic": "Tema 1: introducción a los proyectos informáticos",
         "questions": [
+			{
+				"question": "En muchos casos los proyectos de software engloban en un solo proyecto tres etapas diferenciadas en otros proyectos, ¿cuáles?",
+				"options": ["Financiación, avalaes y garantías post-venta", "Definición, construcción e implantación", "Presupuesto, planos y pliego de condiciones"],
+				"answer": 2,
+				"explanation": "1.1.1 Concepto de proyecto"
+			},
             {
                 "question": "Para ayudar en la gestión de los proyectos es necesario el uso de técnicas que permitan diseñar el proyecto con un cierto grado de garantía de éxito. ¿Qué técnicas se encuentran entre las más destacadas? Seleccione una:",
                 "options": ["Formación, Competencias, Habilidades y Sociales", 
