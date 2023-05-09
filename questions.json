@@ -33,6 +33,87 @@
                   "Un programa es un conjunto de actividades dentro del proyecto que dan lugar a un entregable"],
                 "answer": 0,
                 "explanation": "1.1.3.4 Programa - La respuesta correcta es: Un programa está formado por una serie de proyectos agrupados con el objetivo de conseguiralgún objetivo estratégico."
+            },
+            {
+                "question": "El modelo de prototipos se divide en:",
+                "options": [
+                    "Dos fases: : “Diseño, construcción y evaluación de prototipos” y “Diseño, desarrollo, pruebas e integración”",
+                    "Una fase: “Diseño, desarrollo, pruebas e integración”",
+                    "Tres fases: “Diseño, construcción y evaluación de prototipos”, “Diseño, desarrollo, pruebas e integración” y“Explotación y evaluación de ejecución del prototipo”"],
+                "answer": 0,
+                "explanation": "1.5.1.2 El modelo de prototipos - La respuesta correcta es: Dos fases: : “Diseño, construcción y evaluación de prototipos” y “Diseño, desarrollo, pruebas eintegración”"
+            },
+            {
+                "question": "¿Quién participa en una reunión para refinamiento del Backlog de Producto?",
+                "options": [
+                    "Dueño de Producto (Sólo si es experto, si no puede enviar a otras personas que puedan ayudar al equipo),Equipo, ScrumMaster (Obligatoriamente a las primeras reunioens).",
+                    "Dueño de Producto, Equipo, ScrumMaster (Obligatoriamente a las primeras reunioens, más tarde puede enviara otras personas que puedan ayudar al equipo).",
+                    "Dueño de Producto (Sólo si es experto), Equipo, ScrumMaster (Obligatoriamente a las primeras reunioens) y otraspersonas que puedan ayudar al equipo."],
+                "answer": 2,
+                "explanation": "La respuesta correcta es: Dueño de Producto (Sólo si es experto), Equipo, ScrumMaster (Obligatoriamente a las primerasreunioens) y otras personas que puedan ayudar al equipo."
+            },
+            {
+                "question": "De acuerdo a las 34 competencias del libro de Furtel, ¿Cuál de las siguientes competencias no es necesaria para serDirector (Jefe) de Proyecto?",
+                "options": [
+                    "Evaluación de procesos alternativos",
+                    "Evaluación de los procesos",
+                    "Evaluación de solvencia del cliente"],
+                "answer": 2,
+                "explanation": "1.2 Roles y habilidades para la gestión de proyectos - La respuesta correcta es: Evaluación de solvencia del cliente"
+            },
+            {
+                "question": "¿Cómo se gestiona el avance en Scrum?",
+                "options": [
+                    "Se anota el avance usando algún método que represente el esfuerzo pendiente. Una representación habitual esun Diagrama de BurnDown.",
+                    "Se usan modelos de estimación de esfuerzos que se convierten a puntos de función. Una representación habituales un Diagrama de BurnDown.",
+                    "Se van sumando los esfuerzos realizados de manera que se vaya acercando al esfuezo previsto. Unarepresentación habitual es un Diagrama de BurnDown."],
+                "answer": 0,
+                "explanation": "1.5.2.4.6 Actualizando la Pila de Sprint y la Gráfica de Trabajo Restante del Sprint - La respuesta correcta es: Se anota el avance usando algún método que represente el esfuerzo pendiente. Unarepresentación habitual es un Diagrama de BurnDown."
+            },
+            {
+                "question": "De acuerdo a las 34 competencias del libro de Furtel, ¿Cuál de las siguientes competencias no es necesaria para serDirector (Jefe) de Proyecto?",
+                "options": [
+                    "Evaluación de la solvencia del cliente",
+                    "Evaluación del desempeño",
+                    "Interacción y comunicación"],
+                "answer": 0,
+                "explanation": "1.2 Roles y habilidades para la gestión de proyectos - La respuesta correcta es: Evaluación de la solvencia del cliente"
+            },
+            {
+                "question": "¿A cuál de las siguientes metodologías pertenece XP (eXtreme Programming)?",
+                "options": [
+                    "Modelos ágiles",
+                    "Modelo de prototipos",
+                    "Metodología RUP"],
+                "answer": 0,
+                "explanation": "Apuntes. 1.5.2.3.1 Métodos Ágiles - La respuesta correcta es: Modelos ágiles"
+            },
+            {
+                "question": "Los procesos de la estructura principal de MÉTRICA Versión 3 son los siguientes:",
+                "options": [
+                    "Planeación, desarrollo y mantenimiento de los sistemas de información",
+                    "Definción de equipos, determinación de normativa y documentación",
+                    "Estudio de viabilidad, análisis de información, diseño y construcción"],
+                "answer": 0,
+                "explanation": "1.5.2.1 Métrica V3 - La respuesta correcta es: Planeación, desarrollo y mantenimiento de los sistemas de información"
+            },
+            {
+                "question": "Una reunión para preparar el Sprint, típicamente dividida en dos partes. ¿Quién asiste?",
+                "options": [
+                    "Primera Parte: Dueño de Producto (opcional, pero disponible para aclaraciones), Equipo, ScrumMaster. SegundaParte: Equipo, ScrumMaster, Dueño de Producto.",
+                    "Primera Parte: Dueño de Producto, Equipo, ScrumMaster. Segunda Parte: Equipo, ScrumMaster, Dueño deProducto (opcional, pero disponible para aclaraciones).",
+                    "Primera Parte: Dueño de Producto, Equipo, ScrumMaster. Segunda Parte: Equipo, ScrumMaster (opcional, perodisponible para aclaraciones), Dueño de Producto."],
+                "answer": 1,
+                "explanation": "(Deemer, y otros, 2012) (Planificación de Sprint) - La respuesta correcta es: Primera Parte: Dueño de Producto, Equipo, ScrumMaster. Segunda Parte: Equipo, ScrumMaster,Dueño de Producto (opcional, pero disponible para aclaraciones)."
+            },
+            {
+                "question": "¿Qué es la Gestión de Proyectos según el PMI?",
+                "options": [
+                    "Un conjunto de principios probados, métodos y técnicas para la planificación, la programación, el control y latrazabilidad eficientes de trabajos orientados a entregables (resultados)que ayudan a establecer baseshistóricas sólidas para la planificación futura de proyectos.",
+                    "Es un principio de la ingeniería del software que establece las reglas para elegir la arqutiectura, el análisis, eldiseño y la implementación de proyectos que cumplan con las especificaciones",
+                    "Es la actividad que realiza el Jefe de proyecto para impedir que el proyecto se desvíe."],
+                "answer": 0,
+                "explanation": "(Furtel, y otros, 2002) (Cap 1. What Is Project Management?)La respuesta correcta es: Un conjunto de principios probados, métodos y técnicas para la planificación, la programación, elcontrol y la trazabilidad eficientes de trabajos orientados a entregables (resultados)que ayudan a establecer baseshistóricas sólidas para la planificación futura de proyectos."
             }
         ]
     },
