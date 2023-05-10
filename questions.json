@@ -1396,6 +1396,16 @@
         ],
         "answer": 2,
         "explanation": "2.4.2 Cálculo de puntos función\n14"
+      },
+      {
+        "question": "¿Cuál de las siguientes afirmaciones es falsa?:",
+        "options": [
+          "Las métricas de software conforman un sistema uniforme y estandarizado de medidas",
+          "Una métrica es una pseudométrica que satisface un axioma de identidad más estricto",
+          "Una pseudométrica es una función no negativa δ de dos variables que no satisface alguna de las condiciones de: identidad, simetría o desigualdad triangular"
+        ],
+        "answer": 1,
+        "explanation": "2.1.3.2 Métricas y pseudo-métricas\nUna métrica es una pseudométrica que satisface un axioma de identidad más estricto"
       }
     ]
   },
@@ -1931,6 +1941,16 @@
         ],
         "answer": 0,
         "explanation": "3.2.3 Activos de los procesos de la organización\nPlanes, Procesos, Políticas, Procedimientos y Conocimiento corporativo"
+      },
+      {
+        "question": "¿Cuál de los siguientes es un beneficio aportado al proyecto por el WBS?",
+        "options": [
+          "Identifica el 100% de trabajo requerido para llevar a cabo el proyecto",
+          "Identifica un alto porcentaje de los trabajos del proyecto",
+          "Identifica el 100% de los trabajos formales del proyecto"
+        ],
+        "answer": 0,
+        "explanation": "3.3.2 De la arquitectura del software al WBS\nIdentifica el 100% de trabajo requerido para llevar a cabo el proyecto"
       }
     ]
   },
@@ -2573,6 +2593,16 @@
         ],
         "answer": 1,
         "explanation": "(PMBOK 5.0) 9.4.2.4 Interpersonal Skills\nEs la capacidad para negociar e influir en la organización y en el equipo de gestión de proyectos"
+      },
+      {
+        "question": "¿Dónde se cargan los costes de formación del equipo de proyecto?",
+        "options": [
+          "Son parte de la formación de personal y son asumidos por la empresa",
+          "Se cargan al cliente del proyecto",
+          "Son parte del presupuesto del proyecto o pueden ser asumidos por la propia empresa"
+        ],
+        "answer": 2,
+        "explanation": "4.4.1 Técnicas\nSon parte del presupuesto del proyecto o pueden ser asumidos por la propia empresa"
       }
     ]
   },
@@ -3248,6 +3278,16 @@
         ],
         "answer": 0,
         "explanation": "5.2.1 Técnicas\nSe basa en el cálculo de tres valores (optimista, medio y pesimista) que se evalúa de acuerdo a métodos estadísticos"
+      },
+      {
+        "question": "Hablando de las técnicas analíticas para la elaboración del Plan de gestión de costes, ¿Qué maneras de financiar los recursos necesarios se definen?",
+        "options": [
+          "Periodo de recuperación, Retorno de la inversión (ROI), Tasa interna de rentabilidad, Flujo de caja descontado y Valor presente neto (NPV)",
+          "Autofinanciación, Financiación de socios y Financiación con deuda",
+          "Crear con medios propios, Comprar, Alquilar y Leasing"
+        ],
+        "answer": 2,
+        "explanation": "5.1.1 Técnicas\nCrear con medios propios, Comprar, Alquilar y Leasing"
       }
     ]
   },
@@ -5086,6 +5126,16 @@
         ],
         "answer": 1,
         "explanation": "8.5.3 Entidades de normalización\n...de ámbito internacional y sectorial"
+      },
+      {
+        "question": "¿Cuáles son los tipos de normas por su capacidad legal para obligar al cumplimiento?",
+        "options": [
+          "Terminología, ensayo, etc.",
+          "Orientativas y de uso obligatorio",
+          "Certificables y no certificables"
+        ],
+        "answer": 1,
+        "explanation": "8.5.2 Tipos de normas\nOrientativas y de uso obligatorio"
       }
     ]
   },
