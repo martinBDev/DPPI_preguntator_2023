@@ -671,6 +671,36 @@
         ],
         "answer": 0,
         "explanation": "1.1.3.6 Proceso\nUn proceso es un conjunto limitado de actividades que genera elementos de salida que son interesantes y de valor para el usuario"
+      },
+      {
+        "question": "¿En qué consiste el refinamiento de la Pila del Producto en Scrum?",
+        "options": [
+          "Consiste en dividir elementos grandes, analizar elementos, reestimar elementos, cambiar prioridades de elementos, etc.",
+          "Consiste en eliminar de la lista los elementos que ya se han terminado después de un Sprint",
+          "Consiste en eliminar de la lista aquellas tareas que puedan hace pesada la metodología"
+        ],
+        "answer": 0,
+        "explanation": "1.5.2.4.7 Refinamiento de la Pila del Producto\nConsiste en dividir elementos grandes, analizar elementos, reestimar elementos, cambiar prioridades de elementos, etc."
+      },
+      {
+        "question": "Entre los problemas habituales a la hora de planificar un proyecto están:",
+        "options": [
+          "la fijación de los objetivos estratégicos del proyecto",
+          "la necesidad de medir el proyecto y la necesidad de identificación de hitos",
+          "la limitación de la carga del trabajo de los responsables del proyecto"
+        ],
+        "answer": 1,
+        "explanation": "1.3 Técnicas para la gestión de proyectos\nla necesidad de medir el proyecto y la necesidad de identificación de hitos"
+      },
+      {
+        "question": "Una desventaja del modelo de cilco de vida en cascada es...",
+        "options": [
+          "Es un modelo pensado para hacer desarrollos en ensamblador",
+          "No refleja realmente el proceso de desarrollo del software, ya que casi nunca se cierra totalmente una fase antes de comenzar la siguiente",
+          "Es un método muy antiguo y la informática ha evoluacionado"
+        ],
+        "answer": 1,
+        "explanation": "1.5.1.1 El modelo en cascada\nNo refleja realmente el proceso de desarrollo del software, ya que casi nunca se cierra totalmente una fase antes de comenzar la siguiente"
       }
     ]
   },
@@ -1256,6 +1286,26 @@
         ],
         "answer": 1,
         "explanation": "2.1.1.2.4.3 Representatividad\nQue se debe demostrar formalmente que la escala elegida y las transfomraciones del homomorfismo tienen sentido"
+      },
+      {
+        "question": "¿Qué escalas son las que obligan a que las transformaciones de escala deban conservar el origen aunque puedan modificar la pendiente de la escala (T(x)=αm,α>0)?",
+        "options": [
+          "Las escalas ordinales",
+          "Las escalas de ratio",
+          "Las escalas numéricas"
+        ],
+        "answer": 1,
+        "explanation": "2.1.1.2.4.1 Escala\nLas escalas de ratio"
+      },
+      {
+        "question": "¿Cuál de las siguientes mediciones es significativa?",
+        "options": [
+          "El desarrollo del proyecto durará tres meses",
+          "La calidad del proyecto es del 77%",
+          "La usabilidad del proyecto debe ser del 30%"
+        ],
+        "answer": 0,
+        "explanation": "2.1.1.2.4.4 Significación\nEl desarrollo del proyecto durará tres meses"
       }
     ]
   },
@@ -1751,6 +1801,26 @@
         ],
         "answer": 0,
         "explanation": "3.7.1 Técnicas\nSe usa información histórica y se basa en la estimación de una actividad por analogía con otras de similar tamaño o complejidad"
+      },
+      {
+        "question": "¿Cuáles de los siguientes son elementos culturales de una empresa?",
+        "options": [
+          "Oficinas, despachos, recursos y centros de desarrollo",
+          "Visiones compartidas, valores, creencias y expectativas",
+          "Personas, recursos financieros y disponibilidad"
+        ],
+        "answer": 1,
+        "explanation": "3.2.1 Influencias de la organización en la gestión del proyecto\nVisiones compartidas, valores, creencias y expectativas"
+      },
+      {
+        "question": "Hablando de estimación de recursos para las actividades, ¿En qué consiste el Juicio de expertos?",
+        "options": [
+          "Es la opinión de personas que han tenido experiencia previa con actividades simialres",
+          "Es la opinión de los directivos de la empresa sobre la actividad",
+          "Es la opinión de expertos contratados para ayudar en el proyecto"
+        ],
+        "answer": 0,
+        "explanation": "3.6 Estimación de recursos\nEs la opinión de personas que han tenido experiencia previa con actividades simialres"
       }
     ]
   },
@@ -2343,6 +2413,16 @@
         ],
         "answer": 0,
         "explanation": "(PMBOK 5.0) 9.1.3.1 Human Resource Management Plan\nEs el derecho a asignar recursos, tomar decisiones, aprobar, aceptar entregables y ejercer influencia sobre otros para dirigir el proyecto"
+      },
+      {
+        "question": "¿Cuál de las siguientes es una desventaja de la interdependencia dentro de la dependencia de los miembros del equipo?",
+        "options": [
+          "Los miembros del equipo deben tener una relación personal fuerte y eso es difícil de conseguir",
+          "Si los proyectos son muy grandes la coordinación de las decisiones pueden ser complejas",
+          "Las jornadas de trabajo se alargan para poder albergar las reuniones de coordinación"
+        ],
+        "answer": 1,
+        "explanation": "4.3.2 Dependencia de los miembros del equipo\nSi los proyectos son muy grandes la coordinación de las decisiones pueden ser complejas"
       }
     ]
   },
@@ -4168,6 +4248,16 @@
         ],
         "answer": 2,
         "explanation": "7.3.2 CMM y CMMi\nCMMI-DEV, CMMI-ACQ y CMMI-SVC"
+      },
+      {
+        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Aseguramiento de la calidad?",
+        "options": [
+          "Integración de todos los procesos",
+          "Prevención de defectos",
+          "Prevención de defectos"
+        ],
+        "answer": 0,
+        "explanation": "7.2 Evolución de la gestión de la calidad\nIntegración de todos los procesos"
       }
     ]
   },
@@ -5301,6 +5391,26 @@
         ],
         "answer": 1,
         "explanation": "9.9.2 Formación\nQue no se puede formar a un usuario en aspectos de la aplicación que no van a ser su responsabilidad"
+      },
+      {
+        "question": "Durante la ejecución del proyecto el Jefe de proyecto es el responsable de...",
+        "options": [
+          "La Dirección del proyecto, la Gestión de costes y Consecución de beneficios del proyecto",
+          "La Dirección del proyecto, el impulso al desarrollo del proyecto y la toma de decisiones",
+          "La Dirección del proyecto, la Coordinación con el cliente y los Aspectos legales"
+        ],
+        "answer": 1,
+        "explanation": "9.2 Actividades de seguimiento y control del proyecto\nLa Dirección del proyecto, el impulso al desarrollo del proyecto y la toma de decisiones"
+      },
+      {
+        "question": "En la técnica de la Gestión de Valor ganado o acumulado, ¿Que representa el BCWS?",
+        "options": [
+          "Es la línea base, representa cuanto trabajo debería estar hehco al coste presupuestado",
+          "Es el valor del coste de trabaja hasta el momento, representa cuánto ha costado el proyecto hasta el momento actual",
+          "Es el valor del trabajo realizado, representa cuanto trabajo está terminado en el momento actual"
+        ],
+        "answer": 0,
+        "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Earned Value Management\nEs la línea base, representa cuanto trabajo debería estar hehco al coste presupuestado"
       }
     ]
   }
