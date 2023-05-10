@@ -391,6 +391,56 @@
           ],
           "answer": 2,
           "explanation": "(Sanchís Marco, 1998) (1.2.4. Modelo de transformación)"
+        },
+        {
+          "question": "¿Qué es un sistema en el entorno de los proyectos informáticos?",
+          "options": [
+            "Es un elemento de hardware",
+            "Un sistema es básicamente un conjunto de elementos organizados para actuar en conjunto con un objetivo claro",
+            "Es un elemento de software que es necesario para realizar el proyecto"
+          ],
+          "answer": 1,
+          "explanation": "1.1.3.5 Sistema"
+        },
+        {
+          "question": "¿Qué es el Backlog de Producto?",
+          "options": [
+            "El Backlog de Producto es una lista de prioridades para realizar en el siguiente día de proyecto",
+            "El Backlog de Producto es la visión única y definitiva de “todo lo que podría ser realizado en algún momento por el Equipo, en orden de prioridad”",
+            "El Backlog de Producto es una lista priorizada de sistemas a implementar con el obejtivo de reducir el tiempo de desarrollo al máximo"
+          ],
+          "answer": 2,
+          "explanation": "..."
+        },
+        {
+          "question": "¿Qué es un proyecto según la norma UNE 157.801?",
+          "options": [
+            "El proceso que se sigue para construir, entregar y hacer evolucionar el software, desde la concepción de una idea hasta la entrega y el retiro del sistema",
+            "Conjunto de actividades coordinadas, presupuestadas, y documentadas con fechas de comienzo y finalización, que se emprende para alcanzar unos objetivos conforme a requisitos específicos, por una organización temporal adaptada a sus necesidades",
+            "Descripción del trabajo que se va a llevar a cabo, los recursos requeridos, los métodos que se van a usar, los procedimientos a seguir, los plazos a cumplir, y la organización que lo va a ejecutar"
+          ],
+          "answer": 1,
+          "explanation": "1.1.1 Concepto de Proyecto"
+        },
+        {
+          "question": "Una de las prácticas habituales de eXtreme Programming es",
+          "options": [
+            "No utiizar estándares para programar",
+            "La integración continua",
+            "El ciclo en cascada"
+          ],
+          "answer": 1,
+          "explanation": "1.5.2.3.2 XP"
+        },
+        {
+          "question": "El Modelo de desarrollo de versiones sucesivas es un método de realización de software que...",
+          "options": [
+            "...realiza versiones beta que pone a disposicion probadores externos que reportan los errores.",
+            "...se usa en productos que se venden bajo licencia para mejorar la funcionalidad.",
+            "...realiza una serie de iteraciones sobre el propio modelo en cascada."
+          ],
+          "answer": 0,
+          "explanation": "(Sanchís Marco, 1998) (1.2.3. Modelo de desarrollo en versiones sucesivas)"
         }
       ]
     },
@@ -706,6 +756,36 @@
           ],
           "answer": 0,
           "explanation": "2.1.1.2 Medición cuantitativa"
+        },
+        {
+          "question": "La calidad de medición requiere la valoración de los siguientes aspectos:",
+          "options": [
+            "Escala, Unicidad, Representatividad y Significación",
+            "Desviación, Derivación, Variación y Corrección",
+            "omplejidad, Flexibilidad, Consistencia y Adecuación"
+          ],
+          "answer": 0,
+          "explanation": "2.1.1.2.4 Calidad de la medición"
+        },
+        {
+          "question": "En el método de cálculo de esfuerzo en función del tamaño funcional usado en clase…",
+          "options": [
+            "Se usa un enfoque lineal del comportamiento No tienen una relación lineal, el doble de tamaño es más del doble de esfuerzo",
+            "Se una una linealización de un sistema no funcional",
+            "Se usa un enfoque no lineal del comportamiento"
+          ],
+          "answer": 0,
+          "explanation": "2.4.4 Estimación de esfuerzos de los módulos"
+        },
+        {
+          "question": "¿Qué representa el Sistema Relacional Empírico en la medición?",
+          "options": [
+            "El mundo virtual a medir",
+            "El mundo real a medir",
+            "La representación del mundo real en un espacio numérico"
+          ],
+          "answer": 1,
+          "explanation": "2.1.1.2.1 Sistema relacional empírico"
         }
       ]
     },
@@ -1011,6 +1091,56 @@
           ],
           "answer": 1,
           "explanation": "3.3.1 Formalismos"
+        },
+        {
+          "question": "Hablando de dependencia entre las actividades, ¿Qué es la Dependencia Obligatoria?",
+          "options": [
+            "Son actividades que deben comenzar obligatoriamente al mismo tiempo",
+            "Son actividades que obligan al equipo a una atención especial",
+            "Son actividades que debe realizarse obligatoriamente, bien sea por cuestiones contractuales o porque la naturaleza del trabajo las impone"
+          ],
+          "answer": 2,
+          "explanation": "3.5.2.2 Dependencia entre las actividades"
+        },
+        {
+          "question": "¿Qué son los cilcos de vida adaptativos?",
+          "options": [
+            "Los ciclos de vida adaptativos son aquellos que pueden responder a los riesgos del proyecto",
+            "Los ciclos de vida adaptativos tienen por objeto responder a los altos niveles de cambio y la participación continua de las partes interesadas",
+            "Los cilcos de vida adaptativos son aquellos que evolucionan con la política de la empresa"
+          ],
+          "answer": 1,
+          "explanation": "(PMBOK, 2013) 2.4.2.4 Adaptive Life Cycles"
+        },
+        {
+          "question": "¿Qué característica especial se espera de un Jefe de proyecto que tenga un alcance global?",
+          "options": [
+            "Debe tener competencias multiculturales",
+            "Debe tener conocimiento de idiomas",
+            "Debe tener capacidad de liderazgo"
+          ],
+          "answer": 0,
+          "explanation": "3.2.1 Influencias de la organización en la gestión del proyecto"
+        },
+        {
+          "question": "¿Qué es el RBS?",
+          "options": [
+            "Relational Breakdown Structure, es un grafo representando las relaciones entre las diferentes actividades del proyecto",
+            "Rescue Breakdown Structure, es la lista de recursos de que dispone el equipo para recuperar situaciones complejas en el proyecto",
+            "Resource Breakdown Structure, es una lista jerárquica de los recursos necesarios para la gestión y control del proyecto"
+          ],
+          "answer": 2,
+          "explanation": "3.3.1 Formalismos"
+        },
+        {
+          "question": "Hablando de dependencia entre las actividades, ¿Qué es la Dependencia Discrecional?",
+          "options": [
+            "Son aquellas cuya secuencia de ejecución puede establecerse discrecionalmente, no están sujetas a una imposición concreta",
+            "Son aquellas que no son obligatorias y, pro tanto, es el equipo quien decide ponerlas en el proyecto",
+            "Son aquellas actividades que no son necesarias para el proyecto"
+          ],
+          "answer": 0,
+          "explanation": "3.5.2.2 Dependencia entre las actividades"
         }
       ]
     },
@@ -1314,6 +1444,55 @@
           ],
           "answer": 1,
           "explanation": "4.3.1 Ámbitos de aportación de RH"
+        },
+        {
+          "question": "¿Qué ámbitos principales de aportación de RRHH al proyecto existen?",
+          "options": [
+            "Asignación permanente, asignación temporal, reclutamiento de nuevas personas, transferencia de personas de otros departamentos, consultores y subcontratadas",
+            "Contratación y personal propio",
+            "Ámbito académico, ámbito profesional, ámbito investigador y profesionales no cualificados"
+          ],
+          "answer": 0,
+          "explanation": "4.3.1 Ámbitos de aportación de RH"
+        },
+        {
+          "question": "¿En qué consiste el Desarrollo del equipo de proyecto?",
+          "options": [
+            "Esta fase se da durante el desarrollo del proyecto y cosiste en el mantenimiento de los miembros del equipo, sustituyendo las bajas por nuevo personal o asignando nuevos perfiles si fuera necesario",
+            "Esta fase consiste en la selección de perfiles de entre los miembros del equipo que se deben potenciar en detrimento otros menos colaborativos que deben ser sustituidos",
+            "Esta fase se corresponde con todas las actividades realizadas para mejorar las competencias del equipo, la interrelación y comunicación entre sus miembros y la mejora del entorno del equipo"
+          ],
+          "answer": 2,
+          "explanation": "4.4 Desarrollo del equipo de proyecto"
+        },
+        {
+          "question": "Dentro de las técnicas para el desarrollo del equipo de proyecto, ¿En qué consiste la de \"Reglas básicas\"?",
+          "options": [
+            "Facilitan a los miembros del equipo tener claro cuál es comportamiento aceptable entre los miembros del equipo",
+            "Son técnicas para definir los elementos tecnológicos en que puede partirse el proyecto hasta conseguir módulos básicos",
+            "Son decisiones técnicas sobre las unidades de medida a utilizar para las estimaciones del proyecto"
+          ],
+          "answer": 0,
+          "explanation": "4.4.1 Técnicas"
+        },
+        {
+          "question": "¿En qué consiste la técnica de \"Adquisición\" para la selección de miembros del equipo?",
+          "options": [
+            "Los perfiles buscados no se encuentran entre los recursos disponibles y entonces es necesario buscarlos en el mercado",
+            "El equipo de proyecto se adquiere de otros proyecto anteriores por su efectividad",
+            "El jefe de proyecto debe negociar con otros jefes de proyecto la adquisición de miembros para su equipo"
+          ],
+          "answer": 0,
+          "explanation": "4.3.3 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas para el desarrollo del equipo de proyecto, ¿En qué consiste la de \"Colocación\"?",
+          "options": [
+            "Son técnicas para la preparación de los entornos de trabajo, la disponibilidad de medios o incluso la disposición de los miembros",
+            "Son técnicas de la selección del equipo de proyecto destinadas a definir la estructura que debe tener dicho equipo"
+          ],
+          "answer": 0,
+          "explanation": "4.4.1 Técnicas"
         }
       ]
     },
@@ -1619,6 +1798,66 @@
           ],
           "answer": 2,
           "explanation": "5.1.1 Técnicas"
+        },
+        {
+          "question": "Con respecto a la técnica de Gestión del Valor Acumulado dentro del Control de Costes del proyecto, ¿Qué es el valor acumulado o ganado (EV)?",
+          "options": [
+            "Es el valor de los beneficios en un periodo, calculados con respecto al proyecto",
+            "Es el valor del trabajo realizado en un periodo, expresado en unidades económicas",
+            "Es el valor de los gastos realizados en un periodo, en el proyecto"
+          ],
+          "answer": 1,
+          "explanation": "PMBOK: 7.4.2.1 Earned Value Management"
+        },
+        {
+          "question": "Dentro de las técnicas usadas para la estimación de costes, ¿En qué consiste la Estimación paramétrica?",
+          "options": [
+            "Se basa en la opinión de expertos, basada en información histórica, para producir estimaciones",
+            "Se basa en la estimación del coste por analogía con otros elementos de similar tamaño o complejidad",
+            "Se basa en la estimación paramétrica a partir de información estadística entre datos históricos relevantes y otras variables"
+          ],
+          "answer": 2,
+          "explanation": "5.2.1 Técnicas"
+        },
+        {
+          "question": "Con respecto a la técnica de Predicción dentro del Control de Costes, ¿Cómo se calcula el EAC considerando el valor actual del índice de rendimiento de costes?",
+          "options": [
+            "EAC = AC + (BAC – EV)",
+            "EAC = BAC / CPI",
+            "EAC = AC + [(BAC – EV) / (CPI × SPI)]"
+          ],
+          "answer": 1,
+          "explanation": "7.4.2.2 Forecasting"
+        },
+        {
+          "question": "Durante la ejecución del proyecto ¿qué son los gastos?",
+          "options": [
+            "Son las formas en que se van ejecutando las reservas cuando se superan las previsiones",
+            "Es la manera en que se van ejecutando los costes asociados a las diferentes actividades del proyecto",
+            "Son los costes no previstos para el proyecto"
+          ],
+          "answer": 1,
+          "explanation": "5.4.1 Línea base de costes"
+        },
+        {
+          "question": "¿En qué consiste la estimación de costes del proyecto?",
+          "options": [
+            "Consiste en estimas las tareas de desarrollo de software y calcular sus costes",
+            "Es el proceso de agregación de los costes estimados de las actividades individuales o los paquetes de trabajo para establecer una línea base",
+            "Es el proceso de desarrollar una aproximación de los recursos monetarios necesarios para completar las actividades del proyecto"
+          ],
+          "answer": 2,
+          "explanation": "5.2 Estimación de costes"
+        },
+        {
+          "question": "Con respecto a la técnica de Gestión del Valor Acumulado dentro del Control de Costes del proyecto, ¿Qué es la Variación del cronograma (SV)?",
+          "options": [
+            "Es la medida de la desviación en la realización del cronograma con respecto al plaSV=EV-PV",
+            "Es la medida de los que se ha desarrollado con respecto a los que ha costado en un periodSV=AC-EV",
+            "Es la medida de la desviación de costes en un periodo con respecto al presupuesto planificadSV=AC-PV"
+          ],
+          "answer": 0,
+          "explanation": "PMBOK: 7.4.2.1 Earned Value Management"
         }
       ]
     },
@@ -1904,6 +2143,66 @@
           ],
           "answer": 1,
           "explanation": "6.6.3 Análisis de Riesgos"
+        },
+        {
+          "question": "Dentro de las técnicas de Priorización de los Riesgos, ¿En qué consiste la Ordenación por Probabilidad e Impacto?",
+          "options": [
+            "En usar la Matriz de Probabilidad e Impacto para priorizar los riesgos",
+            "En ordenar los riesgos por 1º probabilidad y 2º impacto para priorizar los riesgos",
+            "En calcular el producto de la probabilidad por el impacto para priorizar los riesgos"
+          ],
+          "answer": 1,
+          "explanation": "6.6.4.1 Técnicas (Ordenación por Probabilidad e Impacto)"
+        },
+        {
+          "question": "¿De qué tipo es el diagrama de la figura?",
+          "options": [
+            "Diagrama de causa y efecto",
+            "Diagramas de flujo o de sistemas",
+            "Diagrama de influencias"
+          ],
+          "answer": 1,
+          "explanation": "6.6.2.1 Técnicas (Técnicas de Diagramación)"
+        },
+        {
+          "question": "Dentro de las técnicas de Priorización de los Riesgos, ¿En qué consiste el uso de la Matriz de Probabilidad e Impacto?",
+          "options": [
+            "Se usa para definir la escala de probabilidades que puede tener el riesgo",
+            "Se usa para priorizar el riesgo en función de la posición en dicha matriz Si el valro de probabilidad e impacot sitúan al riesgo en la zona de priorización",
+            "Se usa para definir las escalas de impacto del los riesgos"
+          ],
+          "answer": 1,
+          "explanation": "6.6.4.1 Técnicas (Matriz de Probabilidad e Impacto)"
+        },
+        {
+          "question": "¿Qué es la Importancia de un riesgo?",
+          "options": [
+            "Es el efecto que puede ocasionar el riesgo en caso de producirse",
+            "Es una medida del peligro o beneficio real que el riesgo puede representar para el proyecto Esto es el Impacto",
+            "Es el periodo de tiempo en el que es posible mitigar el riesgo"
+          ],
+          "answer": 1,
+          "explanation": "6.6.3 Análisis de Riesgos (Actividades básicas y mediciones)"
+        },
+        {
+          "question": "La actitud frente al riesgo de la organización y de los stakeholders está influenciada por diversos factores, ¿Cuáles?",
+          "options": [
+            "Aceptación, mitigación, evitación y transferencia",
+            "Actitud proactiva o reactiva",
+            "El apetito, la tolerancia y el umbral de riesgo"
+          ],
+          "answer": 2,
+          "explanation": "6.3 Actitud frente al riesgo"
+        },
+        {
+          "question": "En el contexto de las técnicas de Resolución de proyectos, ¿En qué consiste el Análisis de la misión?",
+          "options": [
+            "En crear prototipos, de manera que pueda evaluarse su viabilidad en términos de coste y riesgo",
+            "En replantearse el objetivo del proyecto para determinar si el asumir el riesgo es productivo frente a otras opciones",
+            "En definir escenarios y se valoran estos escenarios"
+          ],
+          "answer": 1,
+          "explanation": "6.6.6.1 Técnicas (Análisis de la misión)"
         }
       ]
     },
@@ -2149,6 +2448,36 @@
           ],
           "answer": 2,
           "explanation": "7.3 Modelos y Estándares de Calidad"
+        },
+        {
+          "question": "¿Qué técnicas son habituales en la Planificación de la Calidad?",
+          "options": [
+            "Análisis coste-beneficio, Coste de la calidad, 7QC Tools, Benchmarking, DOE, Muestreo estadístico, Reuniones y Otras herramientas de planificación de la calidad",
+            "Análisis coste-beneficio, Coste de la calidad, Análisis de Procesos, Diseño de experimentos, Muestreo estadístico y Reuniones",
+            "Análisis coste-beneficio, Coste de la calidad, 7QC Tools, Benchmarking, DOE, Muestreo estadístico, Auditorías de caliad y Reuniones"
+          ],
+          "answer": 0,
+          "explanation": "7.4.1.1 Técnicas"
+        },
+        {
+          "question": "¿En qué consiste el muestreo por atributos?",
+          "options": [
+            "El resultado se clasifica según una escala continua que mide el grado de conformidad",
+            "Comprobar que el resultado cumple o no con los requisitos",
+            "Hacer mediciones de los resultados"
+          ],
+          "answer": 1,
+          "explanation": "7.4.3 Control de calidad"
+        },
+        {
+          "question": "¿Cuáles son las fases por las que ha pasado históricamente la gestión de la calidad?",
+          "options": [
+            "Necesaria, Programada y Realizada",
+            "Control de la calidad, Garantía de calidad, Aseguramiento de calidad y Calidad total",
+            "Impredecible, Repetible, Proactivo, Controlado y Mejora continua"
+          ],
+          "answer": 1,
+          "explanation": "7.2 Evolución de la gestión de la calidad"
         }
       ]
     },
@@ -2405,6 +2734,46 @@
           ],
           "answer": 0,
           "explanation": "8.5.4.1 Técnicas de búsqueda / Estudios con entidad propia"
+        },
+        {
+          "question": "¿Cuáles son los tipos de normas por su ámbito de aplicación?",
+          "options": [
+            "Terminología, ensayo, etc.",
+            "Orientativas y de uso obligatorio",
+            "Internacionales, nacionales, etc."
+          ],
+          "answer": 2,
+          "explanation": "8.5.2 Tipos de normas"
+        },
+        {
+          "question": "Un informe de progreso para el cliente, ¿Que tipo de comunciación sería?",
+          "options": [
+            "Escrita e informal",
+            "Formal y externa",
+            "Oficial y vertical"
+          ],
+          "answer": 1,
+          "explanation": "8.1 Gestión de las comunicaciones"
+        },
+        {
+          "question": "Dentro de la Planificación de la gestión de las comunicaciones, al definir los modelos de comunicación, en la calidad de dicha comunicación influyen diferentes factores que componen el canal de comunicación, ¿cuáles?",
+          "options": [
+            "Codificación, Transmisión, Decodificación, Aceptación y Respuesta",
+            "La Urgencia de la información requerida y la Facilidad de uso",
+            "Las necesidades de información interna y externa, la Facilidad de uso y el Entorno del proyecto"
+          ],
+          "answer": 0,
+          "explanation": "8.2.1 Técnicas/Modelos de comunicación"
+        },
+        {
+          "question": "La planificación de comunicación tiene tres procesos importantes, ¿Cuáles?",
+          "options": [
+            "El Control, el Seguimiento y la Disposición final de la información del proyecto",
+            "La Creación, la Distribución y el Almacenamiento",
+            "Planificar la Gestión de las Comunicaciones, Gestionar las Comunicaciones y Controlar las Comunicaciones"
+          ],
+          "answer": 2,
+          "explanation": "8.1 Gestión de las comunicaciones"
         }
       ]
     },
@@ -2640,6 +3009,56 @@
           ],
           "answer": 1,
           "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Earned Value Management"
+        },
+        {
+          "question": "El control de los plazos es un proceso dinámico que se basa en...",
+          "options": [
+            "...las reservas de tiempo del proyecto",
+            "...la planificación temporal del proyecto",
+            "...la evaluación del desempeño"
+          ],
+          "answer": 1,
+          "explanation": "9.4 Control de plazos"
+        },
+        {
+          "question": "Las técnicas usuales para controlar y comunicar los avances del proyecto permiten informar a los diferentes stakeholders sobre el estado del proyectDentro de ellas, ¿Qué son los hitos de control?",
+          "options": [
+            "Son elementos no necesariamente tangibles que permiten identificar el estado de avance del proyecto",
+            "Son tareas ficticias que permiten controlar el el estado de avance del proyecto",
+            "Son tareas introducidas en el cronograma para controlar el avance del proyecto"
+          ],
+          "answer": 0,
+          "explanation": "9.4 Control de plazos"
+        },
+        {
+          "question": "Según Pritchard, ¿En qué consiste la terminación positiva?",
+          "options": [
+            "Es positiva cuando el proyecto es rentable",
+            "Es positiva cuando el proyecto ha sido terminado en los plazos previstos",
+            "Es positiva cuando el proyecto alcanza sus objetivos"
+          ],
+          "answer": 2,
+          "explanation": "9.10.2 Tipos de final de proyecto"
+        },
+        {
+          "question": "Según Meredith y Mantel, ¿En qué consiste la terminación por Integración?",
+          "options": [
+            "El proyecto realiza la integración final de productos desarrollados y se da por termiando",
+            "De manera jerárquica se da la orden de integrar lo que esté realizado hasta ese momento y de da por terminado el proyecto",
+            "El equipo de proyecto, los procesos y los productos se integran en el departamento que realizará la explotación de manera planificada"
+          ],
+          "answer": 2,
+          "explanation": "9.10.2 Tipos de final de proyecto"
+        },
+        {
+          "question": "¿Qué dos técnicas recomienda Furtel para hacer la evaluación del desempeño?",
+          "options": [
+            "La Gestión del valor ganado y las Reuniones de avance de proyecto",
+            "La Gestión del valor ganado y la Cadena crítica",
+            "La Cadena crítica y las Reuniones de avance de proyecto"
+          ],
+          "answer": 1,
+          "explanation": "9.7 Control del desempeño"
         }
       ]
     }
