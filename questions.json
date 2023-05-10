@@ -601,6 +601,46 @@
           ],
           "answer": 0,
           "explanation": "(Furtel, y otros, 2002) (Cap 1. \"What is Software Engineering?)"
+        },
+        {
+          "question": "¿Cual  de los siguientes modelos de desarrollo es orientado a las personas y  esta basado en la adaptabilidad más que en el carácter predictivo?",
+          "options": [
+            "Modelo en Espiral",
+            "Modelos Ágiles",
+            "Modelo en Cascada"
+          ],
+          "answer": 1,
+          "explanation": "1.5.2.3.1 Métodos Ágiles"
+        },
+        {
+          "question": "Cuál de las siguientes afirmaciones es correcta:",
+          "options": [
+            "Un Proyecto Informático no es más que un proyecto cuyo objetivo se enmarca en el Plan General Contable de la empresa",
+            "Un Proyecto Informático no es más que un proyecto cuyo objetivo se enmarca en el Plan General Informático de la empresa",
+            "Un Proyecto Informático no es más que un proyecto cuyos resultados son los que forman el Plan General Informático de la empresa"
+          ],
+          "answer": 2,
+          "explanation": "1.1.1 Concepto de Proyecto"
+        },
+        {
+          "question": "¿Qué es una tarea en un Proyecto?",
+          "options": [
+            "Es una entidad informal que describe el trabajo de una persona",
+            "Es una unidad de trabajo con entidad",
+            "Es el trabajo realizado por una persona en una jornada laboral"
+          ],
+          "answer": 1,
+          "explanation": "1.1.3.1 Tarea"
+        },
+        {
+          "question": "Indica cual de las siguientes afirmaciones es correcta:",
+          "options": [
+            "Un proyecto es un esfuerzo humano y temporal que pretende un estándar informático",
+            "Un proyecto es un esfuerzo temporal acometido para crear un único servicio o producto",
+            "Un proyecto informático es un esfuerzo vinculado a la informática con recursos limitados"
+          ],
+          "answer": 2,
+          "explanation": "1.1.1 Concepto de Proyecto"
         }
       ]
     },
@@ -1441,6 +1481,26 @@
           ],
           "answer": 2,
           "explanation": "3.2.2 Estructura organizativa"
+        },
+        {
+          "question": "De acuerdo al PMBOK, ¿Qué documentos acompañan al WBS?",
+          "options": [
+            "El presupuesto y el Alcance del proyecto",
+            "Alcance del proyecto, WBS y Diccionario WBS",
+            "El presupuesto y la estimación de personal"
+          ],
+          "answer": 1,
+          "explanation": "3.3.3 Documentos que acompañan al WBS"
+        },
+        {
+          "question": "Según el (PMBOK, 2013), las técnicas habituales para la definición de actividades son...",
+          "options": [
+            "Las vistas de descomposición y las vistas de despliegue",
+            "Descomposición, Planificación Progresiva y Juicio de Expertos",
+            "las técnicas Delphi y los Brainstormings"
+          ],
+          "answer": 1,
+          "explanation": "3.5 Actividades y Tareas"
         }
       ]
     },
@@ -2338,6 +2398,36 @@
           ],
           "answer": 1,
           "explanation": "5.4.2 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas usadas para el Control de Costes del proyecto, ¿En qué consiste el Análisis de reservas?",
+          "options": [
+            "Permite  monitorizar el estado de las reservas de gestión y de contingencia del  proyecto para determinar si las reservas son aún necesarias o si hacen  falta reservas adicionales",
+            "Evalúa todas las reservas necesarias para corregir los riesgos identificados en el proyecto",
+            "Analiza si las reservas siguen estando disponibles para el proyecto"
+          ],
+          "answer": 0,
+          "explanation": "5.4.2 Técnicas"
+        },
+        {
+          "question": "Dentro  de las técnicas usadas para el Control de Costes del proyecto, ¿En qué  consiste la utilización de aplicaciones de gestión de proyectos?",
+          "options": [
+            "Consiste en el uso de aplicaciones de contabilidad durante el desarrollo de proyectos",
+            "Consiste en el uso de aplicaciones durante el desarrollo del proyecto",
+            "Consiste en el uso de aplicaciones de gestión de proyectos que permitan monitorizar las tres dimensiones del EVN (PV, EV y AC)"
+          ],
+          "answer": 2,
+          "explanation": "5.4.2 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas usadas para el Control de Costes del proyecto, ¿En qué consiste la Predicción?",
+          "options": [
+            "Es  una actividad que debe existir en todo proyecto para ver si se alcanza  en el tiempo establecido, de manera que se anticipen los retrasos",
+            "Es una actividad prevista para corregir los costes del proyecto en caso de que no se puedan evitar los riesgos",
+            "En el desarrollo de pronósticos para el estimación a la conclusión en base a la información actual"
+          ],
+          "answer": 2,
+          "explanation": "5.4.2 Técnicas"
         }
       ]
     },
@@ -2813,6 +2903,46 @@
           ],
           "answer": 1,
           "explanation": "6.6.2.1 Técnicas (Análisis SWOT)"
+        },
+        {
+          "question": "¿En qué consiste la Resolución de Riesgos?",
+          "options": [
+            "Consiste en resolver los problemas ocasionados por los riesgos durante la fase de Desarrollo del proyecto",
+            "Consiste  en determinar si los riesgos son eliminados o resueltos siguiendo los  planes definidos en las fases anteriores de la Gestión de Riesgos",
+            "COnsiste en tratar los riesgos con políticas optimistas y resultas de manera que se tenga una actitud proactiva"
+          ],
+          "answer": 1,
+          "explanation": "6.6.6 Resolución de Riesgos"
+        },
+        {
+          "question": "¿Cuáles son las estrategias generales para las oportunidades?",
+          "options": [
+            "Eliminación, Transferencia, Evitación y Retención",
+            "Aprovechameinto, Mejora, Compartición y Aceptación",
+            "Proactivas, reactivas y contingecnias"
+          ],
+          "answer": 1,
+          "explanation": "6.4.3 Estrategias generales para las oportunidades"
+        },
+        {
+          "question": "Dentro  de las técnicas de Identificación de riesgos y dentro de las técnicas  de Recopilación de Información, ¿En qué consiste el análisis causal?",
+          "options": [
+            "Identifica las oportunidades sobrevenidas por actividades casuales del proyecto",
+            "En definir las causas por las que el proyecto tiene riesgos",
+            "En técnicas sencillas de identificación de causas para un problema"
+          ],
+          "answer": 2,
+          "explanation": "6.6.2.1 Técnicas (Técnicas de recopilación de Información)"
+        },
+        {
+          "question": "En función de su facilidad de detección, hay tres clases de riesgos, ¿Cuáles?",
+          "options": [
+            "Conocidos, predecibles e impredecibles",
+            "Amenazas, oportunidades, fortalezas y debilidades",
+            "De proyecto, del producto y del negocio"
+          ],
+          "answer": 0,
+          "explanation": "6.2 Gestión  y manejo de los riesgos"
         }
       ]
     },
@@ -3138,6 +3268,16 @@
           ],
           "answer": 2,
           "explanation": "7.3.2 CMM y CMMi"
+        },
+        {
+          "question": "La  implantación de un modelo o estándar de calidad en una empresa de  software tiene diferentes niveles de implantacióDentro del nivel de  organización, ¿Qué subniveles hay?",
+          "options": [
+            "Entidad y proyecto",
+            "Modelos y Estándares",
+            "Factores, criterios y métricas"
+          ],
+          "answer": 0,
+          "explanation": "7.3 Modelos y Estándares de Calidad"
         }
       ]
     },
@@ -3494,6 +3634,17 @@
           ],
           "answer": 2,
           "explanation": "8.5.4.1 Técnicas de búsqueda / Codificación"
+        },
+        {
+          "question": "ISO es una entidad de normalización...",
+          "options": [
+            "...de ámbito internacional y multisectorial",
+            "...de ámbito nacional y multisectorial",
+            "...de ámbito internacional y sectorial",
+            "...de ámbito nacional y sectorial"
+          ],
+          "answer": 0,
+          "explanation": "8.5.3 Entidades de normalización"
         }
       ]
     },
@@ -3859,6 +4010,36 @@
           ],
           "answer": 1,
           "explanation": "9.10.2 Tipos de final de proyecto"
+        },
+        {
+          "question": "¿Qué quiere decir que la formación debe ser completa?",
+          "options": [
+            "Que el usuario debe recibir formación suponiendo que no sabe nada sobre el sistema ni el dominio",
+            "Que el usuario debe recibir formación de todos y cada uno de los aspectos que le atañen para su trabajo con el sistema",
+            "Que el usuario debe recibir formación sobre el sistema y sobre los conceptos informáticos que requiera el sistema No  es objetivo de la formación más que aquellos aspectos que atañan al  cambio al nuevo sistemPor ejemplo, no hay que formar a los usuarios  en bases de datos ni en el manejo del entorno del sistema operativo,  estos conocimientos son objeto de otros tipos de formación"
+          ],
+          "answer": 2,
+          "explanation": "9.9.2 Formación"
+        },
+        {
+          "question": "Según Meredith y Mantel, ¿En qué consiste la terminación por Hambre?",
+          "options": [
+            "El proyecto termina porque no se adapta al presupuesto",
+            "Los recursos para el proyecto van disminuyendo hasta el punto en que no hay actividad",
+            "Esta terminación ocurre cuando se termina el proyecto porque se anula su presupuesto"
+          ],
+          "answer": 1,
+          "explanation": "9.10.2 Tipos de final de proyecto"
+        },
+        {
+          "question": "Según  Furtel, para el control y seguimiento del proyecto y cuando dicho  proyecto debe organizar al personal a partir de cero, se deben  establecer procesos simples, claros (qué hacer) y procedimientos (cómo  hacerlo) que todos deben seguiEsto debe incluir, entre otros...",
+          "options": [
+            "Procedimientos para gestión de personal, gestión de costes, gestión de plazos, gestión de calidad y gestión de riesgos",
+            "Procedimientos para el control de costes, alcance, cronograma y calidad",
+            "Procedimientos  para el control de cambios y gestión de la configuración, para la  realización de informes y para el control de calidad"
+          ],
+          "answer": 2,
+          "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Process Control, Management and Reporting"
         }
       ]
     }
