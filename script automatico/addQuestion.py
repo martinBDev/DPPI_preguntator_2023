@@ -1,7 +1,6 @@
 import json
 from bs4 import BeautifulSoup
 import glob
-from difflib import SequenceMatcher
 """
 Un script para añadir y detectar colisiones directamente al json
 """
@@ -18,7 +17,6 @@ def parseHtm(htmFile:str) -> dict:
 		soup = BeautifulSoup(htmlfile, 'html.parser')
 
 	questions = []
-
 	for questionField in soup.find_all('div', {'class': 'formulation'}):
 		question = {
 			'question': cleanHtm(questionField.find('div').text),
@@ -43,8 +41,6 @@ def parseHtm(htmFile:str) -> dict:
 
 	return questions
 
-def similar(a, b):
-	return SequenceMatcher(None, a, b).ratio()
 
 def mergeData(data:dict, topic:str, questions: dict):
 	theme = data[topic - 1]
@@ -53,7 +49,8 @@ def mergeData(data:dict, topic:str, questions: dict):
 		# buscar colisiones
 		repeated = False
 		for originalQuestion in theme['questions']:
-			if similar(question['question'], originalQuestion['question']) > .95:
+			# hay preguntas con el mismo enunciado pero distintas opcions, si la pregunta y la explicación es la misma, está repetida
+			if question['question'] == originalQuestion['question'] and question['explanation'] == originalQuestion['explanation']:
 				repeated = True
 		if not repeated:
 			theme['questions'].append(question)
