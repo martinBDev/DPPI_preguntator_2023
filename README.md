@@ -14,3 +14,4 @@ App de tests para preparar el examen de DPPI
 - Laís García Suarez
 - Laura Pernía Blanco
 - Mario Lombas Calderón de la Barca
+- Alejandro Alvarez Solís
