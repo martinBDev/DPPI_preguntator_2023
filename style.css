@@ -40,6 +40,8 @@ li{
     padding: 1em;
 }
 
-input, label{
+.answer label, input{
 	cursor: pointer;
 }
+
+
