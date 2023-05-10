@@ -511,6 +511,66 @@
           ],
           "answer": 1,
           "explanation": "1.5.2.4.8 Revisión del Sprint"
+        },
+        {
+          "question": "¿Cual de los siguientes principios NO pertenece a la metodología XP (eXtreme Programming)?",
+          "options": [
+            "Integración continua: El software se integra múltiples veces al día.",
+            "Pair Programming: La programación se hace entre dos personas.",
+            "P2P Programming: La programación se comparte directamente con el cliente."
+          ],
+          "answer": 2,
+          "explanation": "1.5.2.3.3 Características de XP"
+        },
+        {
+          "question": "¿Cuál de estas fases pertenece al modelo de prototipos?",
+          "options": [
+            "Diseño, construcción y evaluación de prototipos",
+            "Diseño e integración de prototipos",
+            "Desarrollo y pruebas"
+          ],
+          "answer": 1,
+          "explanation": "1.5.1.2 El modelo de prototipos"
+        },
+        {
+          "question": "Los desarrollos en Scrum se estructuran en ciclos de trabajo llamados Sprints",
+          "options": [
+            "Los Sprints son iteraciones de 1 a 4 semanas que se van sucediendo una detrás de otra",
+            "LoS Sprints son casos de uso que se extraen del Product Backlog para ser desarrollados",
+            "Los Sprints son cilcos compuestos por varias iteraciones de 1 a 4 semanas de duración"
+          ],
+          "answer": 0,
+          "explanation": "1.5.2.4 Scrum"
+        },
+        {
+          "question": "En el modelo de procesos en espiral...",
+          "options": [
+            "La evaluación por parte del cliente se lleva a cabo después de entregar el producto, en la puesta en marcha",
+            "La evaluación del cliente se lleva a cabo antes de entregar el producto",
+            "La evaluación se lleva a cabo al final de cada iteración a lo largo de todo el proceso"
+          ],
+          "answer": 2,
+          "explanation": "1.5.1.3 Modelo en espiral"
+        },
+        {
+          "question": "Sobre METRICA V2 y METRICA V3",
+          "options": [
+            "METRICA V3 es para sistemas orientados a objeto y METRICA V2 es para sistemas estrucutrado, por tanto ambas deben convivir en la industria.",
+            "METRICA V3 da soporte a los nuevos paradigmas orientados a objeto, además de soportar todo el ciclo de vida para los sistemas estructurados que soportaba METRICA V2",
+            "METRICA V3 es una revisión de METRICA V2 para soportar arquitectura del software"
+          ],
+          "answer": 1,
+          "explanation": "1.5.2.1 Métrica V3"
+        },
+        {
+          "question": "La Pila de producto o Product Backlog es",
+          "options": [
+            "Un elemento en el que las diferentes funcionalidades de organizan de manera que estén más arriba aquellas que más urgencia tienen para el Dueño de Producto",
+            "Una lista de casos de uso priorizados que el equipo va vaciando a medida que acaba con otros casos de uso anteriores hasta el llegar al final del Sprint",
+            "UNa lista de tareas a realziar durante el Sprint"
+          ],
+          "answer": 0,
+          "explanation": "1.5.2.4.2 Pila de producto (Product Backlog)"
         }
       ]
     },
@@ -876,6 +936,36 @@
           ],
           "answer": 2,
           "explanation": "2.1 Introducción teórica"
+        },
+        {
+          "question": "¿Cual de los siguientes ejemplos de mediciones, según Fenton, es significativa?",
+          "options": [
+            "La complejidad del programa A es el doble que la de B",
+            "Se tarda 1 minuto en ejecutar el programa A",
+            "La dificultad de diseño del proyecto es de 78"
+          ],
+          "answer": 1,
+          "explanation": "2.1.1.2.4.4 Significación"
+        },
+        {
+          "question": "Las escalas de ratio permiten...",
+          "options": [
+            "...que las relaciones entre dos medidas se mantengan en los cambios de escala",
+            "...que las escalas nominales puedan tener representación en el conjunto de los números reales",
+            "...que las medidas en escalas absolutas puedan ser transformadas"
+          ],
+          "answer": 0,
+          "explanation": "2.1.1.2.4.1 Escala"
+        },
+        {
+          "question": "Una métrica...",
+          "options": [
+            "... debe ser válida para el propósito que se pretende y debe obtener resultados significativos con respecto a ese propósito 2.1.1.1 El proceso de la medición y sus características",
+            "...sirve para tomar medidas de todas las fases de construcción del software",
+            "... es una medida con una base matemática, que no satisface el axioma de identidad d(x,y) = 0 <-> x = y"
+          ],
+          "answer": 0,
+          "explanation": "2.1.1.1 El proceso de la medición y sus características"
         }
       ]
     },
@@ -1241,6 +1331,26 @@
           ],
           "answer": 2,
           "explanation": "(PMBOK, 2013) 2.1.3 Organizational Structures"
+        },
+        {
+          "question": "Hablando de estimación de recursos para las actividades, ¿En qué consiste la estimación Estimación Bottom-Up?",
+          "options": [
+            "Consiste en estimar las actividades por su importancia, comenzando por las de mayor importancia",
+            "Es una técnica de estimación que va a de las tareas de mayor detalle a la las de mayor nivel sumando los costes de las tareas componentes",
+            "Es una tarea que calcula primero los costes de las actividadesmás sencillas y después los de las más complejas"
+          ],
+          "answer": 1,
+          "explanation": "3.6 Estimación de recursos"
+        },
+        {
+          "question": "Hablando de estimación de recursos para las actividades, ¿En qué consiste la existencia de Datos de estimación publicados?",
+          "options": [
+            "Consiste en actividades que, por experiencia previa, se tienen tabuladas y se puede calcualr fácilmente los recusos que precisan aplicando dichas tablas",
+            "Consiste en tener listas de precios para las actividades",
+            "Consiste en publicar los precios de las actividades del proyecto para que el cliente sepa los costes a priori"
+          ],
+          "answer": 0,
+          "explanation": "3.6 Estimación de recursos"
         }
       ]
     },
@@ -1593,6 +1703,46 @@
           ],
           "answer": 0,
           "explanation": "4.3 Selección del equipo de proyecto y asignación de roles"
+        },
+        {
+          "question": "Dentro de los ámbitos principales de aportación de RRHH al proyecto, ¿Qué es la transferencia de personas de otros departamentos?",
+          "options": [
+            "Cuando el personal necesario se busca en otros departamento o en otros proyectos",
+            "Se produce cuando las personas cambian el perfil tecnológico con el que trabajan en el proyecto",
+            "Se produce cuando se hace reestructuración de puestos de trabajo y las personas se transfieres a otros departamentos"
+          ],
+          "answer": 2,
+          "explanation": "4.3.1 Ámbitos de aportación de RH"
+        },
+        {
+          "question": "¿Qué es un organigrama?",
+          "options": [
+            "Es un modo de representación basado en una Matriz de Asignación de Responsabilidades",
+            "Es un diagrama que representa el flujo de datos de un proyecto",
+            "Es la manera tradicional de representar la estructura de un equipo de proyecto"
+          ],
+          "answer": 2,
+          "explanation": "4.2.1.1 Organigramas y descripciones de puestos de trabajo"
+        },
+        {
+          "question": "¿Qué objetivo puede tener la \"Inteligencia emocional\" para el desarrollo del equipo de proyecto?",
+          "options": [
+            "Sirve para reducir la tensión e incrementar la cooperación",
+            "Tiene el objetivo de mejorar la inteligencia de los miembros para motivarlos emocionalmente",
+            "Tiene por objetivo eliminas las emociones para hacer un equipo más eficiente"
+          ],
+          "answer": 0,
+          "explanation": "4.4.1 Técnicas"
+        },
+        {
+          "question": "¿Quiénes son los socios comerciales del proyecto (Business partners)?",
+          "options": [
+            "Son empresas externas que financian el proyecto con intereses comerciales",
+            "Son empresas externas que participan en el proyecto para poder comercializar los resultados",
+            "Son empresas externas que tienen relación con el desarrollador del proyecto y que aportan algún tipo de experiencia particular"
+          ],
+          "answer": 2,
+          "explanation": "(PMBOK 5.0) 2.3 Project Team"
         }
       ]
     },
@@ -1988,6 +2138,46 @@
           ],
           "answer": 2,
           "explanation": "5.2 Estimación de costes"
+        },
+        {
+          "question": "En la elaboración del presupuesto, ¿Cuáles son las técnicas más habituales?",
+          "options": [
+            "JEstimación por analogía, Estimación paramétrica, Estimación de tres puntos y Análisis de reserva",
+            "Agregación de costes, Análisis de reservas, Juicio de expertos, Relaciones históricas y Conciliación del límite de financiación",
+            "Juicio de expertos, Técnicas analíticas y Reuniones"
+          ],
+          "answer": 1,
+          "explanation": "5.3.1 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas del Plan de gestión de costes, ¿En qué consisten las Reuniones?",
+          "options": [
+            "Son la comidas de trabajo, comentarios individuales, etc.",
+            "Son reuniones de planificación para desarrollar el plan de gestión de costes",
+            "Son reuniones informales para clarificar ideas antes de tomar decisiones"
+          ],
+          "answer": 1,
+          "explanation": "5.1.1 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas usadas para la estimación de costes, ¿En qué consiste el Coste de la calidad?",
+          "options": [
+            "Consiste en definir un manual de calidad que permita realizar la tarea con la mayor calidad posible",
+            "Consiste en estudiar el coste de la calidad para eliminar procedimientos de calidad muy caros",
+            "Consiste en comparar el coste de hacer una actividad con calidad frente al coste hacerla sin calidad Realmente es esto, hacerla con calidad incrementa el coste directo y rebaja el de mantenimientHacerla si calidad es, justo, lo contrariSe estudia qué coste en más adecuado a la actividad."
+          ],
+          "answer": 2,
+          "explanation": "5.2.1 Técnicas"
+        },
+        {
+          "question": "¿Cuáles son las técnicas más habituales usadas para la elaboración de distintos aspectos del Plan de gestión de costes?",
+          "options": [
+            "Juicio de expertos, Estimación por analogía, Estimación paramétrica, Estimación de tres puntos, Análisis de reserva, Coste de la calidad, Aplicaciones para gestión de proyectos, Análisis de Ofertas (Vendor Bid Analysis) y Técnicas de tomas de decisión en grupo",
+            "Agregación de costes, Análisis de reservas, Juicio de expertos, Relaciones históricas y Conciliación del límite de financiación",
+            "Juicio de expertos, Técnicas analíticas y Reuniones"
+          ],
+          "answer": 2,
+          "explanation": "5.1.1 Técnicas"
         }
       ]
     },
@@ -2373,6 +2563,46 @@
           ],
           "answer": 0,
           "explanation": "6.6.5.2 Salidas"
+        },
+        {
+          "question": "El Risk Breakdown Structure (RBS) ¿qué es?",
+          "options": [
+            "Es la jerarquía de atributos que definen el riesgo",
+            "Es la identificación jerárquica de las categorías de riesgo",
+            "Es la lista de riesgos del proyecto antes de priorizar"
+          ],
+          "answer": 1,
+          "explanation": "6.6.1 Planificar la Gestión de Riesgos (Categorías de riesgo)"
+        },
+        {
+          "question": "En función de las áreas que afectan, hay tres clases de riesgos, ¿Cuáles?",
+          "options": [
+            "Amenazas, oportunidades, fortalezas y debilidades",
+            "De proyecto, del producto y del negocio",
+            "Conocidos, predecibles e impredecibles"
+          ],
+          "answer": 1,
+          "explanation": "..."
+        },
+        {
+          "question": "¿Cuáles son las técnicas habituales usadas en la priorización de riesgos?",
+          "options": [
+            "El Análisis de coste-beneficio, la Matriz de Probabilidad e Impacto y el Juicio de expertos",
+            "Las Simulaciones, la Matriz de Probabilidad e Impacto y el Juicio de expertos",
+            "La Ordenación por Probabilidad e Impacto, la Matriz de Probabilidad e Impacto y el Juicio de expertos"
+          ],
+          "answer": 2,
+          "explanation": "6.6.4.1 Técnicas"
+        },
+        {
+          "question": "¿Cuál de las siguientes afirmaciones es cierta?",
+          "options": [
+            "La tabla de impactos debe ser simétrica en función de las amenazas y las oportunidades",
+            "La tabla de impactos es única para amenazas y oportunidades",
+            "Debe definirse una tabla de impactos para amenazas y otra para oportunidades"
+          ],
+          "answer": 2,
+          "explanation": "6.6.1 Planificar la Gestión de Riesgos (Definiciones de probabilidad e impacto)"
         }
       ]
     },
@@ -2638,6 +2868,26 @@
           ],
           "answer": 1,
           "explanation": "7.1.1 Calidad desde el punto de vista del receptor"
+        },
+        {
+          "question": "¿Cuáles son los niveles que habitualmente alcanzas las organizaciones de SW con CMMI?",
+          "options": [
+            "3 y 4",
+            "2 y 3",
+            "1 y 2"
+          ],
+          "answer": 1,
+          "explanation": "7.3.2.3 Niveles más habituales"
+        },
+        {
+          "question": "¿Qué son las Tolerancias?",
+          "options": [
+            "Es la capaciad del equipo para no implementar todos los procesos de calidad",
+            "Es el rango especificado de resultados aceptables",
+            "Son los umbrales que pueden indicar si el proceso está fuera de control"
+          ],
+          "answer": 1,
+          "explanation": "7.4.3 Control de calidad"
         }
       ]
     },
@@ -2954,6 +3204,26 @@
           ],
           "answer": 1,
           "explanation": "8.5.4.1 Técnicas de búsqueda / Normativa de la organización"
+        },
+        {
+          "question": ":Dentro de la Planificación de la gestión de las comunicaciones, en la técnica para definir los métodos de comunicación, ¿Cómo pueden clasificarse los fiferentes métodos de comunicación?",
+          "options": [
+            "Codificación, Transmisión, Decodificación, Aceptación y Respuesta",
+            "Interactiva, pusk y pull",
+            "Interna y externa, formar e informal, vertical y horizontal, oficial y extraoficial y escrita y oral"
+          ],
+          "answer": 1,
+          "explanation": "8.2.1 Técnicas/Métodos de comunicación"
+        },
+        {
+          "question": "¿Cuáles son los tipos de normas por el objeto normalizado?",
+          "options": [
+            "Internacionales, nacionales, etc.",
+            "Certificables y no certificables",
+            "Terminología, ensayo, etc."
+          ],
+          "answer": 2,
+          "explanation": "8.5.2 Tipos de normas"
         }
       ]
     },
@@ -3239,6 +3509,56 @@
           ],
           "answer": 0,
           "explanation": "9.10.1 Razones para terminar el proyecto"
+        },
+        {
+          "question": "Son varias las razones para terminar un proyecto, de ellas, ¿Qué son la razones de calidad?",
+          "options": [
+            "El proyecto no termina de funcionar o no se adapta a los requisitos",
+            "El proyecto resulta muy caro de mantener porque se ha construido sin calidad",
+            "El proyecto resulta tan caro que no es interesante explotarlo"
+          ],
+          "answer": 0,
+          "explanation": "9.10.1 Razones para terminar el proyecto"
+        },
+        {
+          "question": "¿Qué quiere decir que la formación deber tener integridad?",
+          "options": [
+            "Que no se puede formar al usuario en un entorno para, posteriormente, volver a formarle en el mismo entorno pero con modificaciones",
+            "QUe la formación debe realizarse en un curso que integre todos los aspectos y no en diferentes cursos",
+            "Que no puede obligarse a usuario a hacer operaciones que pongan en peligro su integridad"
+          ],
+          "answer": 0,
+          "explanation": "9.9.2 Formación"
+        },
+        {
+          "question": "Dentro de los elementos básicos del control del alcance, ¿Qué objetivo cumple tener un formato de identificación y nomenclatura?",
+          "options": [
+            "Tener una lista de distribución de documentos",
+            "Tener una codificación de los equipos destinados al proyecto",
+            "Evitar términos confusos"
+          ],
+          "answer": 2,
+          "explanation": "9.3 Control del alcance"
+        },
+        {
+          "question": "¿Cuál es la principal ventaja del método de la Cadena Crítica frente al EVM?",
+          "options": [
+            "La precisión de los cálculos",
+            "La mayor información sobre el proyecto",
+            "La sencillez de los cálculos a realizar"
+          ],
+          "answer": 2,
+          "explanation": "9.7.2 Cadena Crítica"
+        },
+        {
+          "question": "En la técnica de la Gestión de Valor ganado o acumulado, ¿Cuál es el índice de rendimiento de cronograma (SPI)?",
+          "options": [
+            "Compara el coste presupuestado con el coste real, SPI = BCWP / ACWP",
+            "Compara la ejecución del cronograma planeada con la real, SPI = BCWP / BCWS",
+            "Compara la variación de costes con la variación de tiempos, SPI = CV / SV"
+          ],
+          "answer": 1,
+          "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Earned Value Management"
         }
       ]
     }
