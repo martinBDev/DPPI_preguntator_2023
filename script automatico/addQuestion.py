@@ -67,7 +67,7 @@ def mergeData(data:dict, topic:str, questions: dict):
 
 def main():
 	# conseguir archivos
-	htms = glob.glob('*.htm')
+	htms = glob.glob('*.html')
 	with open('../questions.json', 'r', encoding='utf-8') as f:
 		data = json.loads(f.read())
 
