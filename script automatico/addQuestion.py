@@ -50,8 +50,9 @@ def mergeData(data:dict, topic:str, questions: dict):
 		repeated = False
 		for originalQuestion in theme['questions']:
 			# hay preguntas con el mismo enunciado pero distintas opcions, si la pregunta y la explicación es la misma, está repetida
-			if question['question'] == originalQuestion['question'] and question['explanation'] == originalQuestion['explanation']:
-				repeated = True
+			if question['question'] == originalQuestion['question']:
+				if len(set(question['options'] + originalQuestion['options'])) == len(question['options']):
+					repeated = True
 		if not repeated:
 			theme['questions'].append(question)
 
