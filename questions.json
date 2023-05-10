@@ -321,6 +321,76 @@
           ],
           "answer": 1,
           "explanation": "(Deemer, y otros, 2012) (Roles en Scrum)"
+        },
+        {
+          "question": "Algunas iteraciones del modelo de proceso que propone RUP:",
+          "options": [
+            "Producen un efecto de refinamiento o corrección.",
+            "Son independientes totalmente unas de otras.",
+            "Producen un efecto de sustractivo."
+          ],
+          "answer": 0,
+          "explanation": "1.5.2.2.1 Características de RUP"
+        },
+        {
+          "question": "¿Cuál de las siguientes afirmaciones es verdadera?",
+          "options": [
+            "METRICA V3 ha sido diseñada exclusivamente para soportar el paradigma orientado a objeto",
+            "METRICA V3 da soporte a metodologías pesadas y ágiles",
+            "METRICA V3 está reconocida por las administraciones españolas como metodología de desarrollo de software"
+          ],
+          "answer": 2,
+          "explanation": "1.5.2.1.2 Desarrollo de sistemas de información"
+        },
+        {
+          "question": "¿Que es el Scrum diario?",
+          "options": [
+            "Una reunión para que Scrum Master defina el trabajo a realizar durante el día actual.",
+            "Una reunión de unos 15 minutos de duración para coordinar el trabajo que se va a desarrollar ese día",
+            "Una reunión para revisar los resultados del día anterior y tomar medidas para corregir las desviaciones durante el día acutal."
+          ],
+          "answer": 1,
+          "explanation": "1.5.2.4.5 Scrum diario"
+        },
+        {
+          "question": "La principal desventaja del modelo de prototipos es...",
+          "options": [
+            "Se obtienen modelos a una escala demasiado grandes",
+            "Se tiende a reutilizar el prototipo y se le colocan \"parches\"",
+            "El modelo de prototipos no tiene desventaja alguna"
+          ],
+          "answer": 1,
+          "explanation": "1.5.1.2    El modelo de prototipos"
+        },
+        {
+          "question": "¿Qué es Scrum?",
+          "options": [
+            "Scrum es un método de fabricacion de software que divide el proceso en iteraciones, las iteraciones en fases y éstas en Sprints.",
+            "Scrum es una metodología ágil que consiste en desarrollar software en pequeños paquetes que se deben integrar al final del proyecto.",
+            "Scrum es un marco de trabajo en el que equipos cross-funcionales pueden crear productos o desarrollar proyectos de una forma iterativa e incremental."
+          ],
+          "answer": 2,
+          "explanation": "..."
+        },
+        {
+          "question": "¿Qué características debe tener la Pila de Produto?",
+          "options": [
+            "Debe estar es poder del Dueño de Producto que sólo la comparte cuande se define el siguiente Sprint",
+            "No es necesario que se soporte en aplicaciones, es simplemente uns lista de papeles sobre una pizarra",
+            "Detallada apropiadamente, Estimada, Emergente y Priorizada"
+          ],
+          "answer": 2,
+          "explanation": "1.5.2.4.2 Pila de producto (Product Backlog)"
+        },
+        {
+          "question": "El Modelo de transformación es un método de realización de software que...",
+          "options": [
+            "...es un método usado en las migraciones de software en las grandes empresas.",
+            "...consisite en acoplar pequeñas unidades de código para hacer sistemas grandes.",
+            "...parte de la premisa de la existencia de un sistema que pueda convertir fácilmente los requerimientos en código."
+          ],
+          "answer": 2,
+          "explanation": "(Sanchís Marco, 1998) (1.2.4. Modelo de transformación)"
         }
       ]
     },
@@ -576,6 +646,66 @@
           ],
           "answer": 0,
           "explanation": "2.1.1.2.4.3 Representatividad"
+        },
+        {
+          "question": "Para que una medición sea válida se debe asegurar su calidad, lo que obliga a ésta a tener una serie de características importantes (Fenton, 1991) (Fenton, y otros, 1996), una de ellas es",
+          "options": [
+            "Los resultados de las medidas deben tener integridad, debe ser posible, por tanto, demostrar la imparcialidad de la medición",
+            "Los resultados de las medidas deben tener integridad, esto es deben tener asociada una unidad de medida",
+            "Los resultados de las medidas deben tener integridad con respecto al proyecto lo que supone que se han probado en muchos proyectos anteriores"
+          ],
+          "answer": 0,
+          "explanation": "2.1.1.1 El proceso de la medición y sus características"
+        },
+        {
+          "question": "¿Cuál es el estándar ISO de los puntos Función de Albretch?",
+          "options": [
+            "ISO/IEC 20968:2002",
+            "ISO/IEC 19761:2011",
+            "No tien una norma específica"
+          ],
+          "answer": 2,
+          "explanation": "2.4.1.1 Historia de los Puntos Función"
+        },
+        {
+          "question": "Sea un conjunto formado por ficheros de código, sobre el cual se mide el número de errores, donde existen las relaciones \"más errors que\" y \"menos errores que\" y donde se define la operación \"aglutinar errores de dos o más ficheros\", ¿Que forma?",
+          "options": [
+            "Un sistema relacional empírico",
+            "Ninguno de ambos, poque sólo hay una operación",
+            "Un sistema relacional formal"
+          ],
+          "answer": 0,
+          "explanation": "2.1.1.2.1 Sistema relacional empírico"
+        },
+        {
+          "question": "Roberts (Roberts, 1979) propone una teoría de la significación para diferentes escalas de medición directa de propiedades simpleEn el caso de escalas regulares ofrece la siguiente definición:",
+          "options": [
+            "Una afirmación que incluye escalas nominales es significativa si y sólo si su valor (verdadero o falso) es un invariable bajo cualquier transformación",
+            "Una afirmación que incluye escalas (numéricas) es significativa si y sólo si su valor (verdadero o falso) es un invariable bajo transformaciones admisibles",
+            "Una afirmación que incluye escalas (numéricas) es significativa si y sólo si su valor (verdadero o falso) es un invariable bajo cualquier transformación"
+          ],
+          "answer": 1,
+          "explanation": "2.1.1.2.4.4 Significación"
+        },
+        {
+          "question": "De acuerdo a los pasos definidos para la estimación de una proyecto de software, ¿cuál de los siguientes no es un paso definido para dicha estimación?",
+          "options": [
+            "Estimar el coste de una unidad de tiempo de desarrollo.",
+            "Estimar el nivel de paralelismo en l aejecución de las actividades del proyectEs un paso que habrá que tener en cuenta en otro moemtno del proyecto",
+            "Estimar el esfuerzo en horas-hombre que toma implementar una unidad de tamaño."
+          ],
+          "answer": 1,
+          "explanation": "2.3 Introducción a los modelos de estimación de software (CEM)"
+        },
+        {
+          "question": "La medición directa...",
+          "options": [
+            "consiste en la obtención de un valor de una medida realizada directamente sobre el objeto a medir",
+            "consiste en obtener un valor a partir de varias medidas del objeto",
+            "no puede ser un métrica porque no tiene valor formal"
+          ],
+          "answer": 0,
+          "explanation": "2.1.1.2 Medición cuantitativa"
         }
       ]
     },
@@ -821,6 +951,66 @@
           ],
           "answer": 2,
           "explanation": "(PMBOK, 2013) 2.1.4.1 Processes and Procedures"
+        },
+        {
+          "question": "Hablando de estimación de duración de las actividades, ¿En qué consiste la Técnica Delphi?",
+          "options": [
+            "Es una téncica paramétrica de cálculo que consite en iteraciones de cáclulo que van afinando la duración de una actividad",
+            "Es un proceso iterativo de valoración por parte de expertos que, en cada iteración, valoran en función de los resultados de la anterior",
+            "Es un proceso basado en simulaciones de duración usando técnicas como por ejemplo Monte Carlo"
+          ],
+          "answer": 1,
+          "explanation": "3.7.1 Técnicas"
+        },
+        {
+          "question": "Hablando de dependencia entre las actividades, ¿Qué es la Dependencia Externa?",
+          "options": [
+            "Son actividades que incluyen relaciones a actividades externas no pertenecientes al proyecto",
+            "Son actividades que tienen resultados más allá del alcance del proyecto",
+            "Son actividades que no pertenecen al proyecto, auqnue se ejecuten al mismo tiempo"
+          ],
+          "answer": 0,
+          "explanation": "3.5.2.2 Dependencia entre las actividades"
+        },
+        {
+          "question": "Hablando de estimación de duración de las actividades, ¿En qué consisten las Técnicas de decisión por grupo?",
+          "options": [
+            "Este tipo de estimación forma grupos de actividades que son similares y las estima usando una técnica común",
+            "Es tipo de estimación consiste en agrupar los tiempos para que tareas similares se hagan en la misma franja de proyecto",
+            "Este tipo de estimación usa brainstormings o técnicas Delphi entre un grupo de expertos, para hacer la estimación"
+          ],
+          "answer": 2,
+          "explanation": "3.7.1 Técnicas"
+        },
+        {
+          "question": "¿Qué componentes tiene una EDT?",
+          "options": [
+            "WBS, OBS, PBS y RBS",
+            "ID, Título, Nombre, Precedentes y Sucesoras",
+            "Objetivos del proyecto, Componentes, Productos, Entregables, Paquetes de trabajo y Actividades"
+          ],
+          "answer": 2,
+          "explanation": "(PMAR, 2014)"
+        },
+        {
+          "question": "¿Qué es el WBS?",
+          "options": [
+            "Work Breakdown Structure, se utiliza para representar la estructura de descomposición del trabajo",
+            "Word Breakdown Structure, se usa para representar el diccionario de datos del proyecto",
+            "World Breakdown Structure, se usa par representar la estrcutura cultural de un proyecto globalizado"
+          ],
+          "answer": 0,
+          "explanation": "3.3.1 Formalismos"
+        },
+        {
+          "question": "¿Qué es el PBS?",
+          "options": [
+            "Partial Breakdown Structure, es una visión parcial de la estructura de trabajos del proyecto",
+            "Product Breakdown Structure,es una representación en forma de árbol de los productos que hay que crear para alcanzar el final del proyecto",
+            "Progress Breakdown Structure, es una representación del estado de avance en las actividades del proyecto"
+          ],
+          "answer": 1,
+          "explanation": "3.3.1 Formalismos"
         }
       ]
     },
@@ -1055,6 +1245,75 @@
           ],
           "answer": 0,
           "explanation": "(PMBOK 5.0) 9.4.3 Manage Project Team: Outputs"
+        },
+        {
+          "question": "¿En qué consiste la técnica de \"Negociación\" para la selección de miembros del equipo?",
+          "options": [
+            "Se deben negociar las condiciones de trabajo con los miembros del equipo antes de asignarlos a proyecto",
+            "Las asignaciones de personal a proyecto se hacen en entornos complejos y se debe negociar con los gestores funcionales, otros jefes de proyecto, organizaciones externas, etc.",
+            "Se negocia con el cliente la ubicación de los miembros del equipo durante el proyecto"
+          ],
+          "answer": 1,
+          "explanation": "4.3.3 Técnicas"
+        },
+        {
+          "question": "Algunos ejemplos de habilidades interpersonales son...",
+          "options": [
+            "Liderazgo, Influencia y Toma de decisiones eficiente",
+            "La escasez de recursos, las prioridades de programación y los estilos personales de trabajo"
+          ],
+          "answer": 0,
+          "explanation": "4.5.1 Técnicas"
+        },
+        {
+          "question": "¿Cuáles son los estados por los que pasa el desarrollo de un equipo de proyecto de acuerdo a la escalera de Tuckman?",
+          "options": [
+            "Disponibilidad, experiencia, capacidad, actitud y habilidades",
+            "Preasignación, negociación, adquisición y análisis de decisión",
+            "Formación, lucha, normalización, desarrollo y terminación"
+          ],
+          "answer": 2,
+          "explanation": "(PMBOK 5.0) 9.3.2.3 Team-Building Activities"
+        },
+        {
+          "question": "Para realizar el desarrollo del equipo de proyecto se parte de algunos elementos de entrada, ¿Cuál de los siguientes es uno de ellos?",
+          "options": [
+            "El calendario de recursos",
+            "Las normas básicas",
+            "Registro de interesados"
+          ],
+          "answer": 2,
+          "explanation": "(PMBOK 5.0) 9.3.1 Develop Project Team: Inputs"
+        },
+        {
+          "question": "En los entornos globales, ¿Qué debe potenciar el jefe de proyecto con relación al desarrollo del equipo de proyecto?",
+          "options": [
+            "Debe potenciar el estudio profundo de las culturas de los diferentes miembros del equipo para que ningún miembro de sienta desplazado",
+            "Debe incrementar la interrelación y las comunicaciones entre los miembros del equipo para mejorar la mutua confianza",
+            "Debe potenciar el estudio de idiomas por parte de los miembros del equipo de proyecto para que puedan comunciarse"
+          ],
+          "answer": 1,
+          "explanation": "4.4 Desarrollo del equipo de proyecto"
+        },
+        {
+          "question": "¿Cuál de las siguientes es una desventaja del aislamiento dentro de la dependencia de los miembros del equipo?",
+          "options": [
+            "Los miembros del equipo están en ubicaciones geográficas distantes y no tienen relación entre ellos",
+            "Los miembros del equipo no se conocen",
+            "Si las interfaces entre los componentes cambian, los tiempos de comunicación de estos cambios pueden ser largos y provocar sobrecostes"
+          ],
+          "answer": 2,
+          "explanation": "4.3.2 Dependencia de los miembros del equipo"
+        },
+        {
+          "question": "Dentro de los ámbitos principales de aportación de RRHH al proyecto, ¿Qué es el reclutamiento de nuevas personas?",
+          "options": [
+            "Se produce cuando se seleccionan personas por los departamentos de recursos humanos",
+            "Se produce cuando se necesitan personas con conocimientos no disponibles en los perfiles de que se dispone en el proyecto",
+            "Se produce cuando se asignan personas de otros departamentos"
+          ],
+          "answer": 1,
+          "explanation": "4.3.1 Ámbitos de aportación de RH"
         }
       ]
     },
@@ -1280,6 +1539,86 @@
           ],
           "answer": 1,
           "explanation": "PMBOK: 7.4.2.1 Earned Value Management"
+        },
+        {
+          "question": "Con respecto a la técnicas de Control de Costes, ¿Qué es el To-Complete Performance Index (TCPI)?",
+          "options": [
+            "Es una proporción entre el trabajo que queda por realizar y el dinero necesario para realizarlo",
+            "Es una proporción entre el trabajo que queda por realizar y el dinero presupuestado para realizarlo",
+            "Es una proporción entre trabajo que queda por realizar y el dinero que queda para realizar el trabajo"
+          ],
+          "answer": 2,
+          "explanation": "7.4.2.3 To-Complete Performance Index (TCPI)"
+        },
+        {
+          "question": "Dentro de las técnicas usadas para la estimación de costes, ¿En qué consiste el uso de aplicaciones para gestión de proyectos?",
+          "options": [
+            "En utilizar herramientas que ayuden en la estimación de algunas actividades del proyecto",
+            "En utilizar herramientas de simulación de proyecto para adelantarse a los problemas",
+            "En utilizar herramientas estadísticas que ofrezcan información sobre el proyecto"
+          ],
+          "answer": 0,
+          "explanation": "5.2.1 Técnicas"
+        },
+        {
+          "question": "¿Qué procesos incluye la Gestión de Costes del proyecto?",
+          "options": [
+            "El análisis, la financiación y la gestión de coste-calidad",
+            "Los relacionados con la creación de una línea base de desarrollo del proyecto",
+            "La planificación, estimación, presupuesto, financiación, gestión y control de los costes"
+          ],
+          "answer": 2,
+          "explanation": "5 Gestión de costes"
+        },
+        {
+          "question": "Durante la ejecución del proyecto ¿qué son los Requisitos de financiación?",
+          "options": [
+            "Es la previsión de transferencia de fondos al proyecto",
+            "Es el valor de los créditos necesarios para el proyecto",
+            "Es el coste que va generando el proyecto"
+          ],
+          "answer": 0,
+          "explanation": "5.4.1 Línea base de costes"
+        },
+        {
+          "question": "¿Qué es el Plan de gestión de costes?",
+          "options": [
+            "Es un proceso de evaluación de los costes de las actividades del proyecto",
+            "Es el proceso que establece las políticas, procedimientos y documentación para la planificación, la administración, los gastos y el control de costes del proyecto",
+            "Es el proceso que general el presupuesto del proyecto"
+          ],
+          "answer": 1,
+          "explanation": "5.1 Plan de gestión de costes"
+        },
+        {
+          "question": "Con respecto a la técnica de Predicción dentro del Control de Costes, ¿Cómo se calcula el EAC considerando el ratio de presupuesto?",
+          "options": [
+            "EAC = BAC / CPI",
+            "EAC = AC + (BAC – EV)",
+            "EAC = AC + [(BAC – EV) / (CPI × SPI)]"
+          ],
+          "answer": 1,
+          "explanation": "7.4.2.2 Forecasting"
+        },
+        {
+          "question": "Con respecto a la técnica de Predicción dentro del Control de Costes, ¿Qué es el BAC?",
+          "options": [
+            "Es la estimación para la terminación de las actividades del proyecto, con los datos actuales",
+            "Es el beneficio de las actividades con coste, con los datos actuales",
+            "Es la estimación del presupuesto final del proyecto, con los datos actuales"
+          ],
+          "answer": 2,
+          "explanation": "7.4.2.2 Forecasting"
+        },
+        {
+          "question": "Dentro de las técnicas del Plan de gestión de costes, ¿En qué consisten las Técnicas analíticas?",
+          "options": [
+            "Son técnicas relacionadas con la gestión del coste de los recursos humanos",
+            "En analizar los costes desde el punto de vista de la empresa que va a desarrollar el software",
+            "Permiten elegir, entre otras, las estrategias de financiación, el modo de financiar los recursos necesarios y la viabilidad del proyecto"
+          ],
+          "answer": 2,
+          "explanation": "5.1.1 Técnicas"
         }
       ]
     },
@@ -1495,6 +1834,76 @@
           ],
           "answer": 1,
           "explanation": "6.6.5.1 Técnicas (Análisis coste-beneficio)"
+        },
+        {
+          "question": "¿Qué es la Matriz de Probabilidad e Impacto?",
+          "options": [
+            "La Matriz de Probabilidad e impacto define los valores usados para priorizar los riesgos de acuerdo a la probabilidad de ocurrencia y a su impacto en el proyecto",
+            "La Matriz de Probabilidad e impacto define los valores usados para calcular el impacto de los riesgos de mayor probabilidad en el proyecto",
+            "La Matriz de Probabilidad e impacto define los valores usados para priorizar los riesgos de mayor probabilidad de ocurrencia en el proyecto en función de su impacto"
+          ],
+          "answer": 0,
+          "explanation": "6.6.1 Planificar la Gestión de Riesgos (Matriz de probabilidad e impacto)"
+        },
+        {
+          "question": "En el contexto de las técnicas de Resolución de proyectos, ¿En qué consisten los Benchmarks?",
+          "options": [
+            "En definir escenarios y se valoran estos escenarios",
+            "En valoraciones de elementos relacionados con las fuentes de riesgo",
+            "En crear prototipos, de manera que pueda evaluarse su viabilidad en términos de coste y riesgo Esto son los prototipos"
+          ],
+          "answer": 2,
+          "explanation": "6.6.6.1 Técnicas (Benchmarks)"
+        },
+        {
+          "question": "¿Cuál de las siguientes son algunas de las técnicas usadas en la Planificación de la gestión de cada riesgo?",
+          "options": [
+            "Prototipos y simulaciones",
+            "Estrategias para Riesgos Negativos o Amenazas y Estrategias para Riesgos Positivos u Oportunidades",
+            "Análisis coste-beneficio y Análisis de la misión"
+          ],
+          "answer": 1,
+          "explanation": "6.6.5.1 Técnicas"
+        },
+        {
+          "question": "¿Cuál de las siguientes es verdadera?",
+          "options": [
+            "Los riesgos positivos se llaman fortalezas y los negativos debilidades",
+            "Los riesgos positivos se llaman aceptaciones y los negativos evitaciones",
+            "Los riesgos positivos se llaman oportunidades y los negativos amenzas"
+          ],
+          "answer": 2,
+          "explanation": "6.1 Introducción y Definición de Riesgo"
+        },
+        {
+          "question": "¿En qué consiste la \"Gestión de Riesgo\" como producto de la fase de Planificación de la Gestión de cada Riesgo?",
+          "options": [
+            "Define la política de la organización y del proyecto con respecto a los riesgos",
+            "Define la valoración y priorización del riesgo",
+            "Define la estrategia tomada para afrontar el riesgo"
+          ],
+          "answer": 2,
+          "explanation": "6.6.5.2 Salidas"
+        },
+        {
+          "question": "En el contexto de las técnicas de Resolución de proyectos, ¿En qué consisten los Prototipos?",
+          "options": [
+            "Los prototipos permiten hacer simulaciones sobre escenarios y valorarlos",
+            "Se crean prototipos, de manera que pueda evaluarse su viabilidad en términos de coste y riesgo",
+            "Se utilizan para valoraciones de elementos relacionados con las fuentes de riesgo"
+          ],
+          "answer": 1,
+          "explanation": "6.6.6.1 Técnicas (Prototipos)"
+        },
+        {
+          "question": "En el PMBOK se definen dos fases de análisis, ¿cuáles?",
+          "options": [
+            "Análisis de costes de riesgos y análisis de beneficios",
+            "Análisis cualitativo y análisis cuentitativo",
+            "Análisis proactivo y análisis reactivo"
+          ],
+          "answer": 1,
+          "explanation": "6.6.3 Análisis de Riesgos"
         }
       ]
     },
@@ -1690,6 +2099,56 @@
           ],
           "answer": 1,
           "explanation": "7.2 Evolución de la gestión de la calidad"
+        },
+        {
+          "question": "En la ingeniería del software se deben seguir prácticas adecuadas de ingeniería para controlar los errores durante el desarrollo, ¿Cuáles?",
+          "options": [
+            "Prevención, Detección y Corrección",
+            "Calidad Necesaria, Calidad Programada, y Calidad Realizada",
+            "Calidad de diseño, Calidad de conformidad y Disponibilidad"
+          ],
+          "answer": 0,
+          "explanation": "7.1.2 Aseguramiento de la Calidad del Software"
+        },
+        {
+          "question": "¿Qué es la Calidad Programada?",
+          "options": [
+            "Lo que quiere el cliente",
+            "Lo que se ha hecho realmente",
+            "Lo que se ha especificado hacer"
+          ],
+          "answer": 2,
+          "explanation": "7.1.1 Calidad desde el punto de vista del receptor"
+        },
+        {
+          "question": "¿Qué es la prevención?",
+          "options": [
+            "Evitar que los errores lleguen a manos del cliente",
+            "Evitar que haya errores en el proceso",
+            "Evitar que los clientes sepan que ha habido errores"
+          ],
+          "answer": 1,
+          "explanation": "7.4.3 Control de calidad"
+        },
+        {
+          "question": "En la ingeniería del software se deben seguir prácticas adecuadas de ingeniería para controlar los errores durante el desarrollEstas prácticas se clasifican en dos tipos de actividaes, ¿Cuáles?",
+          "options": [
+            "Detección y corrección",
+            "Proyecto y Proceso",
+            "Constructivas y Analíticas"
+          ],
+          "answer": 2,
+          "explanation": "7.1.2 Aseguramiento de la Calidad del Software"
+        },
+        {
+          "question": "La implantación de un modelo o estándar de calidad en una empresa de software tiene diferentes niveles de implantación, ¿Cuales?",
+          "options": [
+            "Inicial, Repetible, Definido, Administrado y Optimizado",
+            "Impredecible, Repetible, Proactivo, Controlado y Mejora continua",
+            "Organización, Proceso, Software y Datos"
+          ],
+          "answer": 2,
+          "explanation": "7.3 Modelos y Estándares de Calidad"
         }
       ]
     },
@@ -1916,6 +2375,36 @@
           ],
           "answer": 2,
           "explanation": "8.3 Gestionar las Comunicaciones"
+        },
+        {
+          "question": "¿Cuáles son las principales técnicas de búsqueda de aspectos legales y normativos?",
+          "options": [
+            "Codificación, Juicio de expertos, Herramientas, Estudios con entidad propia, Normativa de la Organización y Mejora de procesos",
+            "Integración, Juicio de expertos, Consulta, Estudios con entidad propia, Normativa de la Organización y Consenso",
+            "Integración, Juicio de expertos, Herramientas, Estudios con entidad propia, Normativa de la Organización y Consulta"
+          ],
+          "answer": 0,
+          "explanation": "8.5.4.1 Técnicas de búsqueda"
+        },
+        {
+          "question": "La norma propone la elaboración de una serie de documentos, ¿Son todos obligatorios?",
+          "options": [
+            "Si",
+            "No, pero hay que justificar los que no aparezcan",
+            "No"
+          ],
+          "answer": -1,
+          "explanation": "10.3 Requisitos para la documentación del proyecto"
+        },
+        {
+          "question": "Dentro de las técnicas de búsqueda de aspectos legales y normativos, ¿En qué consisten los Estudios con entidad propia?",
+          "options": [
+            "Consiste en que sea la propia organización quien haga estudios de normativa y no externalice estos procesos Habitualmente es justo lo contrariHacer estudios que integren al dominio del problema requiere habitualmente de empresas especializadas diferentes de la propia organización.",
+            "Consiste en hacer una consultoría de normativa TIC que sea de aplicación a la tecnología usada en el proyecto",
+            "Consiste en consultar a expertos del dominio de aplicación para ver qué aspectos del proyecto pueden estar afectados por alguna norma o ley"
+          ],
+          "answer": 0,
+          "explanation": "8.5.4.1 Técnicas de búsqueda / Estudios con entidad propia"
         }
       ]
     },
