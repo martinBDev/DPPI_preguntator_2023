@@ -883,26 +883,6 @@
       "topic": "Tema 3: Organización de los recursos del proyecto",
       "questions": [
         {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
           "question": "Hablando de estimación de duración de las actividades, ¿En qué consiste la Estimación de tres puntos?",
           "options": [
             "La  estimación por tres puntos (o tres valores) se basa en hacer un cálculo  de tres tipos de estimación de duración: más probable, optimista y  pesimista",
@@ -1268,26 +1248,6 @@
       "topic": "Tema 4: Gestión de recursos humanos",
       "questions": [
         {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
           "question": "¿De quién es la responsabilidad de mejorar las condiciones de trabajo del equipo?",
           "options": [
             "De la empresa que tiene contratados a sus miembros",
@@ -1639,26 +1599,6 @@
     {
       "topic": "Tema 5: Gestión de costes",
       "questions": [
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
         {
           "question": "Con  respecto a la técnica de Gestión del Valor Acumulado dentro del Control  de Costes del proyecto, ¿Qué es la Variación del Coste (CV)?",
           "options": [
@@ -2055,26 +1995,6 @@
       "topic": "Tema 6: Gestión de riesgos",
       "questions": [
         {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
           "question": "¿Qué son la categorías de riesgo?",
           "options": [
             "Las Categorías de Riesgo proporcionan una estructura de definición de los riesgos para su posterior priorización",
@@ -2460,26 +2380,6 @@
       "topic": "Tema 7: Gestión de calidad",
       "questions": [
         {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
           "question": "¿Qué son los Estándares de Calidad?",
           "options": [
             "Son  aquellos que permiten definir un conjunto de criterios de desarrollo  que guían la forma en que se aplica la Ingeniería del Software",
@@ -2744,26 +2644,6 @@
     {
       "topic": "Tema 8: Documentación y comunicación",
       "questions": [
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
         {
           "question": "¿Cuáles son las técnicas de Gestión de las Comunicaciones?",
           "options": [
@@ -3080,26 +2960,6 @@
     {
       "topic": "Tema 9: Seguimiento y control",
       "questions": [
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
-        {
-          "question": "Pregunta 1 del tema 2",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "answer": 2,
-          "explanation": "La opción b es la correcta porque..."
-        },
         {
           "question": "¿Cuál de los siguientes NO es un beneficio propio de la gestión del cambio?",
           "options": [
