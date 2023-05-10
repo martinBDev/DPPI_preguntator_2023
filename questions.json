@@ -661,6 +661,26 @@
           ],
           "answer": 0,
           "explanation": "1.1.3.6 Proceso"
+        },
+        {
+          "question": "¿En qué consiste la Retrospectiva del Sprint en Scrum?",
+          "options": [
+            "La  retrospectiva es una inspección y adaptación del proceso y del entornSe trata de que equipo discuta qué está funcionando bien y mal para  acordar cambios.",
+            "La  retrospectiva en una inspección del producto hasta el momento actual  para identificar tareas que no han podido ser terminadas en los Sprints  anteriores.",
+            "Es una reunión para identificar las debilidades del equipo."
+          ],
+          "answer": 0,
+          "explanation": "1.5.2.4.9 Retrospectiva del Sprint"
+        },
+        {
+          "question": "¿Qué significa que el objetivo de proyecto sea único?",
+          "options": [
+            "Significa que debe ser realizado un unico equipo de trabajo.",
+            "Significa que el proyecto debe realizar únicamente software o hardware, pero no una combinación de ambos.",
+            "Significa que el producto o servicio es diferente de alguna forma clara de todos los productos o servicios similares."
+          ],
+          "answer": 2,
+          "explanation": "1.1.1 Concepto de Proyecto"
         }
       ]
     },
@@ -1146,6 +1166,26 @@
           ],
           "answer": 2,
           "explanation": "2.1.1.1 El proceso de la medición y sus características"
+        },
+        {
+          "question": "La Medición cuantitiva es...",
+          "options": [
+            "la que se realiza sobre un parámetro particular de un atributo de una clase y cuya observación se realiza de modo directo",
+            "la que se realiza sobre un parámetro particular de un atributo de una clase y cuya observación se realiza de modo indirecto",
+            "la  que se realiza sobre un parámetro particular de un atributo de una  clase y cuya observación se realiza indiferentemente de modo directo e  indirecto"
+          ],
+          "answer": 0,
+          "explanation": "2.1.1.2 Medición cuantitativa"
+        },
+        {
+          "question": "¿Qué dos teorías se manejas para definir la formalidad de una medición?",
+          "options": [
+            "La teoría de la medida y la teoría de la medición",
+            "La teeoría de la medición y las métricas",
+            "La teoría de la medición y la teoría de los número s reales"
+          ],
+          "answer": 1,
+          "explanation": "2.1.3.1 Introducción (2.1.3 Medición y Métricas)"
         }
       ]
     },
@@ -1561,6 +1601,16 @@
           ],
           "answer": 1,
           "explanation": "3.5 Actividades y Tareas"
+        },
+        {
+          "question": "¿Cómo se comportan los stakeholders respecto a la responsabilidad y autoridad en le proyecto?",
+          "options": [
+            "Tienen diferentes niveles de responsabilidad y autoridad que pueden varial a lo largo del proyecto",
+            "Tiene autoridad, pero no responsabilidad en el proyecto",
+            "Tienen un papel bien definido con un nivel de responsabiliad y autoridad perfectamente acotado durante todo el proeycto"
+          ],
+          "answer": 0,
+          "explanation": "(PMBOK, 2013) 2.2.1 Project Stakeholders"
         }
       ]
     },
@@ -2013,6 +2063,36 @@
           ],
           "answer": 0,
           "explanation": "4.3.2 Dependencia de los miembros del equipo"
+        },
+        {
+          "question": "Dentro  de las técnicas para el desarrollo del equipo de proyecto, ¿En qué  consiste la de \"Actividades de mejora de trabajo en equipo\"?",
+          "options": [
+            "Son actividades orientadas a que mejoren todos los aspectos del equipo que lo hacen ser más eficiente",
+            "Son actividades basadas en cursillos técnicos sobre aspectos tecnológicos necesarios para el proyecto",
+            "Son actividades de la selección del equipo de proyecto que consisten en la búsqueda del equipo más eficiente"
+          ],
+          "answer": 0,
+          "explanation": "4.4.1 Técnicas"
+        },
+        {
+          "question": "¿En qué consiste la técnica de \"Análisis de decisión multicriterio\" para la selección de miembros del equipo?",
+          "options": [
+            "Consiste en establecer una serie de criterios comunes imprescindibles para los miembros del equipo de trabajo",
+            "Consiste  en utilizar un método de análisis que permita hacer la mejor selección  de equipo en función de las características más deseadas en el proyecto",
+            "Consiste en evaluar los criterios que afectan al proyecto antes de seleccionar al equipo de trabajo"
+          ],
+          "answer": 1,
+          "explanation": "4.3.3 Técnicas"
+        },
+        {
+          "question": "¿En qué consiste la técnica de \"Preasignación\" para la selección de miembros del equipo?",
+          "options": [
+            "Se asignan personas por adelantado a un proyecto atendiendo los requisitos de su perfil tecnológico o competencia profesional",
+            "El miembro del equipo es estable de otros proyecto anteriores y no hace falta asignar nuevos miembros",
+            "El jefe de proyecto asigna los miembros sin intervención de otros jefes de proyecto"
+          ],
+          "answer": 0,
+          "explanation": "4.3.3 Técnicas"
         }
       ]
     },
@@ -2548,6 +2628,26 @@
           ],
           "answer": 0,
           "explanation": "5.1.1 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas usadas para la estimación de costes, ¿En qué consiste el Juicio de Expertos?",
+          "options": [
+            "Se basa en aplicar técnicas Delphi usando expertos",
+            "Se basa en información histórica tabulada por expertos",
+            "Se basa en la opinión de expertos, basada en información histórica, para producir estimaciones"
+          ],
+          "answer": 2,
+          "explanation": "5.2.1 Técnicas"
+        },
+        {
+          "question": "Hablando de las técnicas para la elaboración del presupuesto, ¿En qué consiste el Análisis de reservas?",
+          "options": [
+            "En calcular los costes de las reservas para corregir los efectos de los riesgos",
+            "En agregar al proyecto las reservas para contingencias y para la gestión del proyecto",
+            "En establecer las políticas para la gestión de las reservas del proyecto"
+          ],
+          "answer": 1,
+          "explanation": "5.3.1 Técnicas"
         }
       ]
     },
@@ -3103,6 +3203,26 @@
           ],
           "answer": 1,
           "explanation": "6.6.6.1 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas usadas en el Análisis de Riesgos, ¿Cómo se hace la Evaluación de la Probabilidad?",
+          "options": [
+            "Se hace multiplicando el alcance por el impacto",
+            "Se hace de acuerdo a una escala de rangos que se definen en la matriz de probabilidad e impacto",
+            "Se hace contando el número de veces que se produce el riesgo durante el proyecto"
+          ],
+          "answer": 1,
+          "explanation": "6.6.3.1 Técnicas (Evaluación de la Probabilidad e Impacto de los riesgos)"
+        },
+        {
+          "question": "¿En qué consiste la Planificación de la gestión de cada riesgo?",
+          "options": [
+            "En generar un plan para tratar cada riesgo de importancia alta del proyecto",
+            "En definir las estrategias frente al riesgo",
+            "En generar las políticas de gestión de riesgos"
+          ],
+          "answer": 0,
+          "explanation": "6.6.5 Planificación de la gestión de cada riesgo"
         }
       ]
     },
@@ -3815,6 +3935,26 @@
           ],
           "answer": 2,
           "explanation": "8.5.2 Tipos de normas"
+        },
+        {
+          "question": "Dentro de las técnicas de búsqueda de aspectos legales y normativos, ¿En qué consiste el Juicio de expertos?",
+          "options": [
+            "Consiste en ayudarse de personas con experiencia para identificar normativa o legislación que pueda afectar al proyecto",
+            "Consiste en preguntar a expertos en normas para que nos aconsejen cómo usarlas",
+            "Consiste en usar expertos en vez de normas, ya que los expertos tienen experiencia directa"
+          ],
+          "answer": 0,
+          "explanation": "8.5.4.1 Técnicas de búsqueda / Juicio de expertos"
+        },
+        {
+          "question": "La  Sensibilidad y confidencialidad de la información es un factor de  decisión, ¿en qué técnica de planifiación de la gestiñon de las  comunicaciones influye?",
+          "options": [
+            "Modelos de comunicación",
+            "Métodos de comunicación",
+            "Tecnología de comunicación"
+          ],
+          "answer": 2,
+          "explanation": "8.2.1 Técnicas/Tecnología de comunicación"
         }
       ]
     },
@@ -4240,6 +4380,46 @@
           ],
           "answer": 1,
           "explanation": "9.9.2 Formación"
+        },
+        {
+          "question": "Según Furtel (Furtel y otros, 2005) , ¿Cuáles son los elementos básicos del control del alcance?",
+          "options": [
+            "Un  formato de identificación y nomenclatura, un proceso de gestión de  cambios, una manera de informar del estado de las variables del proceso y  un sistema de auditoría o revisión periódica",
+            "Un  formato de identificación y nomenclatura, un proceso de gestión de  costes, una manera de informar del estado de avance del proyecto y un  sistema de auditoría o revisión periódica",
+            "Un  formato de documentación, un proceso de gestión de costes, una manera  de informar del estado de las variables del proceso y un sistema de  auditoría o revisión periódica"
+          ],
+          "answer": 0,
+          "explanation": "9.3 Control del alcance"
+        },
+        {
+          "question": "¿Cuál de las siguientes NO es una actividad propia de la gestión del cambio?",
+          "options": [
+            "Programar actividades de formación de los usuarios finales",
+            "Planear contingencias para el caso de rechazo del usuario final",
+            "Facilitar la implicación del usuario final en la definición del nuevo sistema"
+          ],
+          "answer": 1,
+          "explanation": "9.9.1  Gestión del cambiNo es una actividad propia de la gestión del  cambio, ya que lo implica es, precisamente, no haber tenido en cuenta  esta gestión o, en otro caso, prever su fracaso"
+        },
+        {
+          "question": "¿Cuándo termina realmente un proyecto?",
+          "options": [
+            "Cuando se han completado las actividades posteriores a su terminación",
+            "Cuando se ha cobrado el proyecto",
+            "Cuando éste se ha entregado al cliente"
+          ],
+          "answer": 0,
+          "explanation": "9.10.3 Actividades después de la terminación del proyecto"
+        },
+        {
+          "question": "En qué consiste el Control de costes",
+          "options": [
+            "En  realizar un seguimiento de los costes reales para detectar las  desviaciones y tomar las acciones correctoras que permitan corregir  dichas desviaciones",
+            "En no consumir todas las reservas dinerarias previstas para el proyecto",
+            "En mantener los costes por debajo de lo presupuestado inicialmente"
+          ],
+          "answer": 0,
+          "explanation": "9.5 Control de costes"
         }
       ]
     }
