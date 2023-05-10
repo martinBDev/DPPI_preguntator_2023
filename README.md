@@ -17,3 +17,4 @@ App de tests para preparar el examen de DPPI
 - Alejandro Alvarez Solís
 - Paula Suarez Prieto
 - Alvaro Rodriguez Gonzalez
+- Daniel Pascual

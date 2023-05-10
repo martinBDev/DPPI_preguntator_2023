@@ -751,6 +751,16 @@
         ],
         "answer": 2,
         "explanation": "1.1.3.3 Fase\nUna fase es un conjunto de actividades que producen un entregable importante en el proyecto"
+      },
+      {
+        "question": "Los modelos ágiles:",
+        "options": [
+          "Están más orientados a los procesos que a las personas",
+          "Están más orientados a las personas que a los procesos",
+          "Están orientados exclusivamente a los objetivos del proyecto"
+        ],
+        "answer": 1,
+        "explanation": "1.5.2.3.1 Métodos Ágiles\nEstán más orientados a las personas que a los procesos"
       }
     ]
   },
@@ -2543,6 +2553,26 @@
         ],
         "answer": 1,
         "explanation": "(PMBOK 5.0) 9.1.3.1 Human Resource Management Plan\nSon calendarios que identifican los días de trabajo en que cada recurso están disponibles"
+      },
+      {
+        "question": "¿Cuáles de los siguientes son factores que se deben estudiar a la hora de crear un equpo de proyecto y que forman su perfil profesional y personal?",
+        "options": [
+          "Márketing y conocimientos de macroeconomía",
+          "Actitudes requeridas en el trabajo y relación con otros perfiles",
+          "Conocimientos sobre gestión de proyectos y sobre estructura de equipos de proyecto"
+        ],
+        "answer": 1,
+        "explanation": "4.3 Selección del equipo de proyecto y asignación de roles\nActitudes requeridas en el trabajo y relación con otros perfiles"
+      },
+      {
+        "question": "Dentro de la Gestión del equipo de proyecto y dentro las técnicas de \"Habilidades personales\", la \"Toma de decisiones eficiente\", ¿En qué consiste?",
+        "options": [
+          "Es la capacidad de decidir parar el proyecto si no va bien",
+          "Es la capacidad para negociar e influir en la organización y en el equipo de gestión de proyectos",
+          "Es la autoridad que se le concede para tomar decisiones arriesgadas"
+        ],
+        "answer": 1,
+        "explanation": "(PMBOK 5.0) 9.4.2.4 Interpersonal Skills\nEs la capacidad para negociar e influir en la organización y en el equipo de gestión de proyectos"
       }
     ]
   },
@@ -3208,6 +3238,16 @@
         ],
         "answer": 0,
         "explanation": "PMBOK: 7.4.2.1 Earned Value Management\nEs una medida de la eficiencia del coste del trabajo desarrollado con respecto al coste en un plazo. CPI=EV/AC"
+      },
+      {
+        "question": "Dentro de las técnicas usadas para la estimación de costes, ¿En qué consiste la Estimación de tres puntos?",
+        "options": [
+          "Se basa en el cálculo de tres valores (optimista, medio y pesimista) que se evalúa de acuerdo a métodos estadísticos",
+          "Se basa en el cálculo de tres valores (optimista, medio y pesimista)",
+          "Se basa en el cálculo de tres valores (optimista, medio y pesimista)"
+        ],
+        "answer": 0,
+        "explanation": "5.2.1 Técnicas\nSe basa en el cálculo de tres valores (optimista, medio y pesimista) que se evalúa de acuerdo a métodos estadísticos"
       }
     ]
   },
@@ -5722,6 +5762,36 @@
         ],
         "answer": 0,
         "explanation": "9.9.1 Gestión del cambio\nEn realizar acciones orientadas a facilitar el paso de los usuarios al nuevo sistema"
+      },
+      {
+        "question": "Las técnicas usuales para controlar y comunicar los avances del proyecto permiten informar a los diferentes stakeholders sobre el estado del proyecto. Dentro de ellas, ¿Qué son los informes de avance del proyecto?",
+        "options": [
+          "Son informes que presentan el estado de los costes en un momento del proyecto",
+          "Son informes basados en la evaluación del desempeño y en técnicas como la Earned Value Management",
+          "Son informes que informan del estado de avance de las actividades del proyecto"
+        ],
+        "answer": 1,
+        "explanation": "9.4 Control de plazos\nSon informes basados en la evaluación del desempeño y en técnicas como la Earned Value Management"
+      },
+      {
+        "question": "Según Meredith y Mantel, ¿En qué consiste la terminación por Adición?",
+        "options": [
+          "EL proyecto se añade a la lista de proyectos termiandos",
+          "Se han añadido tantas cosas al proyecto que se decide ponerle fin",
+          "El proyecto termina con éxito y el equipo de proyecto se añade a la explotación del proyecto"
+        ],
+        "answer": 2,
+        "explanation": "9.10.2 Tipos de final de proyecto\nEl proyecto termina con éxito y el equipo de proyecto se añade a la explotación del proyecto"
+      },
+      {
+        "question": "¿en qué consiste el Crashing and Fast Tracking?",
+        "options": [
+          "Es un proceso provocado por una saturación de trabajo en el proyecto y las tareas siguientes son atropelladas por las anteriores que no han terminado",
+          "Es el momento en que el proyecto ya no es viable y se estrella (crashing) obligando a abandonarlo",
+          "En replanificar el proyecto con el objetivo de acelerarlo para que se pueda terminar en una fecha anterior a la prevista"
+        ],
+        "answer": 2,
+        "explanation": "9.4 Control de plazos\nEn replanificar el proyecto con el objetivo de acelerarlo para que se pueda terminar en una fecha anterior a la prevista"
       }
     ]
   }
