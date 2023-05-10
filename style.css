@@ -19,6 +19,9 @@ button {
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
+    position: fixed; /* Añade la posición fija */
+    right: 20px; /* Ajusta la distancia desde la derecha de la pantalla */
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior de la pantalla */
 }
 
 label {
