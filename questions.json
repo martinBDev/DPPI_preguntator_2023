@@ -701,6 +701,26 @@
         ],
         "answer": 1,
         "explanation": "1.5.1.1 El modelo en cascada\nNo refleja realmente el proceso de desarrollo del software, ya que casi nunca se cierra totalmente una fase antes de comenzar la siguiente"
+      },
+      {
+        "question": "Para RUP la vida de un sistema se divide en ciclos, ¿en qué fases se divide cada ciclo?",
+        "options": [
+          "Inicio, diseño, elaboración y transición",
+          "Los ciclos no se dividen en fases",
+          "Inicio, elaboración, construcción y transición"
+        ],
+        "answer": 2,
+        "explanation": "1.5.2.2.3 Los ciclos\nInicio, elaboración, construcción y transición"
+      },
+      {
+        "question": "Señale la respuesta correcta:",
+        "options": [
+          "En el modelo de prototipos los modelos se validan por el usuario",
+          "Los modelos ágiles son más orientados a los procesos que a las personas",
+          "El modelo en cascada refleja fielmente el proceso de desarrollo del software"
+        ],
+        "answer": 0,
+        "explanation": "1.5.1.2 El modelo de prototipos\nEn el modelo de prototipos los modelos se validan por el usuario"
       }
     ]
   },
@@ -1306,6 +1326,16 @@
         ],
         "answer": 0,
         "explanation": "2.1.1.2.4.4 Significación\nEl desarrollo del proyecto durará tres meses"
+      },
+      {
+        "question": "¿Cuál de los siguientes es un \"Sistema de medición orientada al dominio del sujeto\"?",
+        "options": [
+          "Las métricas usadas en Scrum",
+          "El Sistema Internacional de Medidas",
+          "Las mediciones del sistema de estimación CoCoMo"
+        ],
+        "answer": 1,
+        "explanation": "2.1.1.4 Medición orientada al dominio del sujeto\nEl Sistema Internacional de Medidas"
       }
     ]
   },
@@ -1821,6 +1851,16 @@
         ],
         "answer": 0,
         "explanation": "3.6 Estimación de recursos\nEs la opinión de personas que han tenido experiencia previa con actividades simialres"
+      },
+      {
+        "question": "Hablando de actividades, ¿qué significa la precedencia FF?",
+        "options": [
+          "Finish-to-Finish, es una relación de precedencia que indica que una actividad no puede terminar hasta que lo haya hecho otra concreta",
+          "Finish-to-Finish, es una relación de precedencia que indica que varias actividades tienen que terminar juntas",
+          "Finish-to-Finish, es una relación de precedencia que indica que una actividad no puede terminar hasta que otra concreta haya comenzado"
+        ],
+        "answer": 0,
+        "explanation": "3.5.2.1 Precedencias de las actividades\nFinish-to-Finish, es una relación de precedencia que indica que una actividad no puede terminar hasta que lo haya hecho otra concreta"
       }
     ]
   },
@@ -2423,6 +2463,26 @@
         ],
         "answer": 1,
         "explanation": "4.3.2 Dependencia de los miembros del equipo\nSi los proyectos son muy grandes la coordinación de las decisiones pueden ser complejas"
+      },
+      {
+        "question": "¿Qué es una matriz de responsabilidad?",
+        "options": [
+          "Es un método de asignación de responsabilidades en un proyecto",
+          "Es una técnica para representar los recursos asignados a cada actividad en un proyecto",
+          "Es una manera de representación jerárquica de la estructura de un proyecto"
+        ],
+        "answer": 1,
+        "explanation": "4.2.1.1 Organigramas y descripciones de puestos de trabajo\nEs una técnica para representar los recursos asignados a cada actividad en un proyecto"
+      },
+      {
+        "question": "Dentro del Plan de Recursos Humanos, ¿Qué son los calendarios de recursos?",
+        "options": [
+          "Son calendarios de asignación de trabajos a recursos",
+          "Son calendarios que identifican los días de trabajo en que cada recurso están disponibles",
+          "Son calendarios de contratación de recursos necesarios para el proyecto"
+        ],
+        "answer": 1,
+        "explanation": "(PMBOK 5.0) 9.1.3.1 Human Resource Management Plan\nSon calendarios que identifican los días de trabajo en que cada recurso están disponibles"
       }
     ]
   },
@@ -3058,6 +3118,26 @@
         ],
         "answer": 0,
         "explanation": "5.1.1 Técnicas\nEs una razón financiera que compara el beneficio o la utilidad obtenida de un proyecto en relación a la inversión realizada"
+      },
+      {
+        "question": "¿Qué describe el Plan de gestión de costes del proyecto)",
+        "options": [
+          "Describe cómo se planificarán, controlarán y estructurarán los costes del proyecto",
+          "Permite la actualización de costes del proyecto en ejecución",
+          "Describe los costes de cada actividad del proyecto"
+        ],
+        "answer": 0,
+        "explanation": "5.1.2 Resultados del Plan de Gestión de costes\nDescribe cómo se planificarán, controlarán y estructurarán los costes del proyecto"
+      },
+      {
+        "question": "Hablando de las técnicas para la elaboración del presupuesto, ¿En qué consiste el Juicio de expertos?",
+        "options": [
+          "Ayudan a eliminar del presupuesto reservas innecesarias",
+          "Ayudan a ajustar el coste a otros proyectos similares",
+          "Ayudan a establecer otros costes asociados a otras unidades dentro de la organización"
+        ],
+        "answer": 2,
+        "explanation": "5.3.1 Técnicas\nAyudan a establecer otros costes asociados a otras unidades dentro de la organización"
       }
     ]
   },
@@ -3713,6 +3793,26 @@
         ],
         "answer": 1,
         "explanation": "6.6.5.1 Técnicas (Planes de Contingencia)\nEn realizar un plan ad-hoc, identificando los eventos y las características del riesgo para definir medidas que se ejecutarán sólo en determinadas circunstancias"
+      },
+      {
+        "question": "Dentro de las técnicas de Identificación de riesgos, ¿En qué consiste el análisis de supuestos?",
+        "options": [
+          "En tomar una serie de hipótesis como base para concebir y desarrollar los riesgos",
+          "En presuponer (hipótesis) que todos los riesgos del proyecto están identificados",
+          "En suponer riesgos y verificar que son del proyecto"
+        ],
+        "answer": 0,
+        "explanation": "6.6.2.1 Técnicas (Análisis de supuestos)\nEn tomar una serie de hipótesis como base para concebir y desarrollar los riesgos"
+      },
+      {
+        "question": "La metodología de Boehm tiene seis pasos",
+        "options": [
+          "Identificación, Análisis, Priorización, Planificación de la gestión, Resolución y Monitorización",
+          "Planificación de la Gestión, Identificación, Análisis cualitativo, Análisis cuantitativo, Planificación de la respuesta y Monitorización",
+          "Valoración, Priorización, Análisis Cuantitativo, Planificación de la respuesta, Monitorización y Control"
+        ],
+        "answer": 0,
+        "explanation": "6.5.1 Metodología de Boehm\nIdentificación, Análisis, Priorización, Planificación de la gestión, Resolución y Monitorización"
       }
     ]
   },
@@ -4258,6 +4358,26 @@
         ],
         "answer": 0,
         "explanation": "7.2 Evolución de la gestión de la calidad\nIntegración de todos los procesos"
+      },
+      {
+        "question": "Dentro de los parámetros que determinan la adecuación al uso, ¿Qué es la calidad de diseño?",
+        "options": [
+          "Es un concepto de calidad basado en el producto o servicio cuyo objetivo es cumplir un conjunto de características medibles establecidas por el fabricante para satisfacer al cliente",
+          "Es un aspecto de la calidad tiene que ver con el desempeño y la vida útil del producto",
+          "Es la parte de la calidad que asegura que el producto diseñado satisfaga las necesidades del usuario"
+        ],
+        "answer": 2,
+        "explanation": "7.1 Definición de calidad\nEs la parte de la calidad que asegura que el producto diseñado satisfaga las necesidades del usuario"
+      },
+      {
+        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Calidad total?",
+        "options": [
+          "Integración del factor humano",
+          "Prevención de defectos",
+          "Prevención de defectos"
+        ],
+        "answer": 0,
+        "explanation": "7.2 Evolución de la gestión de la calidad\nIntegración del factor humano"
       }
     ]
   },
@@ -4795,6 +4915,27 @@
         ],
         "answer": 1,
         "explanation": "8.2.2 Salidas\nLas restricciones en materia de comunicación"
+      },
+      {
+        "question": "¿En qué consiste la normalización?",
+        "options": [
+          "Permite aprovecharse de las mejores prácticas realizadas por otros profesionales con mayor experiencia en el campo que sea de aplicación",
+          "Obliga a seguir unos procemientos rigurosos para conseguir los estándares de calidad",
+          "Define procedimientos que corrigen el modo de hacer habitual cuando está equivocado"
+        ],
+        "answer": 0,
+        "explanation": "8.5 Normalización\nPermite aprovecharse de las mejores prácticas realizadas por otros profesionales con mayor experiencia en el campo que sea de aplicación"
+      },
+      {
+        "question": "IEEE es una entidad de normalización...",
+        "options": [
+          "...de ámbito nacional y multisectorial",
+          "...de ámbito internacional y sectorial",
+          "...de ámbito nacional y sectorial",
+          "...de ámbito internacional y multisectorial"
+        ],
+        "answer": 1,
+        "explanation": "8.5.3 Entidades de normalización\n...de ámbito internacional y sectorial"
       }
     ]
   },
@@ -5411,6 +5552,36 @@
         ],
         "answer": 0,
         "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Earned Value Management\nEs la línea base, representa cuanto trabajo debería estar hehco al coste presupuestado"
+      },
+      {
+        "question": "Según Furtel, ¿Cuáles son las principales razones para terminar un proyecto?",
+        "options": [
+          "Lógicas e ilógicas",
+          "Presupuestarias, plazos, costes y calidad",
+          "De negocio, técnicas, de alcance, de cronograma, de coste, de calidad y políticas"
+        ],
+        "answer": 2,
+        "explanation": "9.10.1 Razones para terminar el proyecto\nDe negocio, técnicas, de alcance, de cronograma, de coste, de calidad y políticas"
+      },
+      {
+        "question": "En la técnica de la Gestión de Valor ganado o acumulado, ¿Cuál es el coste estimado en la terminación (ECAC)?",
+        "options": [
+          "Es la proyección del coste total final en función de la variación de coste y el coste actuales. ECAC = BAC x (CV / ACWP)",
+          "Es la proyección del coste total final en función del coste y del desempeño actuales. ECAC= BAC x (ACWP / BCWP)",
+          "Es la proyección del coste total final en función de la variación de cronograma y la de coste actuales. ECAC = BAC x (SV / CV)"
+        ],
+        "answer": 1,
+        "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Earned Value Management\nEs la proyección del coste total final en función del coste y del desempeño actuales. ECAC= BAC x (ACWP / BCWP)"
+      },
+      {
+        "question": "Son varias las razones para terminar un proyecto, de ellas, ¿Qué son la razones de negocio?",
+        "options": [
+          "El proyecto no termina de funcionar o no se adapta a los requisitos del negocio",
+          "El coste del proyecto no lo hace rentable",
+          "El proyecto ya no está alineado con la estrategia de la organización"
+        ],
+        "answer": 2,
+        "explanation": "9.10.1 Razones para terminar el proyecto\nEl proyecto ya no está alineado con la estrategia de la organización"
       }
     ]
   }
