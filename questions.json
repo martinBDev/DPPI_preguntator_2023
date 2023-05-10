@@ -571,6 +571,36 @@
           ],
           "answer": 0,
           "explanation": "1.5.2.4.2 Pila de producto (Product Backlog)"
+        },
+        {
+          "question": "Señale cual de las siguientes afirmaciones es correcta:",
+          "options": [
+            "RUP es la metodología o proceso de desarrollo propuesta por Racional para el desarrollo de proyectos software orientados a objeto",
+            "Un proyecto de informática equivale a un proyecto software",
+            "La estimación del coste de un proyecto no forma parte de las responsabilidades de gestión del proyecto del Jefe de proyecto"
+          ],
+          "answer": 0,
+          "explanation": "1.5.2.2 Rational Unified Process (RUP)"
+        },
+        {
+          "question": "Cual de las siguientes afirmaciones sobre modelos ágiles es correcta:",
+          "options": [
+            "Son de carácter predictivo",
+            "Son métodos orientados al proceso",
+            "Se basan en la adaptabilidad del proyecto"
+          ],
+          "answer": 2,
+          "explanation": "1.5.2.3.1 Métodos Ágiles"
+        },
+        {
+          "question": "¿Quién ha definido la ingeniería del software como \"Una disciplina cuyo propósito es la producción de software de calidad, software que se entrega en el tiempo acordado, dentro del presupuesto y que satisface los requisitos\"?",
+          "options": [
+            "Stephen Schach",
+            "IEEE",
+            "Barry Boehm"
+          ],
+          "answer": 0,
+          "explanation": "(Furtel, y otros, 2002) (Cap 1. \"What is Software Engineering?)"
         }
       ]
     },
@@ -966,6 +996,56 @@
           ],
           "answer": 0,
           "explanation": "2.1.1.1 El proceso de la medición y sus características"
+        },
+        {
+          "question": "Para que una medida indirecta tenga significado, ¿qué debe cumplir?",
+          "options": [
+            "Las medidas indirectas deben representar propiedades empíricas significativas, esto es, deben reflejar leyes empíricas o teóricas que sean válidas y se puedan obtener a partir de los valores medidos directamente",
+            "Las medidas indirectas deben representar propiedades definidas, esto es, deben reflejar el resultado de teorías que se puedan obtener a partir de los valores medidos directamente",
+            "Las medidas indirectas deben representar cualquier propiedad definida y que se pueda obtener a partir de los valores medidos directamente"
+          ],
+          "answer": 0,
+          "explanation": "2.1.1.3.4 Significación"
+        },
+        {
+          "question": "Una vez elegido el Sistema Relacional Formal...",
+          "options": [
+            "debe ser capaz de expresar todas las relaciones del sistema empírico E y debe también representar alguna conclusión significativa prevista originalmente y obtenida a partir de los datoNo se garantiza que sean todas al ser sólo un homomorfismo",
+            "debe ser capaz de expresar todas las relaciones del sistema empírico E, pero al ser un homomorfismo, no se garantiza que también represente las conclusiones significativas previstas originalmente y obtenidas a partir de los datos",
+            "debe ser capaz de expresar todas las relaciones del sistema empírico E y debe también representar cualquier conclusión significativa prevista originalmente y obtenida a partir de los datos"
+          ],
+          "answer": 2,
+          "explanation": "2.1.1.2.2 Sistema relacional numérico (formal)"
+        },
+        {
+          "question": "La calidad de la medición...",
+          "options": [
+            "...determina la cantidad de mediciones que hay que hacer para que la medida sea precisa",
+            "...determina la capacidad de un Sistema Relacional Formal para medir algo en el mundo real",
+            "...determina el orden de las medidas en una medición compleja"
+          ],
+          "answer": 1,
+          "explanation": "2.1.1.2.4 Calidad de la medición"
+        },
+        {
+          "question": "La metrología orientada al dominio del sujeto debe ofrecer un entorno teórico para la representación y la escalación, adaptable a cualquier problema de medición individual del dominiEste entorno debe proveer a la disciplina de dos cosas, ¿Cuáles?",
+          "options": [
+            "Un sistema de condiciones heredadas y uno de condiciones interrelacionadas",
+            "Un sistema de unidades de medida y uno de transformaciones de escala",
+            "Un conjunto comprensible de conceptos básicos y un sistema de teorías coherentes que liguen esos conceptos"
+          ],
+          "answer": 2,
+          "explanation": "2.1.1.4 Medición orientada al dominio del sujeto"
+        },
+        {
+          "question": "Desde el punto de vista de la calidad de la medición, la Representatividad define las condiciones en que debe definirse la función de transformación T para que el homomorfismo entre el sistema relacional empírico y formal aseguren la correspondencia entre las propiedades observadas y el sistema formal de representación elegido, ¿Qué quiere decir esto?",
+          "options": [
+            "Que una vez elegido un sistema numérico o formal, todo lo relacionado con el sistema empírico deja de tener interés en la medición",
+            "Que se debe demostrar formalmente que la escala elegida y las transfomraciones del homomorfismo tienen sentido Por ejemplo, no se puede elegir un sistema de colores para medir distancias",
+            "Que las mediciones deben hacerse usando el sistema numérico y no el empírico"
+          ],
+          "answer": 1,
+          "explanation": "2.1.1.2.4.3 Representatividad"
         }
       ]
     },
@@ -1351,6 +1431,16 @@
           ],
           "answer": 0,
           "explanation": "3.6 Estimación de recursos"
+        },
+        {
+          "question": "¿Qué tipos de organización matricial existen?",
+          "options": [
+            "Funcional, Matricial y Orientada a proyectos",
+            "Organizativa, Cultural y social",
+            "Matricial débil, Matricial media y Fuertemente matricial"
+          ],
+          "answer": 2,
+          "explanation": "3.2.2 Estructura organizativa"
         }
       ]
     },
@@ -1743,6 +1833,46 @@
           ],
           "answer": 2,
           "explanation": "(PMBOK 5.0) 2.3 Project Team"
+        },
+        {
+          "question": "¿Cuál de las siguiente son herramientas de evaluación del personal?",
+          "options": [
+            "La observación, la escucha y la decisión",
+            "Capacidad de liderazgo, reuniones de coordinación y formación continua",
+            "Encuestas de actitud, evaluaciones específicas y entrevistas estructuradas"
+          ],
+          "answer": 2,
+          "explanation": "4.4.1 Técnicas"
+        },
+        {
+          "question": "¿Cuáles de los siguiente son productos del plan de gestión de recursos humanos?",
+          "options": [
+            "Lista de roles y responsabilidades",
+            "Plan de gestión de riesgos",
+            "El WBS"
+          ],
+          "answer": 0,
+          "explanation": "4.2.2 Productos del plan de gestión de recursos humanos"
+        },
+        {
+          "question": "Dentro de las técnicas para el gestión del equipo de proyecto, ¿En qué consiste la de \"Observación y Conversación\"?",
+          "options": [
+            "Es una técnica basada en la observación de las variables del entorno y la discusión de dichas variables para buscar la mejor solución a los problemas",
+            "Es una técnica que consiste en poner algunas personas entre los miembros del equipo que observan el trabajos de los demás y los ayudan en caso de problemas",
+            "Es una de las técnicas principales para obtener una retroalimentación de lo que está ocurriendo y adelantarse a los problemas"
+          ],
+          "answer": 2,
+          "explanation": "4.5.1 Técnicas"
+        },
+        {
+          "question": "Dentro del Plan de Recursos Humanos, ¿en qué consiste el concepto de autoridad?",
+          "options": [
+            "Es el derecho a asignar recursos, tomar decisiones, aprobar, aceptar entregables y ejercer influencia sobre otros para dirigir el proyecto",
+            "Es el derecho a poder cambiar los objetivos del proyecto ejercido por los clientes",
+            "Es el derecho a parar el proyecto si no se obtienen buenos resultados ejercido por la empresa desarrolladora"
+          ],
+          "answer": 0,
+          "explanation": "(PMBOK 5.0) 9.1.3.1 Human Resource Management Plan"
         }
       ]
     },
@@ -2178,6 +2308,36 @@
           ],
           "answer": 2,
           "explanation": "5.1.1 Técnicas"
+        },
+        {
+          "question": "En el contexto del Plan general de costes, hablando de técnicas financieras a usar para decidir la viabilidad del proyecto, ¿En qué consiste la Tasa interna de rentabilidad?",
+          "options": [
+            "Mide la rentabilidad de los cobros y los pagos actualizados, generados por una inversión, en porcentaje a la inversión realizada",
+            "La cantidad de tiempo necesaria para recuperar el coste de una inversión",
+            "Es una razón financiera que compara el beneficio o la utilidad obtenida de un proyecto en relación a la inversión realizada"
+          ],
+          "answer": 0,
+          "explanation": "5.1.1 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas usadas para la estimación de costes, ¿En qué consiste la Estimación de tres puntos?",
+          "options": [
+            "Se basa en el cálculo de tres valores (optimista, medio y pesimista)",
+            "Se basa en el cálculo de tres valores (optimista, medio y pesimista)",
+            "Se basa en el cálculo de tres valores (optimista, medio y pesimista) que se evalúa de acuerdo a métodos estadísticos"
+          ],
+          "answer": 2,
+          "explanation": "5.2.1 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas usadas para el Control de Costes del proyecto, ¿En qué consiste la Evaluación del desempeño?",
+          "options": [
+            "Esta técnica evalúa las actividades realizadas por cada miembro del equipo de trabajo para evaluar la eficiencia individual",
+            "Esta técnica compara el coste del desempeño en el tiempo, las actividades del cronograma con sobrecostes o con superávits y la estimación de financiación para completar el trabajo",
+            "Esta técnica evalúa las actividades con sobrecostes y las que han tenido superávits para aplicar las metodologías más eficientes a las primeras"
+          ],
+          "answer": 1,
+          "explanation": "5.4.2 Técnicas"
         }
       ]
     },
@@ -2603,6 +2763,56 @@
           ],
           "answer": 2,
           "explanation": "6.6.1 Planificar la Gestión de Riesgos (Definiciones de probabilidad e impacto)"
+        },
+        {
+          "question": "¿Cuáles son las principales técnicas de identificación de riesgos?",
+          "options": [
+            "Técnicas de recopilación de Información, Análisis de listas de control, Análisis de supuestos, Técnicas de Diagramación, Análisis SWOT y Juicio de Expertos",
+            "Ordenación por Probabilidad e Impacto, Matriz de Probabilidad e Impacto y Juicio de expertos",
+            "Evaluación de la Probabilidad e Impacto de los riesgos, Categorización de Riesgos y Evaluación de la Urgencia de los Riesgos"
+          ],
+          "answer": 0,
+          "explanation": "6.6.2.1 Técnicas"
+        },
+        {
+          "question": "¿Cuáles son las técnicas habituales para la Monitorización de Riesgos?",
+          "options": [
+            "Reevaluación de los Riesgos, Auditorías de los Riesgos, Análisis de Variación y de Tendencias, Análisis de Reserva y Reuniones sobre el Estado del Proyecto",
+            "Categorización de Riesgos, Evaluación de la Urgencia de los Riesgos, Benchmarks, Análisis de la misión y Encuestas",
+            "Prototipos, Simulaciones, Benchmarks, Análisis de la misión, Encuestas, Aproximación de desgin-to-cost y Desarrollo incremental"
+          ],
+          "answer": 0,
+          "explanation": "6.6.7.1 Técnicas"
+        },
+        {
+          "question": "La matriz de probabilidad e impacto, ¿Cómo se obtiene?",
+          "options": [
+            "En función del apetito, la tolerancia y el umbral de riesgo",
+            "En función de normativa que define los valores y rangos de la matriz",
+            "En función de las estrategias proactivas frene al riesgo"
+          ],
+          "answer": 0,
+          "explanation": "6.6.1 Planificar la Gestión de Riesgos (Matriz de probabilidad e impacto). Esta matriz es un reflejo de las políticas y actitudes de la organización frente al riesgo"
+        },
+        {
+          "question": "En el contexto de las técnicas de Monitorización de Riesgos, ¿En qué consisten las Auditorías de los Riesgos?",
+          "options": [
+            "En realizar revisiones a través de una lista de comprobación del proceso realizar en la gestión de riesgos",
+            "En contratar auditorías externas del proyecto que deben incluir a las actividades de gestión de riesgos",
+            "En examinar y documentar la efectividad de las respuestas a los riesgos y la del propio proceso de gestión de riesgos"
+          ],
+          "answer": 2,
+          "explanation": "6.6.7.1 Técnicas (Auditorías de los Riesgos)"
+        },
+        {
+          "question": "Dentro de las técnicas de Identificación de riesgos, ¿En qué consiste el análisis SWOT?",
+          "options": [
+            "En identificar los riesgos de las amenazas y las debilidades",
+            "En examinar el proyecto desde el punto de vista de las Debilidades, Amenazas, Fortalezas y Oportunidades",
+            "En identificar las fortalezas para evitar los riesgo"
+          ],
+          "answer": 1,
+          "explanation": "6.6.2.1 Técnicas (Análisis SWOT)"
         }
       ]
     },
@@ -2888,6 +3098,46 @@
           ],
           "answer": 1,
           "explanation": "7.4.3 Control de calidad"
+        },
+        {
+          "question": "¿Cuáles son los niveles de calidad CMMI?",
+          "options": [
+            "Impredecible, Repetible, Proactivo, Controlado y Mejora continua",
+            "Inicial, Repetible, Definido, Administrado y Optimizado",
+            "Control de la calidad, Garantía de calidad, Aseguramiento de calidad y Calidad total"
+          ],
+          "answer": 1,
+          "explanation": "7.3.2.2 Niveles CMMI"
+        },
+        {
+          "question": "a implantación de un modelo o estándar de calidad en una empresa de software tiene diferentes niveles de implantacióDentro del nivel de software, ¿Qué elementos se definen en los modelos clásicos?",
+          "options": [
+            "%Modelos y Estándares",
+            "Entidades y Proyectos",
+            "Factores, criterios y métricas"
+          ],
+          "answer": 2,
+          "explanation": "7.3 Modelos y Estándares de Calidad"
+        },
+        {
+          "question": "Dentro de los parámetros que determinan la adecuación al uso, ¿Qué aporta el Servicio técnico?",
+          "options": [
+            "Tiene por objetivo cumplir un conjunto de características medibles establecidas por el fabricante para satisfacer al cliente",
+            "Tiene que ver con el factor humano, debe tener una velocidad de respuesta óptima y ser íntegro y competente",
+            "Es la parte de la calidad que asegura que el producto diseñado satisfaga las necesidades del usuario"
+          ],
+          "answer": 1,
+          "explanation": "7.1 Definición de calidad"
+        },
+        {
+          "question": "¿Qué constelaciones están publicadas actualmente?",
+          "options": [
+            "SW-CMM.(1997), CMMI v1.02.(2000), CMMI v1.1.(2002), CMMI v1.2.(2006) y CMMI V1.3.(2010)",
+            "CAR, PMC, AM y OPF",
+            "CMMI-DEV, CMMI-ACQ y CMMI-SVC"
+          ],
+          "answer": 2,
+          "explanation": "7.3.2 CMM y CMMi"
         }
       ]
     },
@@ -3224,6 +3474,26 @@
           ],
           "answer": 2,
           "explanation": "8.5.2 Tipos de normas"
+        },
+        {
+          "question": "Publicar algunos resultados del proyecto para información del cliente, ¿Que tipo de comunciación sería?",
+          "options": [
+            "Externa y formal",
+            "Escrita y extraoficial",
+            "Vertical e informal"
+          ],
+          "answer": 0,
+          "explanation": "8.1 Gestión de las comunicaciones"
+        },
+        {
+          "question": "Dentro de las técnicas de búsqueda de aspectos legales y normativos, ¿En qué consiste la Codificación?",
+          "options": [
+            "Consiste en escribir programas que permitan buscas las normas",
+            "Consiste en codificar las normas de manera que sólo las puedan leer quienes tienen permisos",
+            "Consiste en identificar las normas por su código"
+          ],
+          "answer": 2,
+          "explanation": "8.5.4.1 Técnicas de búsqueda / Codificación"
         }
       ]
     },
@@ -3559,6 +3829,36 @@
           ],
           "answer": 1,
           "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Earned Value Management"
+        },
+        {
+          "question": "¿Cuál suele ser realmente la última actividad del proyecto? (según Furtel)",
+          "options": [
+            "Realizar el cierre administrativo financiero del proyecto",
+            "Publicar el informe final incluyendo lecciones aprendidas y recomendaciones para la mejora del proceso",
+            "Programar y realizar un acto de cierre de proyecto"
+          ],
+          "answer": 0,
+          "explanation": "9.10.3 Actividades después de la terminación del proyecto / Proceso de terminación del proyecto"
+        },
+        {
+          "question": "¿Qué tipos de costes exiten en un proyecto desde el punto de vista del origen?",
+          "options": [
+            "Costes financieros y laborales",
+            "Costes internos y externos",
+            "Costes de proveedores y de clientes"
+          ],
+          "answer": 1,
+          "explanation": "9.5.1 Tipos de costes"
+        },
+        {
+          "question": "¿Cuáles son los tipos de final de proyecto según Meredith y Mantel?",
+          "options": [
+            "Finalización o proyecto \"sin fin\"",
+            "Extinción, adición, integración y hambre",
+            "Positiva y negativa"
+          ],
+          "answer": 1,
+          "explanation": "9.10.2 Tipos de final de proyecto"
         }
       ]
     }
