@@ -641,6 +641,26 @@
           ],
           "answer": 2,
           "explanation": "1.1.1 Concepto de Proyecto"
+        },
+        {
+          "question": "RUP es:",
+          "options": [
+            "Una metodología para el desarrollo de proyectos software estructurados que propone un modelo de procesos iterativo e incremental",
+            "Una metodología para el desarrollo de proyectos software orientados a objetos que propone un modelo de procesos iterativo e incremental",
+            "Una metodología para el desarrollo de procesos software orientados a objetos y que divide el desarrollo de cada mini-proyecto en cinco etapas"
+          ],
+          "answer": 1,
+          "explanation": "1.5.2.2.1 Características de RUP"
+        },
+        {
+          "question": "¿Qué es un proceso en el entorno de los proyecto sinformáticos?",
+          "options": [
+            "Un proceso es un conjunto limitado de actividades que genera elementos de salida que son interesantes y de valor para el usuario",
+            "UN proceso es una actividad de duración espcialmente larga",
+            "Un proceso es un elemento hardware que ejecuta instrucciones de bajo nivel"
+          ],
+          "answer": 0,
+          "explanation": "1.1.3.6 Proceso"
         }
       ]
     },
@@ -1116,6 +1136,16 @@
           ],
           "answer": 2,
           "explanation": "2.1.1.2 Medición cuantitativa"
+        },
+        {
+          "question": "¿Cuál de las siguientes afirmaciones es correcta?:",
+          "options": [
+            "Las métricas usadas en software son siempre significativas",
+            "Una métrica es una medida",
+            "Para que una medición sea válida debe ser exacta, el error y la incertidumbre de dicha medición estarán acotados 2.1.1.1 El proceso de la medición y sus características"
+          ],
+          "answer": 2,
+          "explanation": "2.1.1.1 El proceso de la medición y sus características"
         }
       ]
     },
@@ -1963,6 +1993,26 @@
           ],
           "answer": 0,
           "explanation": "(PMBOK 5.0) 9.1.3.1 Human Resource Management Plan"
+        },
+        {
+          "question": "Un equipo tiene dedicación a tiempo parcial cuando...",
+          "options": [
+            "os proyectos se desarrollan por personas que desarrollan el proyecto desde empresas externas",
+            "Los proyectos se desarrollan por personas que, además de dedicar tiempo al proyecto, también lo dedican a sus actividades habituales o a otros proyectos",
+            "Los proyectos se desarrollan por personas que dedican parte del tiempo al desarrollo y parte a la gestión del proyecto"
+          ],
+          "answer": 1,
+          "explanation": "4.3 Selección del equipo de proyecto y asignación de roles"
+        },
+        {
+          "question": "¿Cuál de las siguientes es una desventaja de la cooperación dentro de la dependencia de los miembros del equipo?",
+          "options": [
+            "Es complicado de poner en práctica en proyectos pequeños y con pocas personas trabajando",
+            "Si los miembros tiene malas relaciones, la cooperación es imposible",
+            "Si el jefe de proyecto tiene demasiada autoridad se anulan lo miembros del equipo y éste no es muy productivo"
+          ],
+          "answer": 0,
+          "explanation": "4.3.2 Dependencia de los miembros del equipo"
         }
       ]
     },
@@ -2458,6 +2508,46 @@
           ],
           "answer": 2,
           "explanation": "5.4.2 Técnicas"
+        },
+        {
+          "question": "En el contexto del Plan general de costes, hablando de técnicas analíticas para la elección de las estrategias de financiación del proyecto, ¿En qué consiste la Financiación de socios (funding with equity)?",
+          "options": [
+            "El proyecto será financiado la propia empresa",
+            "Se solicitarán préstamos a bancos",
+            "Se buscan socios financieros que harán la inversión en el proyecto a cambio de obtener participación en los beneficios"
+          ],
+          "answer": 2,
+          "explanation": "5.1.1 Técnicas"
+        },
+        {
+          "question": "Dentro de las técnicas del Plan de gestión de costes, ¿En qué consiste el Juicio de Expertos?",
+          "options": [
+            "Consiste en la opinión de expertos que se basan en la información de otros Planes de gestión de proyectos aunque no sean similares",
+            "Consiste en la opinión de expertos cuando no existe información histórica de proyectos similares",
+            "Consiste en la opinión de expertos que se basan en información histórica de otros proyectos similares"
+          ],
+          "answer": 2,
+          "explanation": "5.1.1 Técnicas"
+        },
+        {
+          "question": "Hablando de las técnicas analíticas para la elaboración del Plan de gestión de costes, ¿Qué técnicas financieras se pueden usar para decidir la viabilidad del proyecto?",
+          "options": [
+            "Crear con medios propios, Comprar, Alquilar y Leasing",
+            "Periodo de recuperación, Retorno de la inversión (ROI), Tasa interna de  rentabilidad, Flujo de caja descontado y Valor presente neto (NPV)",
+            "Autofinanciación, Financiación de socios y Financiación con deuda"
+          ],
+          "answer": 1,
+          "explanation": "5.1.1 Técnicas"
+        },
+        {
+          "question": "En el contexto del Plan general de costes, hablando de técnicas financieras a usar para decidir la viabilidad del proyecto, ¿En qué consiste el Retorno de la inversión (ROI)?",
+          "options": [
+            "Es una razón financiera que compara el beneficio o la utilidad obtenida de un proyecto en relación a la inversión realizada",
+            "Mide la rentabilidad de los cobros y los pagos actualizados, generados por una inversión, en porcentaje a la inversión realizada",
+            "La cantidad de tiempo necesaria para recuperar el coste de una inversión"
+          ],
+          "answer": 0,
+          "explanation": "5.1.1 Técnicas"
         }
       ]
     },
@@ -2973,6 +3063,46 @@
           ],
           "answer": 0,
           "explanation": "6.2 Gestión  y manejo de los riesgos"
+        },
+        {
+          "question": "¿Qué mide el impacto sobre un riesgo?",
+          "options": [
+            "Es el valor numérico de la posibilidad de que el riesgo ocurra",
+            "Es el valor porcentual del posible daño que el riesgo puede causar a un objetivo del proyecto",
+            "Es el valor del alcance que un riesgo puede causar a un objetivo del proyecto Esto es el alcance (probabilidad x impacto)"
+          ],
+          "answer": 2,
+          "explanation": "6.6.1 Planificar la Gestión de Riesgos (Definiciones de probabilidad e impacto)"
+        },
+        {
+          "question": "En el contexto de las técnicas de Resolución de proyectos, ¿En qué consiste las Encuestas?",
+          "options": [
+            "En la valoración de un desarrollo o una innovación",
+            "En obtener información de interesados y determinar la viabilidad de ciertas actividades que son causa de riesgo",
+            "En replantearse el objetivo del proyecto para determinar si el asumir el riesgo es productivo frente a otras opciones"
+          ],
+          "answer": 1,
+          "explanation": "6.6.6.1 Técnicas (Encuestas)"
+        },
+        {
+          "question": "Dentro de las técnicas usadas habitualmente en la Planificación de la gestión de cada riesgo, ¿En qué consisten los Planes de Contingencia?",
+          "options": [
+            "En evaluar los costes del riesgo frente al coste de definir una estrategia de respuesta propia para le riesgo",
+            "En realizar un plan ad-hoc, identificando los eventos y las características del riesgo para definir medidas que se ejecutarán sólo en determinadas circunstancias",
+            "En definir estrategias generales que pueden resultar insuficientes o demasiado genéricas para poder controlar el riesgo"
+          ],
+          "answer": 1,
+          "explanation": "6.6.5.1 Técnicas (Planes de Contingencia)"
+        },
+        {
+          "question": "¿Cuáles son las técnicas habituales para la Resolución de Riesgos?",
+          "options": [
+            "Categorización de Riesgos, Evaluación de la Urgencia de los Riesgos, Benchmarks, Análisis de la misión y Encuestas",
+            "Prototipos, Simulaciones, Benchmarks, Análisis de la misión, Encuestas, Aproximación de desgin-to-cost y Desarrollo incremental",
+            "Evaluación de la Probabilidad e Impacto de los riesgos, Categorización de Riesgos y Evaluación de la Urgencia de los Riesgos"
+          ],
+          "answer": 1,
+          "explanation": "6.6.6.1 Técnicas"
         }
       ]
     },
@@ -3675,6 +3805,16 @@
           ],
           "answer": 0,
           "explanation": "8.5.3 Entidades de normalización"
+        },
+        {
+          "question": "¿Cuáles son los tipos de normas por su capacidad para demostrar su uso?",
+          "options": [
+            "Orientativas y de uso obligatorio",
+            "Internacionales, nacionales, etc.",
+            "Certificables y no certificables"
+          ],
+          "answer": 2,
+          "explanation": "8.5.2 Tipos de normas"
         }
       ]
     },
@@ -4070,6 +4210,36 @@
           ],
           "answer": 2,
           "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Process Control, Management and Reporting"
+        },
+        {
+          "question": "¿Qué técnicas ayudan en el control de costes?",
+          "options": [
+            "Programar actividades sencillas, usar contabilidad analítica, herramientas de simulación y estimación de costes, y centrar el esfuerzo en las partidas de mayor coste",
+            "No hacer gastos innecesarios, procurar corregir el desempeño, limitar los cambios y conseguir un equipo de trabajo productivo",
+            "Tener un Director de proyecto austero, no permitir cambios en el proyecto, usar herramientas de gestión y conseguir un equipo de trabajo productivo"
+          ],
+          "answer": 0,
+          "explanation": "9.5 Control de costes"
+        },
+        {
+          "question": "¿Cómo se pueden definir los costes externos?",
+          "options": [
+            "Como aquellos que tiene los stakeholders que no pertenecen a la organización",
+            "Como aquellos que quedan reflejados en facturas",
+            "Como aquellos que no afectan al proyecto"
+          ],
+          "answer": 1,
+          "explanation": "9.5.1 Tipos de costes"
+        },
+        {
+          "question": "¿Qué quiere decir que la formación debe estar acotada?",
+          "options": [
+            "Que no se puede formar al usuario en aspectos de mayor nivel que el que acepta su intelecto",
+            "Que no se puede formar a un usuario en aspectos de la aplicación que no van a ser su responsabilidad",
+            "Que no se puede formar al usuario en aspectos diferentes de la interfaz de usuario"
+          ],
+          "answer": 1,
+          "explanation": "9.9.2 Formación"
         }
       ]
     }
