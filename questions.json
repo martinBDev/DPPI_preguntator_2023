@@ -179,7 +179,7 @@
           "Los Sprints continúan hasta que se ha completado toda la funcionalidad comprometida con el Dueño de producto.",
           "Los Sprints continúan hasta que el Dueño de Producto decide que el producto está lista para lanzar."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "1.5.2.4.10 Comienzo del siguiente Sprint"
       },
       {
