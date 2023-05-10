@@ -441,6 +441,76 @@
           ],
           "answer": 0,
           "explanation": "(Sanchís Marco, 1998) (1.2.3. Modelo de desarrollo en versiones sucesivas)"
+        },
+        {
+          "question": "Si el ciclo de vida del proyecto se divide en iteraciones, ¿qué tipo de metodología estamos utilizando?",
+          "options": [
+            "RUP",
+            "Espiral",
+            "cascada"
+          ],
+          "answer": 0,
+          "explanation": "1.5.2.2.1 Características de RUP"
+        },
+        {
+          "question": "Sobre los recursos asociados al proyecto:",
+          "options": [
+            "Se utilizan recursos de diversos tipos los cuales son ilimitados.",
+            "Se utilizan recursos de un solo tipo y son limitados.",
+            "Se utilizan recursos de diversos tipos y son limitados."
+          ],
+          "answer": 2,
+          "explanation": "1.1.2 Gestión de proyectos de software"
+        },
+        {
+          "question": "Una de las características propias de un proyecto es:",
+          "options": [
+            "Tiene fecha de inicio, pero no de final",
+            "El objetivo se tiene que alcanzar en plazo de tiempo limitado",
+            "Los recursos son ilimitados"
+          ],
+          "answer": 1,
+          "explanation": "1.1.1 Concepto de Proyecto"
+        },
+        {
+          "question": "Un proyecto se caracteriza entre otras cosas por:",
+          "options": [
+            "Objetivo definido, responde a una demanda puntual, duración limitada",
+            "Objetivo difuso, duración ilimitada, comprende distintos dominios de aplicación",
+            "Unicidad, duración limitada, poco flexible a la hora de asignar más recursos tanto materiales como personales"
+          ],
+          "answer": 0,
+          "explanation": "1.1.1 Concepto de Proyecto"
+        },
+        {
+          "question": "El triángulo de la gestión de proyectos representa",
+          "options": [
+            "El coste como objetivo a conseguir con una calidad, un alcance y unos plazos definidos",
+            "El plazo como objetivo a conseguir con una calidad, un coste y un alcance definidos",
+            "La calidad como objetivo a conseguir con un coste, un alcance y unos plazos definidos"
+          ],
+          "answer": 2,
+          "explanation": "1.1.2 Gestión de proyectos de software"
+        },
+        {
+          "question": "¿Qué factores caracterizan un proyecto de software?",
+          "options": [
+            "Calidad, Coste, Alcance y Plazos",
+            "Concreción, Unicidad, Dominio de aplicación, Flexibilidad y Duración limitada",
+            "Unicidad, Buenas prácticas, Normalización y Duración limitada"
+          ],
+          "answer": 1,
+          "explanation": "..."
+        },
+        {
+          "question": "¿En qué consiste una reunión de Revisión del Sprint en Scrum?",
+          "options": [
+            "Es una reunión para revisar el estado del producto durante el SprinSe hacen tantas revisiones como sean necesarias para conseguir el producto \"Terminado\"",
+            "No se trata de una demostración de producto, es más bien una actividad de inspección y adaptación del producto",
+            "Es una reunión de demostración del producto para conseguir la etiqueta de \"Terminado\""
+          ],
+          "answer": 1,
+          "explanation": "1.5.2.4.8 Revisión del Sprint"
         }
       ]
     },
@@ -786,6 +856,26 @@
           ],
           "answer": 1,
           "explanation": "2.1.1.2.1 Sistema relacional empírico"
+        },
+        {
+          "question": "La medición combinada...",
+          "options": [
+            "permite hacer caracterizaciones de un objeto en función de varias mediciones",
+            "no es un tipo de medición, sólo sirve para agrupar valores",
+            "sirve sólo cuando el objeto es físico, no puede ser aplicada a software"
+          ],
+          "answer": 0,
+          "explanation": "2.1.1.3 Medición orientada a la caracterización del objeto"
+        },
+        {
+          "question": "La ventaja de la mayor parte de las métricas del Software es:",
+          "options": [
+            "Son muy significativas",
+            "Hay que medir para conocer y se puede hacer con las métricas",
+            "Hay un sistema uniforme de medidas"
+          ],
+          "answer": 2,
+          "explanation": "2.1 Introducción teórica"
         }
       ]
     },
@@ -1141,6 +1231,36 @@
           ],
           "answer": 0,
           "explanation": "3.5.2.2 Dependencia entre las actividades"
+        },
+        {
+          "question": "Hablando de estimación de duración de las actividades, ¿En qué consiste el Análisis de Reservas?",
+          "options": [
+            "Consiste en poner todas las holguras juntas para producir reservas de tiempo para el proyecto",
+            "Consiste en estudiar las reservas de tiempo que se crean de manera natural al estimar muchas actividades",
+            "Las estimaciones pueden incluir tiempos reservados para contingencias (buffers) pensados para situaciones de riesgo en las que la duración podría extenderse"
+          ],
+          "answer": 2,
+          "explanation": "3.7.1 Técnicas"
+        },
+        {
+          "question": "¿En qué consiste la Definción del Cronograma del Proyecto?",
+          "options": [
+            "Es un proceso para colocar todas las actividades en un margen de tiempo definido a priori para el proyecto",
+            "Es el proceso de análisis de secuencias de actividades, duraciones, requisitos de recursos y restricciones del propio cronograma para crear un modelo de programación del proyecto",
+            "Es el proceso de creación de las actividades y su descomposición en tareas"
+          ],
+          "answer": 1,
+          "explanation": "3.8 Definición del cronograma del Proyecto"
+        },
+        {
+          "question": "¿Cuál de las siguientes afirmaciones es cierta?",
+          "options": [
+            "Los proyectos se realizan desde empresas con organizaciones orientadas a proyectos para empresas con organización funcional",
+            "Las empresas que se dedican a realizar proyectos deben tener una estructura orientada a proyectos, no pueden tener una estructura funcional",
+            "La estructura organizacional es un factor del entorno de la empresa que puede afectar la dsiponibilidad de recursos e influenciar como se dirigen los proyectos"
+          ],
+          "answer": 2,
+          "explanation": "(PMBOK, 2013) 2.1.3 Organizational Structures"
         }
       ]
     },
@@ -1493,6 +1613,26 @@
           ],
           "answer": 0,
           "explanation": "4.4.1 Técnicas"
+        },
+        {
+          "question": "¿Quiénes componen el equipo de proyecto?",
+          "options": [
+            "El jefe de proyecto y todos aquellos que colaboran juntos para conseguir los objetivos del proyecto",
+            "El jefe de proyecto y los desarrolladores de software que colaboran juntos para conseguir los objetivos del proyecto",
+            "El jefe de proyecto y los jefes de equipo que colaboran juntos para conseguir los objetivos del proyecto"
+          ],
+          "answer": 0,
+          "explanation": "(PMBOK 5.0) 2.3 Project Team"
+        },
+        {
+          "question": "Uno de los principales problemas a los que se enfrenta el Jefe de proyecto a la hora de seleccionar su equipo es...",
+          "options": [
+            "...la disponibilidad (just-in-time) de las personas necesarias",
+            "...la disponibilidad de tiempo de las personas asignadas al proyecto",
+            "...el perfil tecnológico de las personas asignadas al proyecto"
+          ],
+          "answer": 0,
+          "explanation": "4.3 Selección del equipo de proyecto y asignación de roles"
         }
       ]
     },
@@ -1858,6 +1998,56 @@
           ],
           "answer": 0,
           "explanation": "PMBOK: 7.4.2.1 Earned Value Management"
+        },
+        {
+          "question": "Dentro de las técnicas usadas para el Control de Costes del proyecto, ¿En qué consiste el Índice de rendimiento a completar?",
+          "options": [
+            "Es una técnica consistente en el desarrollo de pronósticos para el estimación a la conclusión en base a la información actua",
+            "Es una medida de la ejecución requerida de los costes para lograr, con los recursos restantes, cumplir con una meta de gestión específica",
+            "Es una técnica de cálculo del rendimiento de las tareas realizadas hasta el momento en términos de coste/beneficio"
+          ],
+          "answer": 1,
+          "explanation": "5.4.2 Técnicas"
+        },
+        {
+          "question": "Con respecto a la técnica de Gestión del Valor Acumulado dentro del Control de Costes del proyecto, ¿Qué es el Coste actual (AC)?",
+          "options": [
+            "Es el presupuesto autorizado en un periodo, asignado al cronograma del proyecto",
+            "Es el valor del trabajo realizado en un periodo, expresado en unidades económicas",
+            "Es el valor de los gastoa realizados en un periodo, en el proyecto"
+          ],
+          "answer": 2,
+          "explanation": "PMBOK: 7.4.2.1 Earned Value Management"
+        },
+        {
+          "question": "En el contexto del Plan general de costes, hablando de técnicas analíticas para la elección de las estrategias de financiación del proyecto, ¿En qué consiste la Autofinanciación?",
+          "options": [
+            "El proyecto será financiado por el equipo de desarrollo",
+            "Se buscan socios financieros que harán la inversión en el proyecto a cambio de obtener participación en los beneficios",
+            "El proyecto será financiado por la propia empresa"
+          ],
+          "answer": 2,
+          "explanation": "5.1.1 Técnicas"
+        },
+        {
+          "question": "Con respecto a las salidas del Plan de Gestión de Costes, ¿En qué consisten las reglas de realización de mediciones?",
+          "options": [
+            "En definir las reglas básicas de entendimiento con respecto a los miembros de equipo de proyecto",
+            "Definir los puntos en el WBS en la que se realiza la medición, establecer las técnicas de medición del valor acumulado y establecer las metodologías de seguimiento",
+            "Establecer las umbrales, la precisión y la exactitud"
+          ],
+          "answer": 1,
+          "explanation": "PMBOK: 7.1.3.1 Cost Management Plan"
+        },
+        {
+          "question": "¿Pueden expresarse los costes en horas?",
+          "options": [
+            "No, sólo pueden medirse en unidades monetarias y porcentajes de beneficio",
+            "No, los costes se miden en unidades monetarias",
+            "Sí, para evitar las fluctuaciones monetarias en el futuro"
+          ],
+          "answer": 2,
+          "explanation": "5.2 Estimación de costes"
         }
       ]
     },
@@ -2203,6 +2393,66 @@
           ],
           "answer": 1,
           "explanation": "6.6.6.1 Técnicas (Análisis de la misión)"
+        },
+        {
+          "question": "¿Qué es la Probabilidad de un riesgo?",
+          "options": [
+            "Es el número de veces que el riesgo ocurre en un proyecto",
+            "Es una medida del efecto real que el riesgo puede tener en el proyecto",
+            "Es el porcentaje de posibilidades de que el riesgo ocurra"
+          ],
+          "answer": -1,
+          "explanation": "6.6.3 Análisis de Riesgos (Actividades básicas y mediciones)"
+        },
+        {
+          "question": "En el contexto de las técnicas de Monitorización de Riesgos, ¿En qué consiste la Reevaluación de los Riesgos?",
+          "options": [
+            "En calcular el valor de las reservas cada cierto tiempo para ver si cubren el resto del proyecto",
+            "En comprobar varias veces la evaluación de los riesgos para asegurar el valor calculado",
+            "En revisiones y reevaluaciones de los riesgos con el objetivo de ver si aparecen nuevos riesgos y si algunos pueden ser eliminados"
+          ],
+          "answer": 2,
+          "explanation": "6.6.7.1 Técnicas (Reevaluación de los Riesgos)"
+        },
+        {
+          "question": "¿Qué es un Indicador de riesgo?",
+          "options": [
+            "Es un factor de riesgo individual",
+            "Es un medida de la evaluación de un factor de riesgo",
+            "Es un valor cuantificado del impacto del riesgo"
+          ],
+          "answer": 1,
+          "explanation": "6.6.3 Análisis de Riesgos (Actividades básicas y mediciones)"
+        },
+        {
+          "question": "En el contexto de las técnicas de Monitorización de Riesgos, ¿En qué consisten las Reuniones sobre el Estado del Proyecto?",
+          "options": [
+            "En que en todas las reuniones periódicas sobre el estado del proyecto, la gestión de riesgos debe ser un punto del orden del día",
+            "En que hay que comenzar por la fase primera de la gestión de riesgos cada cierto tiempo y rehacer la planificación de la gestión de riesgos",
+            "En que hay que tener un plan de reuniones extraordinarias para definir nuevos riesgos"
+          ],
+          "answer": 0,
+          "explanation": "6.6.7.1 Técnicas (Reuniones sobre el Estado del Proyecto)"
+        },
+        {
+          "question": "Dentro de las técnicas de Identificación de riesgos, ¿Qué formatos habituales suelen tener las listas de control?",
+          "options": [
+            "Listas de rangos de los valores de la probabilidad y de los valores del impacto",
+            "Listas de preguntas y listas de riesgos identificados",
+            "Listas de riesgos importantes y listas de reserva"
+          ],
+          "answer": 1,
+          "explanation": "6.6.2.1 Técnicas (Análisis de listas de control)"
+        },
+        {
+          "question": "¿Qué información añade a cada riesgo la Planificación de la Gestión de cada Riesgo?",
+          "options": [
+            "Gestión del riesgo, Plan de Contingencia del riesgo y Valoración económica",
+            "Definición de las políticas de riesgo para el proyecto",
+            "Define los roles y responsabilidades de la gestionad de riesgos"
+          ],
+          "answer": 0,
+          "explanation": "6.6.5.2 Salidas"
         }
       ]
     },
@@ -2478,6 +2728,16 @@
           ],
           "answer": 1,
           "explanation": "7.2 Evolución de la gestión de la calidad"
+        },
+        {
+          "question": "Cuando se habla de software creado expresamente para las necesidades de un cliente, hay tres factores que influyen en la percepción de la calidad, ¿Cuáles?",
+          "options": [
+            "Calidad de diseño, Calidad de conformidad y Disponibilidad",
+            "Calidad Necesaria, Calidad Programada, y Calidad Realizada",
+            "Prevención, Detección y Corrección"
+          ],
+          "answer": 1,
+          "explanation": "7.1.1 Calidad desde el punto de vista del receptor"
         }
       ]
     },
@@ -2774,6 +3034,46 @@
           ],
           "answer": 2,
           "explanation": "8.1 Gestión de las comunicaciones"
+        },
+        {
+          "question": "¿En qué fase se elabora documentación usando la Norma UNE-157801?",
+          "options": [
+            "En la fase previa al propio desarrollo del proyecto",
+            "En la fase de mantenimiento del proyecto",
+            "En la fase de desarrollo del proyecto"
+          ],
+          "answer": 0,
+          "explanation": "8.5.5 Norma UNE-157801"
+        },
+        {
+          "question": "¿Qué problemas principales trata de solucionar la norma?",
+          "options": [
+            "Los relacionados con las etapas de definición y desarrollo del proyecto",
+            "Los relacionados con la etapa de definición del proyecto",
+            "Los relacionados con las etapas de definición, construcción, pruebas, implantación y puesta en servicio"
+          ],
+          "answer": 2,
+          "explanation": "10.1 Introducción"
+        },
+        {
+          "question": "Pedir explicaciones por una decisión de un miembro del equipo por parte del jefe de proyecto, ¿Que tipo de comunciación sería?",
+          "options": [
+            "Formal y oficial",
+            "Vertical y extraoficial",
+            "Interna y oral"
+          ],
+          "answer": 2,
+          "explanation": "8.1 Gestión de las comunicaciones"
+        },
+        {
+          "question": "Dentro de las técnicas de búsqueda de aspectos legales y normativos, ¿En qué consiste la Normativa de la organización?",
+          "options": [
+            "Consiste en integrar en el proyecto toda la normativa aplicable, que sea propia de la organización",
+            "Consiste en identificar la noramtiva de la organización que se contradiga con la de los estudios con entidad propia En realidad esto se hace, pero sería muy limitado con respecto a identificar TODA la normativa de la organización aplicable al proyecto",
+            "Consiste en generar o identificar normativa para la organización que mejore los procesos en los proyectos"
+          ],
+          "answer": 1,
+          "explanation": "8.5.4.1 Técnicas de búsqueda / Normativa de la organización"
         }
       ]
     },
@@ -3059,6 +3359,26 @@
           ],
           "answer": 1,
           "explanation": "9.7 Control del desempeño"
+        },
+        {
+          "question": "¿Cómo se pueden identificar los costes internos?",
+          "options": [
+            "Haciendo bloques grandes de costes que pueden manejarse con más facilidad",
+            "Convirtiéndolos en externos",
+            "Mediante sistemas de contabilidad analítica"
+          ],
+          "answer": 2,
+          "explanation": "9.5.1 Tipos de costes"
+        },
+        {
+          "question": "Son varias las razones para terminar un proyecto, de ellas, ¿Qué son la razones de coste?",
+          "options": [
+            "El coste del proyecto no lo hace rentable",
+            "El proyecto tiene tantos cambios que el coste se ha disparado",
+            "Los cambios solicitados al proyecto hacen que no pueda ser terminado con el presupuesto acordado"
+          ],
+          "answer": 0,
+          "explanation": "9.10.1 Razones para terminar el proyecto"
         }
       ]
     }
