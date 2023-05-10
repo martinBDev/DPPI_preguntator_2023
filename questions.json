@@ -199,7 +199,7 @@
           "Es una metodología ágil estandarizada por OMG",
           "Es un producto derivado de RUP para ser adaptado a metodologías ágiles"
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "1.5.2.2.6 Agile Unified Process (AUP)"
       },
       {
@@ -219,7 +219,7 @@
           "Equipo, Dueño de Producto, ScrumMasteOtros stakeholders que sean adecuados, invitados por el Equipo.",
           "Equipo, Dueño de Producto, ScrumMasteOtros stakeholders que sean adecuados, invitados por el ScrumMaster."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "(Deemer, y otros, 2012) (Revisión del Sprint)"
       }
     ]
@@ -227,26 +227,6 @@
   {
     "topic": "Tema 2: Medición y estimación",
     "questions": [
-      {
-        "question": "Pregunta 1 del tema 2",
-        "options": [
-          "a",
-          "b",
-          "c"
-        ],
-        "answer": 2,
-        "explanation": "La opción b es la correcta porque..."
-      },
-      {
-        "question": "Pregunta 1 del tema 2",
-        "options": [
-          "a",
-          "b",
-          "c"
-        ],
-        "answer": 2,
-        "explanation": "La opción b es la correcta porque..."
-      },
       {
         "question": "El Sistema relacional Empírico está formado por los conjuntos ...",
         "options": [
