@@ -18,6 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
     submitButton.addEventListener("click", () => {
         // Aquí va la lógica para validar las respuestas
     });
+
+    const viewAnswersButton = document.getElementById("view-answers-button");
+    viewAnswersButton.addEventListener("click", () => {
+        viewAnswers();
+    });
 });
 
 function calculateScore() {
@@ -133,4 +138,59 @@ function loadQuestions(topic) {
         questionDiv.appendChild(optionList);
         questionContainer.appendChild(questionDiv);
     });
+}
+
+//Marks the correct answers and displays the explanation
+function viewAnswers(){
+    const selectedTopic = questionsData.find(q => q.topic === document.getElementById("topic-selector").value);
+
+    selectedTopic.questions.forEach((question, index) => {
+        const questionDiv = document.querySelector(`.question[data-index="${index}"]`);
+        const explanation = document.createElement("p");
+        explanation.className = "explanation";
+
+        explanation.textContent = question.explanation;
+        if(questionDiv.lastChild.className != "explanation"){
+            questionDiv.appendChild(explanation);
+        }
+
+        //Marks the correct answer
+        const correctOption = document.getElementById(`question-${index}-${question.answer}`);
+        const correctOptionItem = correctOption.parentElement; 
+        correctOptionItem.style.backgroundColor = "green";
+        correctOptionItem.style.color = "white";
+        correctOption.checked = true;
+
+    });
+
+    //change the button to hide answers
+    const viewAnswersButton = document.getElementById("view-answers-button");
+    viewAnswersButton.textContent = "Ocultar respuestas";
+    viewAnswersButton.removeEventListener("click", viewAnswers);
+    viewAnswersButton.addEventListener("click", hideAnswers);
+}
+
+function hideAnswers() {
+    const explanationList = document.querySelectorAll(".explanation");
+    explanationList.forEach(explanation => {
+        explanation.remove();
+    });
+
+    const inputs = document.querySelectorAll("input");
+    inputs.forEach(input => {
+        input.checked = false;
+    });
+
+    const optionItems = document.querySelectorAll(".answer");
+    optionItems.forEach(optionItem => {
+        optionItem.style.backgroundColor = "#a1d5f8";
+        optionItem.style.color = "black";
+    });
+
+    //change the button to view answers
+    const viewAnswersButton = document.getElementById("view-answers-button");
+    viewAnswersButton.textContent = "Ver respuestas";
+    viewAnswersButton.removeEventListener("click", hideAnswers);
+    viewAnswersButton.addEventListener("click", viewAnswers);
+
 }
