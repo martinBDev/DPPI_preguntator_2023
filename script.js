@@ -112,6 +112,8 @@ function loadQuestions(topic) {
         const optionList = document.createElement("ul");
         question.options.forEach((option, optionIndex) => {
             const optionItem = document.createElement("li");
+			optionItem.className = "answer"
+
 
             const optionInput = document.createElement("input");
             optionInput.type = "radio";
