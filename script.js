@@ -117,9 +117,11 @@ function loadQuestions(topic) {
             optionInput.type = "radio";
             optionInput.name = `question-${index}`;
             optionInput.value = optionIndex;
+			optionInput.id = `question-${index}-${optionIndex}`;
 
             const optionLabel = document.createElement("label");
             optionLabel.textContent = option;
+			optionLabel.htmlFor = `question-${index}-${optionIndex}`;
 
             optionItem.appendChild(optionInput);
             optionItem.appendChild(optionLabel);

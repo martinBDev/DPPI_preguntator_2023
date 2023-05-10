@@ -39,3 +39,7 @@ li{
     border-radius: 5%;
     padding: 1em;
 }
+
+input, label{
+	cursor: pointer;
+}
