@@ -721,6 +721,36 @@
         ],
         "answer": 0,
         "explanation": "1.5.1.2 El modelo de prototipos\nEn el modelo de prototipos los modelos se validan por el usuario"
+      },
+      {
+        "question": "¿Cómo es una reunión de refinamiento de la Pila del Producto en Scrum?",
+        "options": [
+          "Se hacen reuniones con todos los miembros principales de Scrum. Habitualmente,estas reuniones no deben ser más del 10% de la capacidad de desarrollo del equipo para el Sprint",
+          "Se hacen reuniones del Equipo y el Scrum Master. Habitualmente,estas reuniones no deben ser más del 10% de la capacidad de desarrollo del equipo para el Sprint",
+          "Se hacen reuniones del Equipo y el Dueño del Producto. Habitualmente,estas reuniones no deben ser más del 10% de la capacidad de desarrollo del equipo para el Sprint"
+        ],
+        "answer": 0,
+        "explanation": "1.5.2.4.7 Refinamiento de la Pila del Producto\nSe hacen reuniones con todos los miembros principales de Scrum. Habitualmente,estas reuniones no deben ser más del 10% de la capacidad de desarrollo del equipo para el Sprint"
+      },
+      {
+        "question": "Si estamos Hablando de XP (eXtreme Programming), cual de las siguientes afirmaciones es cierta:",
+        "options": [
+          "Es un Sistema Operativo de Microsoft",
+          "La cooperación entre programadores no esta contemplada",
+          "Es una metodología ágil"
+        ],
+        "answer": 2,
+        "explanation": "1.5.2.3.1 Métodos Ágiles\nEs una metodología ágil"
+      },
+      {
+        "question": "¿Qué es una fase en un Proyecto?",
+        "options": [
+          "Una fase es un conjunto de operaciones que realiza un úni equipo",
+          "Una fase es un periodo del proyecto en el que se usa una tecnología concreta",
+          "Una fase es un conjunto de actividades que producen un entregable importante en el proyecto"
+        ],
+        "answer": 2,
+        "explanation": "1.1.3.3 Fase\nUna fase es un conjunto de actividades que producen un entregable importante en el proyecto"
       }
     ]
   },
@@ -1336,6 +1366,26 @@
         ],
         "answer": 1,
         "explanation": "2.1.1.4 Medición orientada al dominio del sujeto\nEl Sistema Internacional de Medidas"
+      },
+      {
+        "question": "El objetivo de una teoría de la medición es...",
+        "options": [
+          "conseguir poner de acuerdo a los profesionales y otros stakeholders en un conjunto de métricas a usar",
+          "lograr que la descripción que las métricas aportan del sistema sea objetiva, exacta, reproducible, segura y significativa",
+          "crear teorías matemáticas que avalen las medidas"
+        ],
+        "answer": 1,
+        "explanation": "2.1.1 Teoría de la Medición\nlograr que la descripción que las métricas aportan del sistema sea objetiva, exacta, reproducible, segura y significativa"
+      },
+      {
+        "question": "en la técnica de Puntos Funcion ¿Cuántos son los factores de ajuste?",
+        "options": [
+          "18",
+          "16",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "2.4.2 Cálculo de puntos función\n14"
       }
     ]
   },
@@ -1861,6 +1911,16 @@
         ],
         "answer": 0,
         "explanation": "3.5.2.1 Precedencias de las actividades\nFinish-to-Finish, es una relación de precedencia que indica que una actividad no puede terminar hasta que lo haya hecho otra concreta"
+      },
+      {
+        "question": "¿Cuales de los siguientes son activos de los procesos de una organización?",
+        "options": [
+          "Planes, Procesos, Políticas, Procedimientos y Conocimiento corporativo",
+          "Ecológicos, Globalizadores y Socioculturales",
+          "Financieros y Humanos"
+        ],
+        "answer": 0,
+        "explanation": "3.2.3 Activos de los procesos de la organización\nPlanes, Procesos, Políticas, Procedimientos y Conocimiento corporativo"
       }
     ]
   },
@@ -3138,6 +3198,16 @@
         ],
         "answer": 2,
         "explanation": "5.3.1 Técnicas\nAyudan a establecer otros costes asociados a otras unidades dentro de la organización"
+      },
+      {
+        "question": "Con respecto a la técnica de Gestión del Valor Acumulado dentro del Control de Costes del proyecto, ¿Qué es el Índice de rendimiento de costes (CPI)?",
+        "options": [
+          "Es una medida de la eficiencia del coste del trabajo desarrollado con respecto al coste en un plazo. CPI=EV/AC",
+          "Es una medida de la eficiencia del coste en un plazo con respecto al valor planeado. CPI=AC/PV",
+          "Es una medida de la eficiencia del cronograma realizado en un plazo con respecto al valor planeado. CPI=EV/PV"
+        ],
+        "answer": 0,
+        "explanation": "PMBOK: 7.4.2.1 Earned Value Management\nEs una medida de la eficiencia del coste del trabajo desarrollado con respecto al coste en un plazo. CPI=EV/AC"
       }
     ]
   },
@@ -3813,6 +3883,36 @@
         ],
         "answer": 0,
         "explanation": "6.5.1 Metodología de Boehm\nIdentificación, Análisis, Priorización, Planificación de la gestión, Resolución y Monitorización"
+      },
+      {
+        "question": "¿Qué es un Factor de Riesgo?",
+        "options": [
+          "Es un indicador del riesgo",
+          "Es un porcentaje del riesgo total en función de número de stakeholders",
+          "Es un elemento que puede ser causa del riesgo"
+        ],
+        "answer": 2,
+        "explanation": "6.6.3 Análisis de Riesgos (Actividades básicas y mediciones)\nEs un elemento que puede ser causa del riesgo"
+      },
+      {
+        "question": "¿Cuál de las siguientes son algunas de las técnicas usadas en la Planificación de la gestión de cada riesgo?",
+        "options": [
+          "Análisis coste-beneficio y Análisis de la misión",
+          "Análisis coste-beneficio y Planes de Contingencia",
+          "Análisis de la misión y Planes de Contingencia"
+        ],
+        "answer": 1,
+        "explanation": "6.6.5.1 Técnicas\nAnálisis coste-beneficio y Planes de Contingencia"
+      },
+      {
+        "question": "En el contexto de las técnicas de Monitorización de Riesgos, ¿En qué consiste el Análisis de Variación y de Tendencias?",
+        "options": [
+          "En hacer análisis para comparar el estado del proyecto y de lo esperado en ese momento",
+          "En el cálculo de las fluctuaciones monetarias de las reservas de riesgos del proyecto",
+          "En hacer un seguimiento de la Gestión de Riesgos para comprobar que las reservas de riesgos siguen siendo suficientes para el proyecto"
+        ],
+        "answer": 0,
+        "explanation": "6.6.7.1 Técnicas (Análisis de Variación y de Tendencias)\nEn hacer análisis para comparar el estado del proyecto y de lo esperado en ese momento"
       }
     ]
   },
@@ -4378,6 +4478,16 @@
         ],
         "answer": 0,
         "explanation": "7.2 Evolución de la gestión de la calidad\nIntegración del factor humano"
+      },
+      {
+        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Aseguramiento de la calidad?",
+        "options": [
+          "Prevención de defectos",
+          "Prevención de defectos",
+          "Integración de todos los procesos"
+        ],
+        "answer": 2,
+        "explanation": "7.2 Evolución de la gestión de la calidad\nIntegración de todos los procesos"
       }
     ]
   },
@@ -5582,6 +5692,36 @@
         ],
         "answer": 2,
         "explanation": "9.10.1 Razones para terminar el proyecto\nEl proyecto ya no está alineado con la estrategia de la organización"
+      },
+      {
+        "question": "Dentro de las técnicas que ayudan a controlar los costes, ¿En qué consiste el uso de herramientas de simulación y estimación de costes?",
+        "options": [
+          "Son herramientas que toman decisiones sobre el proyecto en función de escenarios de ejecución",
+          "SOn herramientas que simulan el proyecto y lo comparan con lo realizado para ver dónde se han cometido fallos",
+          "Son herramientas que permiten diseñar escenarios de ejecución del proyecto hasta la conclusión y valorarlos para poder tomar decisiones"
+        ],
+        "answer": 2,
+        "explanation": "9.5 Control de costes\nSon herramientas que permiten diseñar escenarios de ejecución del proyecto hasta la conclusión y valorarlos para poder tomar decisiones"
+      },
+      {
+        "question": "¿Qué quiere decir que la formación debe ser cierta?",
+        "options": [
+          "Que no se puede formar al usuario para un sistema que no es idéntico al que se le entrega",
+          "Que no se puede formar al usuario en sistemas que no va a utilizar",
+          "Que no se puede formar al usuario con documentación que no haya aprobado el jefe de proyecto"
+        ],
+        "answer": 0,
+        "explanation": "9.9.2 Formación\nQue no se puede formar al usuario para un sistema que no es idéntico al que se le entrega"
+      },
+      {
+        "question": "¿En qué consiste la gestión del cambio desde el punto de vista del usuario final?",
+        "options": [
+          "En realizar acciones orientadas a facilitar el paso de los usuarios al nuevo sistema",
+          "En atender las solicitudes de cambio de los usuarios finales",
+          "En gestionar la selección de nuevos usuarios para el sistema"
+        ],
+        "answer": 0,
+        "explanation": "9.9.1 Gestión del cambio\nEn realizar acciones orientadas a facilitar el paso de los usuarios al nuevo sistema"
       }
     ]
   }
