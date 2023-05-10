@@ -19,3 +19,4 @@ App de tests para preparar el examen de DPPI
 - Alvaro Rodriguez Gonzalez
 - Daniel Pascual
 - Pablo Diaz Rubio
+- Paula Puerta

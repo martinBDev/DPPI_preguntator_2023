@@ -761,6 +761,46 @@
         ],
         "answer": 1,
         "explanation": "1.5.2.3.1 Métodos Ágiles\nEstán más orientados a las personas que a los procesos"
+      },
+      {
+        "question": "Según Deemer...",
+        "options": [
+          "Scrum es un marco de trabajo ágil para el desarrollo de peuqeños proyectos",
+          "Scrum es una metodología de trabajo para el desarrollo de software",
+          "Scrum es un marco de trabajo iterativo e incremental para el desarrollo de proyectos, productos y aplicaciones"
+        ],
+        "answer": 2,
+        "explanation": "1.5.2.4 Scrum\nScrum es un marco de trabajo iterativo e incremental para el desarrollo de proyectos, productos y aplicaciones"
+      },
+      {
+        "question": "¿Cuales son las actividades fundamentales de la metodología RUP?",
+        "options": [
+          "Iteraciones, ciclos y fases.",
+          "Inicio, elaboración, construcción y transición.",
+          "Requisitos, análisis, diseño, implementación y prueba."
+        ],
+        "answer": 2,
+        "explanation": "1.5.2.2.5 Actividades\nRequisitos, análisis, diseño, implementación y prueba."
+      },
+      {
+        "question": "Las 34 competencias del libro de Furtel se dividen en tres tipos de habilidades:",
+        "options": [
+          "Técnicas de desarrollo del producto software, Habilidades de la Gestión de proyectos y Habilidades personales de los gestores de proyectos",
+          "Comptencias para la construcción de una estructura de desglose del trabajo, competencias para la selección de las herramientas de gestión de proyectos y competencias para la selección de personal",
+          "Competencias económicas, competencias técnicas y competencias transversales"
+        ],
+        "answer": 0,
+        "explanation": "1.2 Roles y habilidades para la gestión de proyectos\nTécnicas de desarrollo del producto software, Habilidades de la Gestión de proyectos y Habilidades personales de los gestores de proyectos"
+      },
+      {
+        "question": "¿Quién ha definido la ingeniería del software como \"Una aplicación práctica del conocimiento científico para el diseño y construcción de programas de ordenador y la documentación asociada, necesaria para desarrollar, operar y mantenerlo\"?",
+        "options": [
+          "IEEE",
+          "Barry Boehm",
+          "Stephen Schach"
+        ],
+        "answer": 1,
+        "explanation": "(Furtel, y otros, 2002) (Cap 1. \"What is Software Engineering?)\nBarry Boehm"
       }
     ]
   },
@@ -1406,6 +1446,26 @@
         ],
         "answer": 1,
         "explanation": "2.1.3.2 Métricas y pseudo-métricas\nUna métrica es una pseudométrica que satisface un axioma de identidad más estricto"
+      },
+      {
+        "question": "¿Cuando se usan escalas ordinales?",
+        "options": [
+          "Se usan cuando las mediciones necesitan establecer juicios comparativos y ordenaciones sobre los valores de un atributo",
+          "Se usan cuando las mediciones necesitan establecer juicios comparativos pero no ordenaciones sobre los valores de un atributo",
+          "Se usan cuando las mediciones no se necesitan establecer juicios comparativos sino ordenaciones sobre los valores de un atributo"
+        ],
+        "answer": 0,
+        "explanation": "2.1.1.2.4.1 Escala\nSe usan cuando las mediciones necesitan establecer juicios comparativos y ordenaciones sobre los valores de un atributo"
+      },
+      {
+        "question": "Una afirmación que incluye escalas (numéricas) es significativa es significativa si y sólo si:",
+        "options": [
+          "Es representativa del mundo real",
+          "Su valor es un invariante bajo transformaciones admisibles",
+          "El conjunto de operaciones permitidas es útil"
+        ],
+        "answer": 1,
+        "explanation": "2.1.1.2.4.4 Significación\nSu valor es un invariante bajo transformaciones admisibles"
       }
     ]
   },
@@ -1951,6 +2011,16 @@
         ],
         "answer": 0,
         "explanation": "3.3.2 De la arquitectura del software al WBS\nIdentifica el 100% de trabajo requerido para llevar a cabo el proyecto"
+      },
+      {
+        "question": "De acuerdo a los formalismos del WBS...",
+        "options": [
+          "...toda actividad estará relacionada con otra actividad en el árbol",
+          "...toda actividad da lugar a un resultado y no hay ningún resultado (a excepción del estado inicial) que no tenga una actividad previa",
+          "...toda actividad estará representada por una elipse"
+        ],
+        "answer": 1,
+        "explanation": "3.3.2.1 Vistas de paquetes\n...toda actividad da lugar a un resultado y no hay ningún resultado (a excepción del estado inicial) que no tenga una actividad previa"
       }
     ]
   },
@@ -2603,6 +2673,26 @@
         ],
         "answer": 2,
         "explanation": "4.4.1 Técnicas\nSon parte del presupuesto del proyecto o pueden ser asumidos por la propia empresa"
+      },
+      {
+        "question": "¿Qué responsabilidades representan las matrices RACI?",
+        "options": [
+          "Responsable, Aprobador, Consultor e Informar",
+          "Cualquier tipo de responsabilidad entre el equipo de proyecto",
+          "Revisor, Aprobador, Consultor e Informador"
+        ],
+        "answer": 0,
+        "explanation": "4.2.1.1 Organigramas y descripciones de puestos de trabajo\nResponsable, Aprobador, Consultor e Informar"
+      },
+      {
+        "question": "Dentro de las técnicas para el desarrollo del equipo de proyecto, ¿En qué consiste la de \"Formación\"?",
+        "options": [
+          "La formación consiste en la elaboración de cursos para mejorar las habilidades de comunicación de los miembros del equipo",
+          "La formación es una técnica de gestión del equipo de proyecto",
+          "La formación incluye todas las actividades destinadas a mejorar las competencias técnicas de los miembros del equipo"
+        ],
+        "answer": 2,
+        "explanation": "4.4.1 Técnicas\nLa formación incluye todas las actividades destinadas a mejorar las competencias técnicas de los miembros del equipo"
       }
     ]
   },
@@ -4568,6 +4658,16 @@
         ],
         "answer": 2,
         "explanation": "7.2 Evolución de la gestión de la calidad\nIntegración de todos los procesos"
+      },
+      {
+        "question": "¿En qué consiste el Controld e calidad?",
+        "options": [
+          "Es el proceso por el que se evalúan los resultados de la ejecución de actividades de calidad, a fin de evaluar el desempeño y recomendar cambios necesarios",
+          "Es el proceso por el que se monitorizan y registran los resultados de la ejecución de actividades de calidad, a fin de evaluar el desempeño y recomendar cambios necesarios",
+          "Es el proceso por el que se definen las variables a medir en la ejecución de actividades de calidad, a fin de evaluar el desempeño y recomendar cambios necesarios"
+        ],
+        "answer": 1,
+        "explanation": "7.4.3 Control de calidad\nEs el proceso por el que se monitorizan y registran los resultados de la ejecución de actividades de calidad, a fin de evaluar el desempeño y recomendar cambios necesarios"
       }
     ]
   },
@@ -5136,6 +5236,16 @@
         ],
         "answer": 1,
         "explanation": "8.5.2 Tipos de normas\nOrientativas y de uso obligatorio"
+      },
+      {
+        "question": "¿Qué son los informes de desempeño?",
+        "options": [
+          "Son cuadros de mando que usan los componentes del equipo",
+          "SOn informes sobre los resultados finales del proyecto",
+          "Son informes que se realizan periódicamente para informar a los stakeholders del proyecto sobre los aspectos que les interesan en relación al avance del proyecto"
+        ],
+        "answer": 2,
+        "explanation": "8.3.1 Técnicas / Informes de desempeño\nSon informes que se realizan periódicamente para informar a los stakeholders del proyecto sobre los aspectos que les interesan en relación al avance del proyecto"
       }
     ]
   },
@@ -5842,6 +5952,16 @@
         ],
         "answer": 2,
         "explanation": "9.4 Control de plazos\nEn replanificar el proyecto con el objetivo de acelerarlo para que se pueda terminar en una fecha anterior a la prevista"
+      },
+      {
+        "question": "¿Qué quiere decir que la formación no debe ser contradictoria?",
+        "options": [
+          "Que no puede planificarse el mismo curso en horarios diferentes",
+          "Que no se puede programar la formación por diferentes formadores para evitar errores",
+          "Que no se debe formar al usuario en el mismo entorno con información que se contradiga"
+        ],
+        "answer": 2,
+        "explanation": "9.9.2 Formación\nQue no se debe formar al usuario en el mismo entorno con información que se contradiga"
       }
     ]
   }
