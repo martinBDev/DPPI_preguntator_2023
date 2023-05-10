@@ -221,6 +221,66 @@
         ],
         "answer": 0,
         "explanation": "(Deemer, y otros, 2012) (Revisión del Sprint)"
+      },
+      {
+        "question": "¿En qué consiste el refinamiento de la Pila del Producto en Scrum?",
+        "options": [
+          "Consiste en dividir elementos grandes, analizar elementos, reestimar elementos, cambiar prioridades de elementos, etc.",
+          "Consiste en eliminar de la lista los elementos que ya se han terminado después de un Sprint",
+          "Consiste en eliminar de la lista aquellas tareas que puedan hace pesada la metodología"
+        ],
+        "answer": 0,
+        "explanation": "1.5.2.4.7 Refinamiento de la Pila del Producto"
+      },
+      {
+        "question": "Para RUP la vida de un sistema se divide en ciclos y cada ciclo en cuatro fases, indica cual de las siguientes respuestas no es una fase de un ciclo:",
+        "options": [
+          "Elaboración.",
+          "Dimensionamiento.",
+          "Inicio."
+        ],
+        "answer": 1,
+        "explanation": "1.5.2.2.4 Fases dentro de un ciclo"
+      },
+      {
+        "question": "Entre los problemas habituales a la hora de planificar un proyecto están:",
+        "options": [
+          "la fijación de los objetivos estratégicos del proyecto",
+          "la necesidad de medir el proyecto y la necesidad de identificación de hitos",
+          "la limitación de la carga del trabajo de los responsables del proyecto"
+        ],
+        "answer": 1,
+        "explanation": "1.3 Técnicas para la gestión de proyectos"
+      },
+      {
+        "question": "Una desventaja del modelo de cilco de vida en cascada es...",
+        "options": [
+          "Es un modelo pensado para hacer desarrollos en ensamblador",
+          "No refleja realmente el proceso de desarrollo del software, ya que casi nunca se cierra totalmente una fase antes de comenzar la siguiente",
+          "Es un método muy antiguo y la informática ha evoluacionado"
+        ],
+        "answer": 1,
+        "explanation": "1.5.1.1 El modelo en cascada"
+      },
+      {
+        "question": "¿Cuál de las siguientes afirmaciones se corresponde con limitaciones asociadas a proyectos de informática?",
+        "options": [
+          "Cada tipo de proyecto está limitado a una tecnología determinada",
+          "El objetivo se tiene que alcanzar en un plazo de tiempo limitado",
+          "El número de jefes de proyecto está limitado por el cliente"
+        ],
+        "answer": 0,
+        "explanation": "1.1.1 Concepto de Proyecto"
+      },
+      {
+        "question": "¿Cuál es la definición de “Terminado” para un Sprint de Scrum?",
+        "options": [
+          "\"Terminado\" es el producto o conjunto de productos que se obtienen al final de un Sprint",
+          "La definición de “Termiando” deben acordarse con el DP",
+          "Un producto está \"Terminado\" si pasa las pruebas al final de Sprint"
+        ],
+        "answer": 1,
+        "explanation": "1.5.2.4.3 Definición de “Terminado” (Terminar el Sprint)"
       }
     ]
   },
@@ -326,6 +386,86 @@
         ],
         "answer": 2,
         "explanation": "2.1.1.2.2 Sistema relacional numérico (formal)"
+      },
+      {
+        "question": "¿Cuántos valores pueden tomar los factores de ajuste en la tecnica de Puntos Función de Albretch?",
+        "options": [
+          "6",
+          "3",
+          "5 Son 6, van de 0 a 5"
+        ],
+        "answer": 2,
+        "explanation": "2.4.2 Cálculo de puntos función"
+      },
+      {
+        "question": "¿En qué se basan las estimaciones usando CEM (Cost Estimating Model)?",
+        "options": [
+          "Se basan en métodos estadísticos calibrados que permiten cálculos muy ajustados",
+          "Se basan en la no-linealidad entre esfuerzo y coste, sobre estos resultados aplican factores de corrección",
+          "Se basan en las relaciones lineales entre tamaño y esfuerzo"
+        ],
+        "answer": 1,
+        "explanation": "2.3.2.1 Generalidades de los CEM"
+      },
+      {
+        "question": "El tiempo perdido por un programador...",
+        "options": [
+          "Es una medida pero no es una métrica",
+          "Es una medición significativa de acuerdo a Fenton",
+          "No es una medición significativa porque se mide en una escala de intervalo"
+        ],
+        "answer": 1,
+        "explanation": "2.1.1.2.4.4 Significación"
+      },
+      {
+        "question": "¿Cuál de las siguientes mediciones es significativa?",
+        "options": [
+          "La complejidad de un diseño orientado a objetos",
+          "La medición de la calidad de elaboración de un software",
+          "La medición de los costes de implementación de un software en Euros Puede calcularse y medirse y es objetiva"
+        ],
+        "answer": 2,
+        "explanation": "2.1.1.2.4.4 Significación"
+      },
+      {
+        "question": "¿Por qué etapas han pasado los CEM (Cost Estimating Model)?",
+        "options": [
+          "Históricos basados en la experiencia, se base estadística, con base teórica y compuestos",
+          "COCOMO, Métricas Bang de DeMarco, Puntos Función",
+          "Puntos Función, Denphi y técnicas estadísticas"
+        ],
+        "answer": 0,
+        "explanation": "2.3.2 Modelos de Estimación de Costes"
+      },
+      {
+        "question": "¿Qué es la medición?",
+        "options": [
+          "La medición es el proceso de codificación objetiva y empírica de alguna propiedad de una clase seleccionada de entidades en un sistema formal de símbolos, de manera que la describan (a la clase) La definición adoptada está sacada del Software Engineer’s Reference Book (McDermid, 1991) y se debe a Agnes A. Kaposi",
+          "La medición es la clasificación de propiedades de una clase de manera que la describan (a la clase)",
+          "La medición es la asignación de números a propiedades"
+        ],
+        "answer": 0,
+        "explanation": "2.1.1 Teoría de la Medición"
+      },
+      {
+        "question": "Desde el punto de vista de la calidad de una medición, la escala...",
+        "options": [
+          "...permite reflexionar sobre la capacidad del sistema para ser preciso en una medida",
+          "...habla de relación entre el orden, el intervalo y el ratio",
+          "...habla de la necesiad de que en cualquier escala la medida debe ser única"
+        ],
+        "answer": 0,
+        "explanation": "2.1.1.2.4.1 EscalDe la vista de los tipos de escala se desprenderá la calidad con la que se puede medir el atributo."
+      },
+      {
+        "question": "¿Qué escalas son las que obligan a que las transformaciones de escala deban conservar el origen aunque puedan modificar la pendiente de la escala (T(x)=αm,α>0)?",
+        "options": [
+          "Las escalas ordinales",
+          "Las escalas de ratio",
+          "Las escalas numéricas"
+        ],
+        "answer": 1,
+        "explanation": "2.1.1.2.4.1 Escala"
       }
     ]
   },
@@ -451,6 +591,56 @@
         ],
         "answer": 2,
         "explanation": "(PMBOK, 2013)"
+      },
+      {
+        "question": "¿Cuáles de los siguientes son elementos culturales de una empresa?",
+        "options": [
+          "Oficinas, despachos, recursos y centros de desarrollo",
+          "Visiones compartidas, valores, creencias y expectativas",
+          "Personas, recursos financieros y disponibilidad"
+        ],
+        "answer": 1,
+        "explanation": "3.2.1 Influencias de la organización en la gestión del proyecto"
+      },
+      {
+        "question": "¿Cuál es la organización funcional clásica de una empresa?",
+        "options": [
+          "Es un modelo en que cada empleado realiza una sola función en un proyecto",
+          "Es una jerarquía en la que cada empleado tiene un superior claro",
+          "Es una organización en base a departamentos funcionales"
+        ],
+        "answer": 1,
+        "explanation": "(PMBOK, 2013) 2.1.3 Organizational Structures"
+      },
+      {
+        "question": "Los procesos organizacionales que se llevan a cabo en un proyecto se pueden clasificar en...",
+        "options": [
+          "\"Inicio y planificación\", \"Ejecución, Monitorización y Control\" y \"Cierre\"",
+          "Inicio, Elaboración, Construcción y Transición",
+          "Arranque, Identificación, Priorización, Monitorización y Control"
+        ],
+        "answer": 0,
+        "explanation": "(PMBOK, 2013) 2.1.4.1 Processes and Procedures"
+      },
+      {
+        "question": "¿Cuál de los siguientes es un beneficio aportado al proyecto por el WBS?",
+        "options": [
+          "Realiza la verificación del alcance del poryecto",
+          "Apoya en el proceso de verificación del alcance del proyecto",
+          "Realiza la validación del alcance del proyecto"
+        ],
+        "answer": 1,
+        "explanation": "3.3.2 De la arquitectura del software al WBS"
+      },
+      {
+        "question": "Hablando de estimación de recursos para las actividades, ¿En qué consiste el Juicio de expertos?",
+        "options": [
+          "Es la opinión de personas que han tenido experiencia previa con actividades simialres",
+          "Es la opinión de los directivos de la empresa sobre la actividad",
+          "Es la opinión de expertos contratados para ayudar en el proyecto"
+        ],
+        "answer": 0,
+        "explanation": "3.6 Estimación de recursos"
       }
     ]
   },
@@ -576,6 +766,55 @@
         ],
         "answer": 1,
         "explanation": "(PMBOK 5.0) 9. Project Human Resource Management"
+      },
+      {
+        "question": "¿Cuáles de las siguientes son técnicas de la Gestión del equipo de proyecto?",
+        "options": [
+          "Observación y Conversación, Evaluaciones del desempeño del proyecto y Resolución de conflictos",
+          "Formación, Actividades de mejora de trabajo en equipo y Herramientas de evaluación del personal"
+        ],
+        "answer": 0,
+        "explanation": "4.5.1 Técnicas"
+      },
+      {
+        "question": "¿Qué maneras existen de documentar el equipo de proyecto y sus roles y responsabilidades?",
+        "options": [
+          "Documentación en papel o documentación digital",
+          "WBS, OBS, PBS y Red Lógica",
+          "Organigramas y descripciones de puestos de trabajo, Reuniones, etc."
+        ],
+        "answer": 2,
+        "explanation": "4.2.1 Técnicas"
+      },
+      {
+        "question": "¿Cuál de las siguientes es una desventaja de la interdependencia dentro de la dependencia de los miembros del equipo?",
+        "options": [
+          "Los miembros del equipo deben tener una relación personal fuerte y eso es difícil de conseguir",
+          "Si los proyectos son muy grandes la coordinación de las decisiones pueden ser complejas",
+          "Las jornadas de trabajo se alargan para poder albergar las reuniones de coordinación"
+        ],
+        "answer": 1,
+        "explanation": "4.3.2 Dependencia de los miembros del equipo"
+      },
+      {
+        "question": "Para realizar la selección del equipo de proyecto se parte de algunos elementos de entrada, ¿Cuál de los siguientes es uno de ellos?",
+        "options": [
+          "Calendario de recursos",
+          "Asignaciones al equipo de proyecto",
+          "Factores ambientales de la empresa"
+        ],
+        "answer": 2,
+        "explanation": "(PMBOK 5.0) 9.2.1 Acquire Project Team: Inputs"
+      },
+      {
+        "question": "Cuando se diseña el Plan de gestión de recusos humanos precisaremos de algunos documentos de entrada, ¿Cuál de los siguientes es uno de ellos?",
+        "options": [
+          "Plan de gestión de proyecto",
+          "Plan de riesgos",
+          "Selección de miembros del equipo"
+        ],
+        "answer": 0,
+        "explanation": "(PMBOK 5.0) 9.1 Plan Human Resource Management"
       }
     ]
   },
@@ -931,6 +1170,66 @@
         ],
         "answer": 1,
         "explanation": "7.1 Definición de calidad"
+      },
+      {
+        "question": "¿Qué son los Modelos de Calidad?",
+        "options": [
+          "Son aquellos que están acreditados por las entidades de homologación",
+          "Son aquellos que integran la mayor parte de las mejores prácticas",
+          "Son aquellos que permiten definir un conjunto de criterios de desarrollo que guían la forma en que se aplica la Ingeniería del Software"
+        ],
+        "answer": 1,
+        "explanation": "7.3 Modelos y Estándares de Calidad"
+      },
+      {
+        "question": "¿Cuál de las siguientes es una característica propia del nivel 3 de CMMI (no compartida con niveles inferiores)?",
+        "options": [
+          "Se establece la mejora de estos procesos en el tiempo",
+          "El sistema debe estar controlado cuantitativamente",
+          "Se establece una meta cuantitativa de calidad tanto para el proceso de software como para el mantenimiento de software"
+        ],
+        "answer": 0,
+        "explanation": "7.3.2.2 Niveles CMMI (Nivel 3 - Definido)"
+      },
+      {
+        "question": "¿Qué técnicas son habituales en el aseguramiento de la calidad?",
+        "options": [
+          "Las Herramientas y Técnicas para Planificar la Calidad, las Auditorías de Calidad y el Análisis de Procesos",
+          "Las Herramientas y Técnicas para Realizar el Control de Calidad, las Auditorías de Calidad y el Análisis de Procesos",
+          "Las Herramientas y Técnicas para Planificar la Calidad y Realizar el Control de Calidad, las Auditorías de Calidad y el Análisis de Procesos"
+        ],
+        "answer": 2,
+        "explanation": "7.4.2.1 Técnicas"
+      },
+      {
+        "question": "Dentro de los parámetros que determinan la adecuación al uso, ¿Qué es la Calidad de conformidad?",
+        "options": [
+          "Es un aspecto de la calidad tiene que ver con el desempeño y la vida útil del producto",
+          "Es un concepto de calidad basado en el producto o servicio cuyo objetivo es cumplir un conjunto de características medibles establecidas por el fabricante para satisfacer al cliente",
+          "Es la parte de la calidad que asegura que el producto diseñado satisfaga las necesidades del usuario"
+        ],
+        "answer": 2,
+        "explanation": "7.1 Definición de calidad"
+      },
+      {
+        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Aseguramiento de la calidad?",
+        "options": [
+          "Integración de todos los procesos",
+          "Prevención de defectos",
+          "Prevención de defectos"
+        ],
+        "answer": 0,
+        "explanation": "7.2 Evolución de la gestión de la calidad"
+      },
+      {
+        "question": "En la moderna gestión de la calidad se reconoce la importancia de los algunos conceptos, ¿Cuáles?",
+        "options": [
+          "Planificar la calidad, Aseguramiento de la calidad y Control de calidad",
+          "Calidad de software, Factores de calidad, Criterios de calidad y Métricas de calidad",
+          "La satisfacción del cliente, La prevención antes que la inspección, La mejora continua, La responsabilidad de la dirección y El coste de la calidad"
+        ],
+        "answer": 2,
+        "explanation": "7.4 Gestión de la calidad en los proyectos"
       }
     ]
   },
@@ -1057,6 +1356,86 @@
         ],
         "answer": 1,
         "explanation": "8.2.1 Técnicas/Métodos de comunicación"
+      },
+      {
+        "question": "Dentro de las técnicas de búsqueda de aspectos legales y normativos, ¿En qué consiste el uso de Herramientas?",
+        "options": [
+          "Consiste en buscar normas a través de herramientas de búsqueda especilizada",
+          "Consiste en generar normas adaptadas al proyecto usando herramientas",
+          "Consiste en usar herramientas para nos ayuden a implantar las normas"
+        ],
+        "answer": 0,
+        "explanation": "8.5.4.1 Técnicas de búsqueda / Herramientas"
+      },
+      {
+        "question": "W3C es una entidad de normalización...",
+        "options": [
+          "...de ámbito nacional y multisectorial",
+          "...de ámbito internacional y sectorial",
+          "...de ámbito internacional y multisectorial",
+          "...de ámbito nacional y sectorial"
+        ],
+        "answer": 3,
+        "explanation": "8.5.3 Entidades de normalización"
+      },
+      {
+        "question": "Un email del Jefe de Proyecto comunicando que se va a disponer de licencias de un producto, ¿Que tipo de comunciación sería?",
+        "options": [
+          "Interna y extraoficial",
+          "Escrita y horizontal",
+          "Vertical e informal"
+        ],
+        "answer": 2,
+        "explanation": "8.1 Gestión de las comunicaciones"
+      },
+      {
+        "question": "Dentro de las técnicas para la planificación de la Gestión de las Comunicaciones, ¿En qué consiste el Análisis de los requisitos de comunicación?",
+        "options": [
+          "En determinar los métodos que se usen para realizar la comunicación",
+          "En determinar los requisitos de comunicación necesaria y el valor de esa información",
+          "En determinar el número de canales que van a usar la comunciación"
+        ],
+        "answer": 1,
+        "explanation": "8.2.1 Técnicas/Análisis de los requisitos de comunicación"
+      },
+      {
+        "question": "¿Cuáles de los siguientes son factores que influyen en las decisiones de selección de Tecnologías de comunicación?",
+        "options": [
+          "La codificación y decodificación del mensaje",
+          "La Urgencia de la información requerida y la Facilidad de uso",
+          "La transmisión y aceptación del mensaje"
+        ],
+        "answer": 1,
+        "explanation": "8.2.1 Técnicas/Tecnología de comunicación"
+      },
+      {
+        "question": "¿Cuáles de los siguientes criterios formarán parte del Plan de Gestión de las comunicaciones?",
+        "options": [
+          "La adaptación de los modelos de comunicación a los requisitos del proyecto",
+          "Los métodos o tecnologías utilizados para transmitir la información"
+        ],
+        "answer": 1,
+        "explanation": "8.2.2 Salidas"
+      },
+      {
+        "question": "¿Cuáles son las técnicas del Control de las Comunicaciones?",
+        "options": [
+          "Análisis de los requisitos de comunicación, Tecnología de comunicaciones, Modelos de comunicaciones, Métodos de comunicación, Sistemas de gestión de la información y Reuniones",
+          "Tecnología de comunicaciones, Modelos de comunicaciones, Métodos de comunicación, Sistemas de gestión de la información e Informes de desempeño",
+          "Sistemas de gestión de la información, Juicio de expertos y Reuniones"
+        ],
+        "answer": 2,
+        "explanation": "8.4.1 Técnicas"
+      },
+      {
+        "question": "¿Qué proceso es importante hacer a la hora de planear un proyecto para evitar compliaciones legales futuras?",
+        "options": [
+          "Identificar la legislación, la normativa, las patentes y los derechos de autor que puedan condicionar el diseño del proyecto",
+          "Hacer estudios con entidad propia para saber si nos afecta alguna ley",
+          "Usar herramientas para buscar las normas y las leyes que nos afectan"
+        ],
+        "answer": 0,
+        "explanation": "8.5.4 Las normas en los proyectos"
       }
     ]
   },
@@ -1179,6 +1558,56 @@
           "Coste real del trabajo realizado",
           "Coste presupuestado del trabajo realizado",
           "Coste presupuestado del trabajo progamado"
+        ],
+        "answer": 0,
+        "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Earned Value Management"
+      },
+      {
+        "question": "Durante la ejecución del proyecto el Jefe de proyecto es el responsable de...",
+        "options": [
+          "La Dirección del proyecto, la Gestión de costes y Consecución de beneficios del proyecto",
+          "La Dirección del proyecto, el impulso al desarrollo del proyecto y la toma de decisiones",
+          "La Dirección del proyecto, la Coordinación con el cliente y los Aspectos legales"
+        ],
+        "answer": 1,
+        "explanation": "9.2 Actividades de seguimiento y control del proyecto"
+      },
+      {
+        "question": "¿Según Furtel, ¿Cómo se debe comenzar cualquier solicitud de cambio?",
+        "options": [
+          "Deben pasar por el Director de proyecto antes de ir al \"Change Control Board\"",
+          "Deben ser iniciados por el Jefe de Proyecto y estudiados por el \"Change Control Board\"",
+          "Debe existir un \"Change Control Board\" que debe recepcionar las solicitudes"
+        ],
+        "answer": 2,
+        "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Scope Management"
+      },
+      {
+        "question": "Dentro de los elementos básicos del control del alcance, ¿Qué objetivo cumple tener un sistema de auditoría o revisión periódica?",
+        "options": [
+          "Asegurar el cumplimiento del desempeño",
+          "Asegurar la integridad de la información",
+          "Asegurar la buena dirección del proyecto"
+        ],
+        "answer": 1,
+        "explanation": "9.3 Control del alcance"
+      },
+      {
+        "question": "¿En qué consiste el seguimiento de un proyecto?",
+        "options": [
+          "En el control de la ejecución del proyecto para verificar que el proyecto no sufre retrasos",
+          "En la supervisión continua o periódica de la ejecución de un proyecto para asegurarse de que se desarrolla de acuerdo al plan previsto",
+          "En la revisión de la ejecución del proyecto para conseguir que se desarrolle dentro de los costes acordados"
+        ],
+        "answer": 1,
+        "explanation": "9.1 Introducción"
+      },
+      {
+        "question": "En la técnica de la Gestión de Valor ganado o acumulado, ¿Cuál es el coste estimado en la terminación (ECAC)?",
+        "options": [
+          "Es la proyección del coste total final en función del coste y del desempeño actualeEACA = BAC x (ACWP / BCWP)",
+          "Es la proyección del coste total final en función de la variación de coste y el coste actualeEACA = BAC x (CV / ACWP)",
+          "Es la proyección del coste total final en función de la variación de cronograma y la de coste actualeEACA = BAC x (SV / CV)"
         ],
         "answer": 0,
         "explanation": "(Furtel y otros, 2002), 25. Project Tracking and Control / Earned Value Management"
