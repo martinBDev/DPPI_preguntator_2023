@@ -1,6 +1,5 @@
 import json
 from bs4 import BeautifulSoup
-import re
 import glob
 from difflib import SequenceMatcher
 """
@@ -8,8 +7,7 @@ Un script para añadir y detectar colisiones directamente al json
 """
 
 def cleanHtm(txt:str) -> str:
-	fmt = re.compile(r'[a-z]\.\s+')
-	return fmt.sub('', txt.replace('\t','').replace('\n',' ').strip()).strip()
+	return txt.replace('\t','').replace('\n',' ').replace('  ', ' ').strip()
 	
 	
 
@@ -28,21 +26,20 @@ def parseHtm(htmFile:str) -> dict:
 			'answer': -1,
 			'explanation': '...'
 		}
-		answers = questionField.find('div', {'class': 'answer'})
-		# conseguir preguntas
-		for idx, answer in enumerate(answers):
-			if not cleanHtm(answer.text): continue
-			if 'correct' in str(answer):
-				# el indice es doble por algún motivo
-				question['answer'] = idx // 2
-	
-			question['options'].append(cleanHtm(answer.text))
-
+		correctTag = questionField.parent.find('div', {'class': 'rightanswer'})
+		correctText = cleanHtm(correctTag.text).replace('La respuesta correcta es: ','')
+		# enumerar por preguntas
+		for idx, answer in enumerate(questionField.find_all('div', {'data-region': 'answer-label'})):
+			answerText = cleanHtm(answer.div.text)
+			question['options'].append(answerText)
+			if correctText == answerText:
+				question['answer'] = idx
+		
 		questions.append(question)
-		# cosneguir retroalimentación
+		# conseguir retroalimentación
 		feedback = questionField.parent.find('div', {'class': 'generalfeedback'})
 		if feedback:
-			question['explanation'] = cleanHtm(feedback.text)
+			question['explanation'] = f'{cleanHtm(feedback.text)}\n{correctText}'
 
 	return questions
 
@@ -53,7 +50,7 @@ def mergeData(data:dict, topic:str, questions: dict):
 	theme = data[topic - 1]
 
 	for question in questions:
-		# check for repeated
+		# buscar colisiones
 		repeated = False
 		for originalQuestion in theme['questions']:
 			if similar(question['question'], originalQuestion['question']) > .95:
