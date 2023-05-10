@@ -1086,6 +1086,36 @@
           ],
           "answer": 1,
           "explanation": "2.1.1.2.4.3 Representatividad"
+        },
+        {
+          "question": "Las  condiciones de unicidad y representatividad de una medición indirecta  orientada a objeto deben ser de una de estas dos clases:",
+          "options": [
+            "Condiciones directas e indirectas",
+            "Condiciones simples y complejas",
+            "Condiciones heredadas e interrelacionadas"
+          ],
+          "answer": 2,
+          "explanation": "2.1.1.3.2 Unicidad y 2.1.1.3.3 Representatividad"
+        },
+        {
+          "question": "Las  escalas absolutas son escalas de ratio pero en donde el valor asignado  es también un estándar, de modo que no admiten transformación posible,  la única transformación de escala es la identidad, ¿Cómo se representa  esto matemáticamente?",
+          "options": [
+            "T(x)=αm+β,α>0",
+            "T(x) = x",
+            "T(x)=αm,α>0"
+          ],
+          "answer": 1,
+          "explanation": "2.1.1.2.4.1 Escala"
+        },
+        {
+          "question": "De acuerdo a la Teoría Representacional (Jáñez, 1989), para realizar esta medición cuantitativa...",
+          "options": [
+            "se  necesita construir dos sistemas: directo e indirecto y establecer entre  ellos una función isomófica que transforma el uno en el otro",
+            "se  necesita construir dos sistemas: directo e indirecto y establecer entre  ellos una función homomórfica que transforma el uno en el otro",
+            "se  necesita construir dos sistemas: empírico y numérico y establecer entre  ellos una función homomórfica que transforma el uno en el otro"
+          ],
+          "answer": 2,
+          "explanation": "2.1.1.2 Medición cuantitativa"
         }
       ]
     },
