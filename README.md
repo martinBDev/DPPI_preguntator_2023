@@ -11,3 +11,4 @@ App de tests para preparar el examen de DPPI
 - Jesus Alonso García
 - Diego Martín Fernandez
 - Joaquin Salustiano Britos Morales
+- Laís García Suarez
