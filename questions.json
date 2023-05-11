@@ -2856,7 +2856,7 @@
           "Autofinanciación, Financiación de socios y Financiación con deuda",
           "Crear con medios propios, Comprar, Alquilar y Leasing"
         ],
-        "answer": -1,
+        "answer": 0,
         "explanation": "5.1.1 Técnicas\nPeriodo de recuperación, Retorno de la inversión (ROI), Tasa interna de rentabilidad, Flujo de caja descontado y Valor presente neto (NPV)"
       },
       {
