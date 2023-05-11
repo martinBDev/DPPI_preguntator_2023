@@ -93,11 +93,13 @@ function displayResults() {
         }
 
         const explanation = document.createElement("p");
-        explanation.style.backgroundColor = "yellow";
-      
-        explanation.style.color = "black";
+        explanation.className = "explanation";
         explanation.textContent = question.explanation;
-        questionDiv.appendChild(explanation);
+        //check if the explanation is already displayed
+        if(questionDiv.lastChild.className != "explanation"){
+
+            questionDiv.appendChild(explanation);
+        }
     });
 }
 
@@ -134,6 +136,12 @@ function loadQuestions(topic) {
             optionItem.appendChild(optionInput);
             optionItem.appendChild(optionLabel);
             optionList.appendChild(optionItem);
+
+            optionItem.addEventListener("click", (event) => {
+                if(event.target !== optionInput) {
+                    optionInput.click();
+                }
+            });
         });
 
         questionDiv.appendChild(optionList);
