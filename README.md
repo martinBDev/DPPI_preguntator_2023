@@ -6,7 +6,7 @@ App de tests para preparar el examen de DPPI
 
 # AGRADECIMIENTOS POR APORTACIONES #
 - Sara Fernandez Arias
-- Rosa Gracía Lopez
+- Rosa García Lopez
 - Carlos Garriga Suarez
 - Jesus Alonso García
 - Diego Martín Fernandez
@@ -21,3 +21,4 @@ App de tests para preparar el examen de DPPI
 - Pablo Diaz Rubio
 - Paula Puerta
 - Pablo Rodríguez Rodríguez
+- Stelian Adrian Stanci
