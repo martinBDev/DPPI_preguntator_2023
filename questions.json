@@ -801,6 +801,26 @@
         ],
         "answer": 1,
         "explanation": "(Furtel, y otros, 2002) (Cap 1. \"What is Software Engineering?)\nBarry Boehm"
+      },
+      {
+        "question": "¿Cuál de las siguientes características NO pertenece a XP (eXtreme Programming)?",
+        "options": [
+          "El código que se realiza pertenece al grupo",
+          "Las pruebas se realizan al finalizar el programa",
+          "Los programas deben diseñarse e implementarse de la forma más simple posible"
+        ],
+        "answer": 1,
+        "explanation": "Apuntes. 1.5.2.3.3 Características de XP\nLas pruebas se realizan al finalizar el programa"
+      },
+      {
+        "question": "¿Cuál de las siguientes ventajas es del modelo de prototipos",
+        "options": [
+          "Los modelos son validados por el propio usuario",
+          "Se reaprovecha mucho código entre los prototipos",
+          "Acelera el ritmo de esfuerzo del equipo de desarrollo"
+        ],
+        "answer": 0,
+        "explanation": "1.5.1.2 El modelo de prototipos\nLos modelos son validados por el propio usuario"
       }
     ]
   },
@@ -2021,6 +2041,16 @@
         ],
         "answer": 1,
         "explanation": "3.3.2.1 Vistas de paquetes\n...toda actividad da lugar a un resultado y no hay ningún resultado (a excepción del estado inicial) que no tenga una actividad previa"
+      },
+      {
+        "question": "¿Qué es el OBS?",
+        "options": [
+          "Organization Breakdown Structure, representa las responsabilidades sobre la realización de las actividades del proyecto",
+          "Ontology Breakdown Structure, representa el diccionario de datos del proyecto",
+          "Organization Better Structure, es la representación de las mejor distribución de actividades posible para el proyecto"
+        ],
+        "answer": 0,
+        "explanation": "3.3.1 Formalismos\nOrganization Breakdown Structure, representa las responsabilidades sobre la realización de las actividades del proyecto"
       }
     ]
   },
@@ -2693,6 +2723,16 @@
         ],
         "answer": 2,
         "explanation": "4.4.1 Técnicas\nLa formación incluye todas las actividades destinadas a mejorar las competencias técnicas de los miembros del equipo"
+      },
+      {
+        "question": "Dentro de las técnicas para el gestión del equipo de proyecto, ¿En qué consiste la de \"Habilidades Interpersonales\"?",
+        "options": [
+          "Son técnicas de evaluación de terceros sobre las habilidades de cada miembro de equipo",
+          "Son técnicas para analizar las situaciones de conflicto e interactuar adecuadamente con los miembros del equipo",
+          "Son técnicas de autoevaluación personal"
+        ],
+        "answer": 1,
+        "explanation": "4.5.1 Técnicas\nSon técnicas para analizar las situaciones de conflicto e interactuar adecuadamente con los miembros del equipo"
       }
     ]
   },
@@ -4083,6 +4123,16 @@
         ],
         "answer": 0,
         "explanation": "6.6.7.1 Técnicas (Análisis de Variación y de Tendencias)\nEn hacer análisis para comparar el estado del proyecto y de lo esperado en ese momento"
+      },
+      {
+        "question": "¿En qué consiste la identificación de riesgos?",
+        "options": [
+          "Es un proceso de definición del identificador y el nombre de los riesgos del proyecto",
+          "Es un proceso de reflexión a través de diferentes técnicas para determinar qué cosas, elementos o circunstancias son riesgos del proyecto",
+          "Es la creación de una lista con los riesgos importantes del proeycto y otra con los menos importantes"
+        ],
+        "answer": 1,
+        "explanation": "6.6.2 Identificación de Riesgos\nEs un proceso de reflexión a través de diferentes técnicas para determinar qué cosas, elementos o circunstancias son riesgos del proyecto"
       }
     ]
   },
@@ -5962,6 +6012,16 @@
         ],
         "answer": 2,
         "explanation": "9.9.2 Formación\nQue no se debe formar al usuario en el mismo entorno con información que se contradiga"
+      },
+      {
+        "question": "Dentro de las técnicas que ayudan a controlar los costes, ¿En qué consiste centrar el esfuerzo en las partidas de mayor coste?",
+        "options": [
+          "Consiste en partir tareas para que su coste no sea significativo y su control no sea necesario, centrando la atención en las que no se pueden partir",
+          "Consiste en unir actividades para que el coste global de todas ellas sea suficientemente alto como para que tenga sentido prestales atención",
+          "Consiste en usar técnicas como la Ley de Pareto o los diagramas ABC para decidir qué actividades requieren mayor atención"
+        ],
+        "answer": 2,
+        "explanation": "9.5 Control de costes\nConsiste en usar técnicas como la Ley de Pareto o los diagramas ABC para decidir qué actividades requieren mayor atención"
       }
     ]
   }
