@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(response => response.json())
         .then(data => {
             populateTopics(data);
+            createMockExam(data);
             loadQuestions(data[0].topic);
         });
 
@@ -17,6 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const submitButton = document.getElementById("submit-button");
     submitButton.addEventListener("click", () => {
         // Aquí va la lógica para validar las respuestas
+    });
+
+    const viewAnswersButton = document.getElementById("view-answers-button");
+    viewAnswersButton.addEventListener("click", () => {
+        viewAnswers();
     });
 });
 
@@ -87,11 +93,13 @@ function displayResults() {
         }
 
         const explanation = document.createElement("p");
-        explanation.style.backgroundColor = "yellow";
-      
-        explanation.style.color = "black";
+        explanation.className = "explanation";
         explanation.textContent = question.explanation;
-        questionDiv.appendChild(explanation);
+        //check if the explanation is already displayed
+        if(questionDiv.lastChild.className != "explanation"){
+
+            questionDiv.appendChild(explanation);
+        }
     });
 }
 
@@ -128,9 +136,106 @@ function loadQuestions(topic) {
             optionItem.appendChild(optionInput);
             optionItem.appendChild(optionLabel);
             optionList.appendChild(optionItem);
+
+            optionItem.addEventListener("click", (event) => {
+                if(event.target !== optionInput) {
+                    optionInput.click();
+                }
+            });
         });
 
         questionDiv.appendChild(optionList);
         questionContainer.appendChild(questionDiv);
     });
+}
+
+//Marks the correct answers and displays the explanation
+function viewAnswers(){
+    const selectedTopic = questionsData.find(q => q.topic === document.getElementById("topic-selector").value);
+
+    selectedTopic.questions.forEach((question, index) => {
+        const questionDiv = document.querySelector(`.question[data-index="${index}"]`);
+        const explanation = document.createElement("p");
+        explanation.className = "explanation";
+
+        explanation.textContent = question.explanation;
+        if(questionDiv.lastChild.className != "explanation"){
+            questionDiv.appendChild(explanation);
+        }
+
+        //Marks the correct answer
+        const correctOption = document.getElementById(`question-${index}-${question.answer}`);
+        const correctOptionItem = correctOption.parentElement; 
+        correctOptionItem.style.backgroundColor = "green";
+        correctOptionItem.style.color = "white";
+        correctOption.checked = true;
+
+    });
+
+    //change the button to hide answers
+    const viewAnswersButton = document.getElementById("view-answers-button");
+    viewAnswersButton.textContent = "Ocultar respuestas";
+    viewAnswersButton.removeEventListener("click", viewAnswers);
+    viewAnswersButton.addEventListener("click", hideAnswers);
+}
+
+function hideAnswers() {
+    const explanationList = document.querySelectorAll(".explanation");
+    explanationList.forEach(explanation => {
+        explanation.remove();
+    });
+
+    const inputs = document.querySelectorAll("input");
+    inputs.forEach(input => {
+        input.checked = false;
+    });
+
+    const optionItems = document.querySelectorAll(".answer");
+    optionItems.forEach(optionItem => {
+        optionItem.style.backgroundColor = "#a1d5f8";
+        optionItem.style.color = "black";
+    });
+
+    //change the button to view answers
+    const viewAnswersButton = document.getElementById("view-answers-button");
+    viewAnswersButton.textContent = "Ver respuestas";
+    viewAnswersButton.removeEventListener("click", hideAnswers);
+    viewAnswersButton.addEventListener("click", viewAnswers);
+
+}
+
+function createMockExam(data) {
+    let mockExamQuestions = [];
+    const numOfQuestionsPerTopic = 5;
+
+    data.forEach(topic => {
+        const questions = topic.questions;
+        for(let i = 0; i < numOfQuestionsPerTopic; i++) {
+            const randomIndex = Math.floor(Math.random() * questions.length);
+            mockExamQuestions.push(questions[randomIndex]);
+            questions.splice(randomIndex, 1); // Removemos la pregunta seleccionada para evitar duplicados
+        }
+    });
+
+    shuffleArray(mockExamQuestions); // Mezcla las preguntas del simulacro de examen
+
+    // Añadimos el nuevo tema de "Simulacro de examen" a los datos de las preguntas
+    questionsData.push({
+        topic: "Simulacro de examen",
+        questions: mockExamQuestions
+    });
+
+    // Añadimos la opción de "Simulacro de examen" al selector de temas
+    const topicSelector = document.getElementById("topic-selector");
+    const option = document.createElement("option");
+    option.value = "Simulacro de examen";
+    option.textContent = "Simulacro de examen";
+    topicSelector.appendChild(option);
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Intercambia elementos
+    }
 }
