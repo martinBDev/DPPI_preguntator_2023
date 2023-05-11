@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(response => response.json())
         .then(data => {
             populateTopics(data);
+            createMockExam(data);
             loadQuestions(data[0].topic);
         });
 
@@ -193,4 +194,40 @@ function hideAnswers() {
     viewAnswersButton.removeEventListener("click", hideAnswers);
     viewAnswersButton.addEventListener("click", viewAnswers);
 
+}
+
+function createMockExam(data) {
+    let mockExamQuestions = [];
+    const numOfQuestionsPerTopic = 5;
+
+    data.forEach(topic => {
+        const questions = topic.questions;
+        for(let i = 0; i < numOfQuestionsPerTopic; i++) {
+            const randomIndex = Math.floor(Math.random() * questions.length);
+            mockExamQuestions.push(questions[randomIndex]);
+            questions.splice(randomIndex, 1); // Removemos la pregunta seleccionada para evitar duplicados
+        }
+    });
+
+    shuffleArray(mockExamQuestions); // Mezcla las preguntas del simulacro de examen
+
+    // Añadimos el nuevo tema de "Simulacro de examen" a los datos de las preguntas
+    questionsData.push({
+        topic: "Simulacro de examen",
+        questions: mockExamQuestions
+    });
+
+    // Añadimos la opción de "Simulacro de examen" al selector de temas
+    const topicSelector = document.getElementById("topic-selector");
+    const option = document.createElement("option");
+    option.value = "Simulacro de examen";
+    option.textContent = "Simulacro de examen";
+    topicSelector.appendChild(option);
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Intercambia elementos
+    }
 }
