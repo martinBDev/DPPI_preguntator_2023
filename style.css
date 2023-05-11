@@ -12,6 +12,13 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+#buttons-container{
+
+    position: fixed; /* Añade la posición fija */
+    right: 20px; /* Ajusta la distancia desde la derecha de la pantalla */
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior de la pantalla */
+}
+
 button {
     background-color: #3498db;
     color: #fff;
@@ -19,9 +26,6 @@ button {
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
-    position: fixed; /* Añade la posición fija */
-    right: 20px; /* Ajusta la distancia desde la derecha de la pantalla */
-    bottom: 20px; /* Ajusta la distancia desde la parte inferior de la pantalla */
 }
 
 label {
@@ -44,4 +48,11 @@ li{
 	cursor: pointer;
 }
 
+
+.explanation {
+    margin-top: 10px;
+    background-color: yellow;
+    color: black;
+    padding: 1em;
+}
 
