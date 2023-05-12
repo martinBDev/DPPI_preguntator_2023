@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const topicSelector = document.getElementById("topic-selector");
     topicSelector.addEventListener("change", (event) => {
         loadQuestions(event.target.value);
+		// al cambiar de topic, asegurarse que el botón cambie de estado si se ha usado
+		hideAnswers();
     });
 
     // Escuchar evento de click en el botón de enviar
