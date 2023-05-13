@@ -81,16 +81,17 @@ function displayResults() {
     selectedTopic.questions.forEach((question, index) => {
         const selectedOption = document.querySelector(`input[name="question-${index}"]:checked`);
         const questionDiv = document.querySelector(`.question[data-index="${index}"]`);
-
+		const traversalElement = document.querySelector(`.traversal-element[data-index="${index}"]`)
         if (selectedOption) {
             const selectedIndex = parseInt(selectedOption.value);
             const optionItem = selectedOption.parentElement;
 
             if (selectedIndex === question.answer) {
-                optionItem.style.backgroundColor = "green";
-                optionItem.style.color = "white";
+                optionItem.style.backgroundColor = "#5ce25c";
+				traversalElement.className = 'traversal-element correct'
             } else {
-                optionItem.style.backgroundColor = "red";
+                optionItem.style.backgroundColor = "#e25c5c";
+				traversalElement.className = 'traversal-element incorrect'
             }
         }
 
@@ -106,18 +107,37 @@ function displayResults() {
 }
 
 function loadQuestions(topic) {
+	// obtener los contenedores
     const questionContainer = document.getElementById("question-container");
-    questionContainer.innerHTML = ""; // Vaciar el contenedor
+	const traversalContainer = document.getElementById('traversal-container')
+	// Vaciar los contenedores
+    questionContainer.innerHTML = ""; 
+	traversalContainer.innerHTML = ''; 
 
     const selectedTopic = questionsData.find(q => q.topic === topic);
     selectedTopic.questions.forEach((question, index) => {
         const questionDiv = document.createElement("div");
         questionDiv.classList.add("question");
+		// add unique index per question
+		questionDiv.id = `q_${index}`
         questionDiv.dataset.index = index;
 
         const questionLabel = document.createElement("label");
         questionLabel.textContent = `${index + 1}. ${question.question}`;
         questionDiv.appendChild(questionLabel);
+		// populate traversal
+		const traversalDiv = document.createElement('div')
+		traversalDiv.classList.add('traversal-element')
+		traversalDiv.dataset.index = index
+		const traversalButton = document.createElement('a')
+		traversalButton.classList.add('traversal-button')
+		traversalButton.href = `#q_${index}`
+		const traversalText = document.createElement('span')
+		traversalText.textContent = index+1
+		traversalText.classList = 'traversal-text'
+		traversalButton.appendChild(traversalText)
+		traversalDiv.appendChild(traversalButton)
+		traversalContainer.appendChild(traversalDiv)
 
         const optionList = document.createElement("ul");
         question.options.forEach((option, optionIndex) => {
@@ -142,12 +162,13 @@ function loadQuestions(topic) {
             optionItem.addEventListener("click", (event) => {
                 if(event.target !== optionInput) {
                     optionInput.click();
+					traversalDiv.classList.add('answered')
                 }
             });
-        });
 
-        questionDiv.appendChild(optionList);
-        questionContainer.appendChild(questionDiv);
+        });
+		questionDiv.appendChild(optionList);
+		questionContainer.appendChild(questionDiv);
     });
 }
 
@@ -184,8 +205,13 @@ function viewAnswers(){
 function hideAnswers() {
     const explanationList = document.querySelectorAll(".explanation");
     explanationList.forEach(explanation => {
-        explanation.remove();
+		explanation.remove();
     });
+	// reset traversal
+	const traversalList = document.querySelectorAll('.traversal-element')
+	traversalList.forEach(traversal => {
+		traversal.className = 'traversal-element'
+	})
 
     const inputs = document.querySelectorAll("input");
     inputs.forEach(input => {
