@@ -7,14 +7,67 @@ body {
 }
 
 #app {
-    max-width: 800px;
+    max-width: 45%;
     margin: 0 auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     position: relative;
     min-height: 100vh;
     background-color: #fff;
+}
+
+#traversal {
+	position: fixed;
+	right: 0;
+	top: 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+	padding: 20px;
+	min-height: 25vh;
+	max-width: 18%;
+	content: "";
+	background-color: #fff;
+	
+}
+
+#traversal-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.traversal-element {
+	width: 2em;
+	margin: 2px;
+	height: 2em;
+	border: 1px solid black;
+	border-radius: .5rem;
+	align-items: center;
+	display: flex;
+}
+
+.traversal-button {
+	width: 100%;
+	background-color: #fff;
+	border-radius: .5rem;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	background-color: transparent;
+}
+
+.incorrect {
+	background-color: #e25c5c;
+}
+
+.correct {
+	background-color: #5ce25c;
+}
+.answered {
+	background-color: #a1d5f8;
 }
 
 h1 {
@@ -76,8 +129,6 @@ h1 {
 }
 
 
-
-
 .answer input {
     margin-right: 10px;
 }
@@ -91,7 +142,7 @@ h1 {
     background: transparent;
 }
 
-button {
+button.btn {
     padding: 10px 20px;
     border: none;
     background-color: #007BFF;
@@ -103,11 +154,11 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+button.btn:hover, button.btn:focus-within {
     background-color: #0056b3;
 }
 
-button:disabled {
+button.btn:disabled {
     background-color: #cccccc;
 }
 

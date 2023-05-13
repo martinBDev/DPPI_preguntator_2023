@@ -106,18 +106,33 @@ function displayResults() {
 }
 
 function loadQuestions(topic) {
+	// obtener los contenedores
     const questionContainer = document.getElementById("question-container");
-    questionContainer.innerHTML = ""; // Vaciar el contenedor
+	const traversalContainer = document.getElementById('traversal-container')
+	// Vaciar los contenedores
+    questionContainer.innerHTML = ""; 
+	traversalContainer.innerHTML = ''; 
 
     const selectedTopic = questionsData.find(q => q.topic === topic);
     selectedTopic.questions.forEach((question, index) => {
         const questionDiv = document.createElement("div");
         questionDiv.classList.add("question");
+		// add unique index per question
+		questionDiv.id = `q_${index}`
         questionDiv.dataset.index = index;
 
         const questionLabel = document.createElement("label");
         questionLabel.textContent = `${index + 1}. ${question.question}`;
         questionDiv.appendChild(questionLabel);
+		// populate traversal
+		const traversalDiv = document.createElement('div')
+		traversalDiv.classList.add('traversal-element')
+		const traversalButton = document.createElement('a')
+		traversalButton.classList.add('traversal-button')
+		traversalButton.href = `#q_${index}`
+		traversalButton.textContent = index+1
+		traversalDiv.appendChild(traversalButton)
+		traversalContainer.appendChild(traversalDiv)
 
         const optionList = document.createElement("ul");
         question.options.forEach((option, optionIndex) => {
@@ -144,10 +159,10 @@ function loadQuestions(topic) {
                     optionInput.click();
                 }
             });
-        });
 
-        questionDiv.appendChild(optionList);
-        questionContainer.appendChild(questionDiv);
+        });
+		questionDiv.appendChild(optionList);
+		questionContainer.appendChild(questionDiv);
     });
 }
 
