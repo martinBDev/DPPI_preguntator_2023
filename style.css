@@ -115,12 +115,12 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Actualizado */
+    transition: background-color 300ms ease, transform 300ms ease; /* Actualizado */
 }
 
-.answer:hover {
+.answer:hover, .answer:focus-within {
     background-color: #8ccbf7;
-    transform: scale(1.02); /* Nuevo */
+    transform: scale(1.005); /* Nuevo */
 }
 
 .answer label {

@@ -2,7 +2,7 @@
 
 App de tests para preparar el examen de DPPI
 
-- Autores: Martín Beltrán, Luis Vijande y Daniel Alvarez.
+- Autores: Martín Beltrán, Luis Vijande, Daniel Alvarez y Juan Torrente.
 
 # AGRADECIMIENTOS POR APORTACIONES #
 - Sara Fernandez Arias
