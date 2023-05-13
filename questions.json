@@ -1458,7 +1458,7 @@
         "explanation": "2.4.2 Cálculo de puntos función. La respuesta correcta es: 14"
       },
       {
-        "question": "¿Cuál de las siguientes afirmaciones es falsa?:",
+        "question": "¿Cuál de las siguientes afirmaciones NO es falsa?:",
         "options": [
           "Las métricas de software conforman un sistema uniforme y estandarizado de medidas",
           "Una métrica es una pseudométrica que satisface un axioma de identidad más estricto",
