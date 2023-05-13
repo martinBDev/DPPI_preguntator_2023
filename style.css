@@ -44,19 +44,30 @@ body {
 	border: 1px solid black;
 	border-radius: .5rem;
 	align-items: center;
-	display: flex;
+    transition: all 300ms ease; /* Actualizado */
+}
+
+.traversal-element:hover, .traversal-element:focus-within {
+	transform: scale(1.02);
+	background-color: #eee;
 }
 
 .traversal-button {
 	width: 100%;
+	height: 100%;
 	background-color: #fff;
 	border-radius: .5rem;
 	text-decoration: none;
 	color: black;
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
 	background-color: transparent;
+	display: flex;
+	align-items: center;
+}
+
+.traversal-text {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
 }
 
 .incorrect {

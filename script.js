@@ -81,16 +81,17 @@ function displayResults() {
     selectedTopic.questions.forEach((question, index) => {
         const selectedOption = document.querySelector(`input[name="question-${index}"]:checked`);
         const questionDiv = document.querySelector(`.question[data-index="${index}"]`);
-
+		const traversalElement = document.querySelector(`.traversal-element[data-index="${index}"]`)
         if (selectedOption) {
             const selectedIndex = parseInt(selectedOption.value);
             const optionItem = selectedOption.parentElement;
 
             if (selectedIndex === question.answer) {
-                optionItem.style.backgroundColor = "green";
-                optionItem.style.color = "white";
+                optionItem.style.backgroundColor = "#5ce25c";
+				traversalElement.className = 'traversal-element correct'
             } else {
-                optionItem.style.backgroundColor = "red";
+                optionItem.style.backgroundColor = "#e25c5c";
+				traversalElement.className = 'traversal-element incorrect'
             }
         }
 
@@ -127,10 +128,14 @@ function loadQuestions(topic) {
 		// populate traversal
 		const traversalDiv = document.createElement('div')
 		traversalDiv.classList.add('traversal-element')
+		traversalDiv.dataset.index = index
 		const traversalButton = document.createElement('a')
 		traversalButton.classList.add('traversal-button')
 		traversalButton.href = `#q_${index}`
-		traversalButton.textContent = index+1
+		const traversalText = document.createElement('span')
+		traversalText.textContent = index+1
+		traversalText.classList = 'traversal-text'
+		traversalButton.appendChild(traversalText)
 		traversalDiv.appendChild(traversalButton)
 		traversalContainer.appendChild(traversalDiv)
 
@@ -157,6 +162,7 @@ function loadQuestions(topic) {
             optionItem.addEventListener("click", (event) => {
                 if(event.target !== optionInput) {
                     optionInput.click();
+					traversalDiv.classList.add('answered')
                 }
             });
 
@@ -199,8 +205,13 @@ function viewAnswers(){
 function hideAnswers() {
     const explanationList = document.querySelectorAll(".explanation");
     explanationList.forEach(explanation => {
-        explanation.remove();
+		explanation.remove();
     });
+	// reset traversal
+	const traversalList = document.querySelectorAll('.traversal-element')
+	traversalList.forEach(traversal => {
+		traversal.className = 'traversal-element'
+	})
 
     const inputs = document.querySelectorAll("input");
     inputs.forEach(input => {
