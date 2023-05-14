@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
             populateTopics(data);
             createMockExam(data);
             loadQuestions(data[0].topic);
+			loadTraversal(data[0].topic);
         });
 
     // Escuchar evento de cambio en el selector de temas
@@ -106,13 +107,40 @@ function displayResults() {
     });
 }
 
+
+function loadTraversal(topic) {
+	// obtener los contenedores
+	const traversalContainer = document.getElementById('traversal-container')
+	// Vaciar los contenedores
+	traversalContainer.innerHTML = ''; 
+
+	const selectedTopic = questionsData.find(q => q.topic === topic)
+	selectedTopic.questions.forEach((question, index) => {
+		// populate traversal
+		const traversalDiv = document.createElement('div')
+		const traversalA = document.createElement('a')
+		const traversalText = document.createElement('span')
+
+		traversalDiv.className = 'traversal-element'
+		traversalDiv.dataset.index = index
+
+		traversalA.className = 'traversal-button'
+		traversalA.href = `#q_${index}`
+
+		traversalText.textContent = index+1
+		traversalText.classList = 'traversal-text'
+
+		traversalA.appendChild(traversalText)
+		traversalDiv.appendChild(traversalA)
+		traversalContainer.appendChild(traversalDiv)
+	})
+}
+
 function loadQuestions(topic) {
 	// obtener los contenedores
     const questionContainer = document.getElementById("question-container");
-	const traversalContainer = document.getElementById('traversal-container')
 	// Vaciar los contenedores
     questionContainer.innerHTML = ""; 
-	traversalContainer.innerHTML = ''; 
 
     const selectedTopic = questionsData.find(q => q.topic === topic);
     selectedTopic.questions.forEach((question, index) => {
@@ -125,19 +153,7 @@ function loadQuestions(topic) {
         const questionLabel = document.createElement("label");
         questionLabel.textContent = `${index + 1}. ${question.question}`;
         questionDiv.appendChild(questionLabel);
-		// populate traversal
-		const traversalDiv = document.createElement('div')
-		traversalDiv.classList.add('traversal-element')
-		traversalDiv.dataset.index = index
-		const traversalButton = document.createElement('a')
-		traversalButton.classList.add('traversal-button')
-		traversalButton.href = `#q_${index}`
-		const traversalText = document.createElement('span')
-		traversalText.textContent = index+1
-		traversalText.classList = 'traversal-text'
-		traversalButton.appendChild(traversalText)
-		traversalDiv.appendChild(traversalButton)
-		traversalContainer.appendChild(traversalDiv)
+		
 
         const optionList = document.createElement("ul");
         question.options.forEach((option, optionIndex) => {
@@ -162,7 +178,7 @@ function loadQuestions(topic) {
             optionItem.addEventListener("click", (event) => {
                 if(event.target !== optionInput) {
                     optionInput.click();
-					traversalDiv.classList.add('answered')
+					document.querySelector(`.traversal-element[data-index="${index}"]`).classList.add('answered')
                 }
             });
 
