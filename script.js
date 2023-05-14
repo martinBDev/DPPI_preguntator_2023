@@ -88,10 +88,10 @@ function displayResults() {
             const optionItem = selectedOption.parentElement;
 
             if (selectedIndex === question.answer) {
-                optionItem.style.backgroundColor = "#5ce25c";
+                optionItem.style.backgroundColor = "var(--c-correct)";
 				traversalElement.className = 'traversal-element correct'
             } else {
-                optionItem.style.backgroundColor = "#e25c5c";
+                optionItem.style.backgroundColor = "var(--c-incorrect)";
 				traversalElement.className = 'traversal-element incorrect'
             }
         }
@@ -205,8 +205,7 @@ function viewAnswers(){
         //Marks the correct answer
         const correctOption = document.getElementById(`question-${index}-${question.answer}`);
         const correctOptionItem = correctOption.parentElement; 
-        correctOptionItem.style.backgroundColor = "green";
-        correctOptionItem.style.color = "white";
+        correctOptionItem.style.backgroundColor = "var(--c-correct)";
         correctOption.checked = true;
 
     });
