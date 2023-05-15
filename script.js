@@ -28,8 +28,28 @@ document.addEventListener("DOMContentLoaded", () => {
     viewAnswersButton.addEventListener("click", () => {
         viewAnswers();
     });
+
+
+    
 });
 
+
+let instantFeedback = false;
+const switchButton = document.getElementById('switch');
+const switchInput = document.getElementById('instant-feedback-switch');
+switchButton.onclick = function() {
+    if (switchInput.checked === false) {
+        console.log('checked');
+        document.documentElement.setAttribute('data-theme', 'dark');
+        switchInput.checked = true;
+        updateInstantFeedback(true);
+    } else {
+        console.log('not checked');
+        document.documentElement.setAttribute('data-theme', 'light');
+        switchInput.checked = false;
+        updateInstantFeedback(false);
+    }
+} 
 function calculateScore() {
     const selectedTopic = questionsData.find(q => q.topic === document.getElementById("topic-selector").value);
     const totalQuestions = selectedTopic.questions.length;
@@ -177,7 +197,9 @@ function loadQuestions(topic) {
             optionItem.addEventListener("click", (event) => {
                 if(event.target !== optionInput) {
                     optionInput.click();
-					document.querySelector(`.traversal-element[data-index="${index}"]`).classList.add('answered')
+                    if(!switchInput.checked) {
+				    	document.querySelector(`.traversal-element[data-index="${index}"]`).classList.add('answered')
+                    }
                 }
             });
 
@@ -301,3 +323,46 @@ window.addEventListener('scroll', () => {
     }
 }
 )
+
+
+function updateInstantFeedback(enabled) {
+    const allOptionInputs = document.querySelectorAll("input[type='radio']");
+    allOptionInputs.forEach((input) => {
+        if (enabled) {
+            input.addEventListener("change", instantFeedbackHandler);
+        } else {
+            input.removeEventListener("change", instantFeedbackHandler);
+        }
+    });
+}
+
+function instantFeedbackHandler(event) {
+    const input = event.target;
+    const questionIndex = parseInt(input.name.split("-")[1]);
+    const selectedOptionIndex = parseInt(input.value);
+
+    const selectedTopic = questionsData.find(q => q.topic === document.getElementById("topic-selector").value);
+    const question = selectedTopic.questions[questionIndex];
+
+    const optionItem = input.parentElement;
+
+    if (selectedOptionIndex === question.answer) {
+        optionItem.style.backgroundColor = "var(--c-correct)";
+		document.querySelector(`.traversal-element[data-index="${questionIndex}"]`).classList.add('correct')
+    } else {
+        optionItem.style.backgroundColor = "var(--c-incorrect)";
+		document.querySelector(`.traversal-element[data-index="${questionIndex}"]`).classList.add('incorrect')
+    }
+
+    //explination
+    const explanation = document.createElement("p");
+    explanation.className = "explanation";
+    explanation.textContent = question.explanation;
+    let questionDiv = document.querySelector(`.question[data-index="${questionIndex}"]`);
+    if(questionDiv.lastChild.className != "explanation"){
+        questionDiv.appendChild(explanation);
+    }
+
+    displayResults();
+
+}
