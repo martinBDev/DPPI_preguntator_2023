@@ -62,8 +62,6 @@ submitButton.addEventListener("click", () => {
     displayResults();
 });
 
-
-
 let questionsData = [];
 
 function populateTopics(questions) {
@@ -283,3 +281,23 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]]; // Intercambia elementos
     }
 }
+
+
+const scrollToTopButton = document.getElementById('scroll-to-top-button')
+scrollToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    })
+})
+
+// Show or hide the button depending on the scroll position
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 1) {
+        scrollToTopButton.style.display = 'block'
+    } else {
+        scrollToTopButton.style.display = 'none'
+    }
+}
+)

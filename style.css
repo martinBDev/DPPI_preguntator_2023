@@ -175,12 +175,19 @@ ul {
 }
 
 #buttons-container {
+    display: flex;
+    flex-direction: row;
     position: fixed;
     bottom: 0;
     right: 0;
     padding: 20px;
     border-top-left-radius: 10px;
     background: transparent;
+}
+
+#scroll-to-top-button {
+    display: none;
+    align-self: right;
 }
 
 button.btn {
