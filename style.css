@@ -167,11 +167,16 @@ ul {
 .answer label {
     pointer-events: none; /* Nuevo */
     margin-left: 10px; /* Nuevo */
+    margin: 0; /* Nuevo */
+    padding: 0; /* Nuevo */
+    display: flex; /* Nuevo */
+    align-items: center; /* Nuevo */
 }
 
 
 .answer input {
     margin-right: 10px;
+    margin: 10px;
 }
 
 #buttons-container {
