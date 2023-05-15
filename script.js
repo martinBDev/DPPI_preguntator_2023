@@ -363,6 +363,5 @@ function instantFeedbackHandler(event) {
         questionDiv.appendChild(explanation);
     }
 
-    displayResults();
 
 }
