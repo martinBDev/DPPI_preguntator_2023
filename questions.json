@@ -3350,16 +3350,6 @@
         "explanation": "5.2.1 Técnicas. La respuesta correcta es: En el uso de técnicas como el brainstorming o las técnicas Delphi que pueden ayudar a hacer la estimación"
       },
       {
-        "question": "Dentro de las técnicas usadas para la estimación de costes, ¿En qué consiste la Estimación de tres puntos?",
-        "options": [
-          "Se basa en el cálculo de tres valores (optimista, medio y pesimista)",
-          "Se basa en el cálculo de tres valores (optimista, medio y pesimista)",
-          "Se basa en el cálculo de tres valores (optimista, medio y pesimista) que se evalúa de acuerdo a métodos estadísticos"
-        ],
-        "answer": 2,
-        "explanation": "5.2.1 Técnicas. La respuesta correcta es: Se basa en el cálculo de tres valores (optimista, medio y pesimista) que se evalúa de acuerdo a métodos estadísticos"
-      },
-      {
         "question": "En el contexto del Plan general de costes, hablando de técnicas financieras a usar para decidir la viabilidad del proyecto, ¿En qué consiste el Retorno de la inversión (ROI)?",
         "options": [
           "Es una razón financiera que compara el beneficio o la utilidad obtenida de un proyecto en relación a la inversión realizada",
@@ -3402,11 +3392,10 @@
       {
         "question": "Dentro de las técnicas usadas para la estimación de costes, ¿En qué consiste la Estimación de tres puntos?",
         "options": [
-          "Se basa en el cálculo de tres valores (optimista, medio y pesimista) que se evalúa de acuerdo a métodos estadísticos",
           "Se basa en el cálculo de tres valores (optimista, medio y pesimista)",
-          "Se basa en el cálculo de tres valores (optimista, medio y pesimista)"
+          "Se basa en el cálculo de tres valores (optimista, medio y pesimista) que se evalúa de acuerdo a métodos estadísticos"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "5.2.1 Técnicas. La respuesta correcta es: Se basa en el cálculo de tres valores (optimista, medio y pesimista) que se evalúa de acuerdo a métodos estadísticos"
       },
       {
@@ -3855,16 +3844,6 @@
         "explanation": "6.6.2.1 Técnicas (Técnicas de recopilación de Información). La respuesta correcta es: En técnicas sencillas de identificación de causas para un problema"
       },
       {
-        "question": "¿De qué tipo es el diagrama de la figura?",
-        "options": [
-          "Diagrama de flujo o de sistemas",
-          "Diagrama de influencias",
-          "Diagrama de causa y efecto"
-        ],
-        "answer": 2,
-        "explanation": "6.6.2.1 Técnicas (Técnicas de Diagramación). La respuesta correcta es: Diagrama de causa y efecto"
-      },
-      {
         "question": "En función de las áreas que afectan, hay tres clases de riesgos, ¿Cuáles?",
         "options": [
           "Amenazas, oportunidades, fortalezas y debilidades",
@@ -3933,16 +3912,6 @@
         ],
         "answer": 1,
         "explanation": "6.6.2.1 Técnicas (Análisis de listas de control). La respuesta correcta es: Listas de preguntas y listas de riesgos identificados"
-      },
-      {
-        "question": "¿De qué tipo es el diagrama de la figura?",
-        "options": [
-          "Diagrama de causa y efecto",
-          "Diagramas de flujo o de sistemas",
-          "Diagrama de influencias"
-        ],
-        "answer": 1,
-        "explanation": "6.6.2.1 Técnicas (Técnicas de Diagramación). La respuesta correcta es: Diagramas de flujo o de sistemas"
       },
       {
         "question": "¿Qué información añade a cada riesgo la Planificación de la Gestión de cada Riesgo?",
@@ -4340,16 +4309,6 @@
         "explanation": "7.3.2.2 Niveles CMMI (Nivel 2 - Repetible). La respuesta correcta es: La disciplina ayuda a garantizar que se mantienen las prácticas existentes en momentos de estrés"
       },
       {
-        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Calidad total?",
-        "options": [
-          "Prevención de defectos",
-          "Integración del factor humano",
-          "Prevención de defectos"
-        ],
-        "answer": 1,
-        "explanation": "7.2 Evolución de la gestión de la calidad. La respuesta correcta es: Integración del factor humano"
-      },
-      {
         "question": "¿Cuál de las siguientes es una característica propia del nivel 2 de CMMI?",
         "options": [
           "Se establece la mejora de estos procesos en el tiempo",
@@ -4410,16 +4369,6 @@
         "explanation": "7.3.2.2 Niveles CMMI (Nivel 1 - Inicial). La respuesta correcta es: Los procesos de la organización suelen ser ad-hoc y por lo general no proporcionan un entorno estable"
       },
       {
-        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Aseguramiento de la calidad?",
-        "options": [
-          "Prevención de defectos",
-          "Prevención de defectos",
-          "Integración de todos los procesos"
-        ],
-        "answer": 2,
-        "explanation": "7.2 Evolución de la gestión de la calidad. La respuesta correcta es: Integración de todos los procesos"
-      },
-      {
         "question": "¿En qué consiste el aseguramiento de la calidad?",
         "options": [
           "Consiste en auditar los planes de calidad y los resultados obtenidos a partir de medidas de control de calidad, a fin de garantizar que se utilicen definiciones operacionales y normas de calidad adecuadas",
@@ -4428,16 +4377,6 @@
         ],
         "answer": 1,
         "explanation": "7.4.2 Aseguramiento de la calidad. La respuesta correcta es: Consiste en auditar los requisitos de calidad y los resultados obtenidos a partir de medidas de control de calidad, a fin de garantizar que se utilicen definiciones operacionales y normas de calidad adecuadas"
-      },
-      {
-        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Calidad total?",
-        "options": [
-          "Prevención de defectos",
-          "Integración del factor humano",
-          "Prevención de defectos"
-        ],
-        "answer": 1,
-        "explanation": "7.2 Evolución de la gestión de la calidad. La respuesta correcta es: Integración del factor humano"
       },
       {
         "question": "¿Cuál de las siguientes es una característica propia del nivel 3 de CMMI (no compartida con niveles inferiores)?",
@@ -4552,21 +4491,10 @@
       {
         "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Calidad total?",
         "options": [
-          "Prevención de defectos",
           "Integración del factor humano",
           "Prevención de defectos"
         ],
-        "answer": 1,
-        "explanation": "7.2 Evolución de la gestión de la calidad. La respuesta correcta es: Integración del factor humano"
-      },
-      {
-        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Calidad total?",
-        "options": [
-          "Prevención de defectos",
-          "Integración del factor humano",
-          "Prevención de defectos"
-        ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "7.2 Evolución de la gestión de la calidad. La respuesta correcta es: Integración del factor humano"
       },
       {
@@ -4670,16 +4598,6 @@
         "explanation": "7.3.2 CMM y CMMi. La respuesta correcta es: CMMI-DEV, CMMI-ACQ y CMMI-SVC"
       },
       {
-        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Aseguramiento de la calidad?",
-        "options": [
-          "Integración de todos los procesos",
-          "Prevención de defectos",
-          "Prevención de defectos"
-        ],
-        "answer": 0,
-        "explanation": "7.2 Evolución de la gestión de la calidad. La respuesta correcta es: Integración de todos los procesos"
-      },
-      {
         "question": "Dentro de los parámetros que determinan la adecuación al uso, ¿Qué es la calidad de diseño?",
         "options": [
           "Es un concepto de calidad basado en el producto o servicio cuyo objetivo es cumplir un conjunto de características medibles establecidas por el fabricante para satisfacer al cliente",
@@ -4690,23 +4608,12 @@
         "explanation": "7.1 Definición de calidad. La respuesta correcta es: Es la parte de la calidad que asegura que el producto diseñado satisfaga las necesidades del usuario"
       },
       {
-        "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Calidad total?",
-        "options": [
-          "Integración del factor humano",
-          "Prevención de defectos",
-          "Prevención de defectos"
-        ],
-        "answer": 0,
-        "explanation": "7.2 Evolución de la gestión de la calidad. La respuesta correcta es: Integración del factor humano"
-      },
-      {
         "question": "En el contexto de las fases por las que ha pasado históricamente la gestión de la calidad, ¿Cuál es la característica principal de la fase de Aseguramiento de la calidad?",
         "options": [
           "Prevención de defectos",
-          "Prevención de defectos",
           "Integración de todos los procesos"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "7.2 Evolución de la gestión de la calidad. La respuesta correcta es: Integración de todos los procesos"
       },
       {
